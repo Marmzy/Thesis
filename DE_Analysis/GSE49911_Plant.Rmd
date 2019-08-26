@@ -1,0 +1,396 @@
+---
+title: "GSE49911 Plant"
+author: "Calvin Davey"
+date: "10/08/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+```{r}
+library(ashr)
+library(DESeq2)
+library(magrittr)
+library(vsn)
+
+setwd("D:/Calvin/Documents/School/Bioinformatics/Thesis/Rstudio")
+```
+
+```{r}
+#Loading in the data and transforming it to a DESeq2 object
+countData <- as.matrix(read.csv("transcript_count_matrix_GSE49911_Plant.csv",
+                                sep=",",
+                                row.names="transcript_id"))
+
+#Changing the "transfect" names, so it doesn't contain any special characters
+colData <- read.csv("GSE49911.csv", row.names=1)
+levels(colData[,1]) <- sub("-", "", levels(colData[,1]))
+colData$time %<>% relevel("7h")
+
+#Checking if the data matches correctly
+all(rownames(colData) %in% colnames(countData))
+all(rownames(colData) == colnames(countData))
+
+#Creating a DESeq2 object from the data for finding DE (pseudo)genes at any timepoint between the 2 conditions.
+ddsMatrix <- DESeqDataSetFromMatrix(countData = countData,
+                              colData = colData,
+                              tidy=FALSE,
+                              design =~ transfect*time)
+
+#Checking for potential batch effect
+#We see that there is an inherent time effect.
+plotPCA(vst(ddsMatrix), intgroup=c("transfect", "time"))
+plotPCA(vst(ddsMatrix), intgroup="time")
+
+#Removing low count rows, to speed up the downstream steps.
+keep <- rowSums(counts(ddsMatrix)) >= 10
+ddsMatrix <- ddsMatrix[keep,]
+```
+
+#Finding DE(p)Gs that aren't constant across the samples
+```{r}
+#Running DESeq2 on the dataset
+dds <- DESeq(ddsMatrix, test="LRT", reduced =~time)
+resultsNames(dds)
+
+#Getting the results and shrinking the Log-fold change (LFC) estimates, for visualization and ranking of (pseudo)genes
+res <- results(object=dds,
+               alpha=0.1,
+               pAdjustMethod="BH",
+               lfcThreshold=0)
+summary(res)
+
+#Filtering the dataset to only contain significant (pseudo)genes
+res <- res[is.na(res$padj)==F,]
+res <- res[res$padj<0.1,]
+res <- res[order(res$padj),]
+
+#Return the significant (pseudo)genes in a dataframe
+resData <- merge(as.data.frame(res),
+                 as.data.frame(counts(dds, normalized=TRUE)),
+                 by='row.names',
+                 sort=FALSE)
+
+#Checking for DE pseudogenes
+pseudogenes <- grep("exon", rownames(res))
+res[pseudogenes,]
+```
+
+#Time series contrast between GFP and PtrSND1B1 after 7h
+```{r}
+#Getting the Results
+res <- results(object=dds,
+               alpha=0.1,
+               pAdjustMethod="BH",
+               lfcThreshold=0,
+               name="transfect_PtrSND1B1_vs_GFP",
+               test="Wald")
+summary(res)
+
+#Shrinking the Log-fold change (LFC) estimates, for visualization and ranking of (pseudo)genes
+resLFC <- lfcShrink(dds,
+                    coef="transfect_PtrSND1B1_vs_GFP",
+                    res=res,
+                    type="ashr")
+summary(resLFC)
+
+#Filtering the dataset to only contain significant (pseudo)genes
+res <- res[is.na(res$padj)==F,]
+res <- res[res$padj<0.1,]
+res <- res[order(res$padj),]
+
+#Return the significant (pseudo)genes in a dataframe
+resData <- merge(as.data.frame(res),
+                 as.data.frame(counts(dds, normalized=TRUE)),
+                 by='row.names',
+                 sort=FALSE)
+
+#Checking for DE pseudogenes
+pseudogenes <- grep("exon", rownames(res))
+res[pseudogenes,]
+```
+
+#Time series contrast between GFP and PtrSND1B1 after 12h 
+```{r}
+#Getting the Results
+res <- results(object=dds,
+               alpha=0.1,
+               pAdjustMethod="BH",
+               lfcThreshold=0,
+               contrast=list(c("transfect_PtrSND1B1_vs_GFP", "transfectPtrSND1B1.time12h")),
+               test="Wald")
+summary(res)
+
+#Shrinking the Log-fold change (LFC) estimates, for visualization and ranking of (pseudo)genes
+resLFC <- lfcShrink(dds,
+                    contrast=list(c("transfect_PtrSND1B1_vs_GFP", "transfectPtrSND1B1.time12h")),
+                    res=res,
+                    type="ashr")
+summary(resLFC)
+
+#Filtering the dataset to only contain significant (pseudo)genes
+resLFC <- resLFC[is.na(resLFC$padj)==F,]
+resLFC <- resLFC[resLFC$padj<0.1,]
+resLFC <- resLFC[order(resLFC$padj),]
+
+#Return the significant (pseudo)genes in a dataframe
+resData <- merge(as.data.frame(resLFC),
+                 as.data.frame(counts(dds, normalized=TRUE)),
+                 by='row.names',
+                 sort=FALSE)
+
+#Checking for DE pseudogenes
+pseudogenes <- grep("exon", rownames(resLFC))
+resLFC[pseudogenes,]
+```
+
+#Time series contrast between GFP and PtrSND1B1 after 25h
+```{r}
+#Getting the Results
+res <- results(object=dds,
+               alpha=0.1,
+               pAdjustMethod="BH",
+               lfcThreshold=0,
+               contrast=list(c("transfect_PtrSND1B1_vs_GFP", "transfectPtrSND1B1.time25h")),
+               test="Wald")
+summary(res)
+
+#Shrinking the Log-fold change (LFC) estimates, for visualization and ranking of (pseudo)genes
+resLFC <- lfcShrink(dds,
+                    contrast=list(c("transfect_PtrSND1B1_vs_GFP", "transfectPtrSND1B1.time25h")),
+                    res=res,
+                    type="ashr")
+summary(resLFC)
+
+#Filtering the dataset to only contain significant (pseudo)genes
+resLFC <- resLFC[is.na(resLFC$padj)==F,]
+resLFC <- resLFC[resLFC$padj<0.1,]
+resLFC <- resLFC[order(resLFC$padj),]
+
+#Return the significant (pseudo)genes in a dataframe
+resData <- merge(as.data.frame(resLFC),
+                 as.data.frame(counts(dds, normalized=TRUE)),
+                 by='row.names',
+                 sort=FALSE)
+
+#Checking for DE pseudogenes
+pseudogenes <- grep("exon", rownames(resLFC))
+resLFC[pseudogenes,]
+```
+
+#Time series contrast between 12h and 7h for GFP
+```{r}
+#Getting the Results
+res <- results(object=dds,
+               alpha=0.1,
+               pAdjustMethod="BH",
+               lfcThreshold=0,
+               name="",
+               test="Wald")
+summary(res)
+
+#Shrinking the Log-fold change (LFC) estimates, for visualization and ranking of (pseudo)genes
+resLFC <- lfcShrink(dds,
+                    coef="time_12h_vs_7h",
+                    res=res,
+                    type="ashr")
+summary(resLFC)
+
+#Filtering the dataset to only contain significant (pseudo)genes
+resLFC <- resLFC[is.na(resLFC$padj)==F,]
+resLFC <- resLFC[resLFC$padj<0.1,]
+resLFC <- resLFC[order(resLFC$padj),]
+
+#Return the significant (pseudo)genes in a dataframe
+resData <- merge(as.data.frame(resLFC),
+                 as.data.frame(counts(dds, normalized=TRUE)),
+                 by='row.names',
+                 sort=FALSE)
+
+#Checking for DE pseudogenes
+pseudogenes <- grep("exon", rownames(resLFC))
+resLFC[pseudogenes,]
+```
+
+#Time series contrast between 25h and 7h for GFP
+```{r}
+#Getting the Results
+res <- results(object=dds,
+               alpha=0.1,
+               pAdjustMethod="BH",
+               lfcThreshold=0,
+               name="time_25h_vs_7h",
+               test="Wald")
+summary(res)
+
+#Shrinking the Log-fold change (LFC) estimates, for visualization and ranking of (pseudo)genes
+resLFC <- lfcShrink(dds,
+                    coef="time_25h_vs_7h",
+                    res=res,
+                    type="ashr")
+summary(resLFC)
+
+#Filtering the dataset to only contain significant (pseudo)genes
+resLFC <- resLFC[is.na(resLFC$padj)==F,]
+resLFC <- resLFC[resLFC$padj<0.1,]
+resLFC <- resLFC[order(resLFC$padj),]
+
+#Return the significant (pseudo)genes in a dataframe
+resData <- merge(as.data.frame(resLFC),
+                 as.data.frame(counts(dds, normalized=TRUE)),
+                 by='row.names',
+                 sort=FALSE)
+
+#Checking for DE pseudogenes
+pseudogenes <- grep("exon", rownames(resLFC))
+resLFC[pseudogenes,]
+
+#Write DE pseudogenes to a new csv file
+write.csv(resData[pseudogenes,],
+          file="GSE49911_Plant(time_25h_vs_7h).csv")
+```
+
+#Time series contrast between 25h and 12h for GFP
+```{r}
+#Getting the Results
+res <- results(object=dds,
+               alpha=0.1,
+               pAdjustMethod="BH",
+               lfcThreshold=0,
+               contrast=list(c("time_12h_vs_7h", "time_25h_vs_7h")),
+               test="Wald")
+summary(res)
+
+#Shrinking the Log-fold change (LFC) estimates, for visualization and ranking of (pseudo)genes
+resLFC <- lfcShrink(dds,
+                    contrast=list(c("time_12h_vs_7h", "time_25h_vs_7h")),
+                    res=res,
+                    type="ashr")
+summary(resLFC)
+
+#Filtering the dataset to only contain significant (pseudo)genes
+resLFC <- resLFC[is.na(resLFC$padj)==F,]
+resLFC <- resLFC[resLFC$padj<0.1,]
+resLFC <- resLFC[order(resLFC$padj),]
+
+#Return the significant (pseudo)genes in a dataframe
+resData <- merge(as.data.frame(resLFC),
+                 as.data.frame(counts(dds, normalized=TRUE)),
+                 by='row.names',
+                 sort=FALSE)
+
+#Checking for DE pseudogenes
+pseudogenes <- grep("exon", rownames(resLFC))
+resLFC[pseudogenes,]
+
+#Write DE pseudogenes to a new csv file
+write.csv(resData[pseudogenes,],
+          file="GSE49911_Plant(time_12h_vs_7h)(time_25h_vs_7h).csv")
+```
+
+#Time series contrast between 12h and 7h for PtrSND1B1
+```{r}
+#Getting the Results
+res <- results(object=dds,
+               alpha=0.1,
+               pAdjustMethod="BH",
+               lfcThreshold=0,
+               contrast=list(c("time_12h_vs_7h", "transfectPtrSND1B1.time12h")),
+               test="Wald")
+summary(res)
+
+#Shrinking the Log-fold change (LFC) estimates, for visualization and ranking of (pseudo)genes
+resLFC <- lfcShrink(dds,
+                    coef="transfect_PtrSND1B1_vs_GFP",
+                    res=res,
+                    type="ashr")
+summary(resLFC)
+
+#Filtering the dataset to only contain significant (pseudo)genes
+resLFC <- resLFC[is.na(resLFC$padj)==F,]
+resLFC <- resLFC[resLFC$padj<0.1,]
+resLFC <- resLFC[order(resLFC$padj),]
+
+#Return the significant (pseudo)genes in a dataframe
+resData <- merge(as.data.frame(resLFC),
+                 as.data.frame(counts(dds, normalized=TRUE)),
+                 by='row.names',
+                 sort=FALSE)
+
+#Checking for DE pseudogenes
+pseudogenes <- grep("exon", rownames(resLFC))
+resLFC[pseudogenes,]
+```
+
+#Time series contrast between 25h and 7h for PtrSND1B1
+```{r}
+#Getting the Results
+res <- results(object=dds,
+               alpha=0.1,
+               pAdjustMethod="BH",
+               lfcThreshold=0,
+               contrast=list(c("time_25h_vs_7h", "transfectPtrSND1B1.time25h")),
+               test="Wald")
+summary(res)
+
+#Shrinking the Log-fold change (LFC) estimates, for visualization and ranking of (pseudo)genes
+resLFC <- lfcShrink(dds,
+                    coef="transfect_PtrSND1B1_vs_GFP",
+                    res=res,
+                    type="ashr")
+summary(resLFC)
+
+#Filtering the dataset to only contain significant (pseudo)genes
+resLFC <- resLFC[is.na(resLFC$padj)==F,]
+resLFC <- resLFC[resLFC$padj<0.1,]
+resLFC <- resLFC[order(resLFC$padj),]
+
+#Return the significant (pseudo)genes in a dataframe
+resData <- merge(as.data.frame(resLFC),
+                 as.data.frame(counts(dds, normalized=TRUE)),
+                 by='row.names',
+                 sort=FALSE)
+
+#Checking for DE pseudogenes
+pseudogenes <- grep("exon", rownames(resLFC))
+resLFC[pseudogenes,]
+
+#Write DE pseudogenes to a new csv file
+write.csv(resData[pseudogenes,],
+          file="GSE49911_Plant(time_25h_vs_7h)(transfectPtrSND1B1.time25h).csv")
+```
+
+#Time series contrast between 25h and 12h for PtrSND1B1
+```{r}
+#Getting the Results
+res <- results(object=dds,
+               alpha=0.1,
+               pAdjustMethod="BH",
+               lfcThreshold=0,
+               contrast=list(c("transfectPtrSND1B1.time25h", "transfectPtrSND1B1.time12h")),
+               test="Wald")
+summary(res)
+
+#Shrinking the Log-fold change (LFC) estimates, for visualization and ranking of (pseudo)genes
+resLFC <- lfcShrink(dds,
+                    contrast=list(c("transfectPtrSND1B1.time25h", "transfectPtrSND1B1.time12h")),
+                    res=res,
+                    type="ashr")
+summary(resLFC)
+
+#Filtering the dataset to only contain significant (pseudo)genes
+resLFC <- resLFC[is.na(resLFC$padj)==F,]
+resLFC <- resLFC[resLFC$padj<0.1,]
+resLFC <- resLFC[order(resLFC$padj),]
+
+#Return the significant (pseudo)genes in a dataframe
+resData <- merge(as.data.frame(resLFC),
+                 as.data.frame(counts(dds, normalized=TRUE)),
+                 by='row.names',
+                 sort=FALSE)
+
+#Checking for DE pseudogenes
+pseudogenes <- grep("exon", rownames(resLFC))
+resLFC[pseudogenes,]
+```
