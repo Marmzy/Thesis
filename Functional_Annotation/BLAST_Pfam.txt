@@ -1,0 +1,1101 @@
+# pfam_scan.pl,  run at Thu Aug 22 10:15:06 2019
+#
+# Copyright (c) 2009 Genome Research Ltd
+# Freely distributed under the GNU 
+# General Public License
+#
+# Authors: Jaina Mistry (jaina@ebi.ac.uk), 
+#          Rob Finn (rdf@ebi.ac.uk)
+#
+# This is free software; you can redistribute it and/or modify it under
+# the terms of the GNU General Public License as published by the Free Software
+# Foundation; either version 2 of the License, or (at your option) any later version.
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <http://www.gnu.org/licenses/>. 
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+#      query sequence file: BLAST_PSgene_ORFs.fa
+#        searching against: /home/cadav/Thesis/Transcriptome/Populus/Pfam/Pfam-A.hmm, with cut off --cut_ga
+#    resolve clan overlaps: on
+#     predict active sites: off
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+#
+# <seq id> <alignment start> <alignment end> <envelope start> <envelope end> <hmm acc> <hmm name> <type> <hmm start> <hmm end> <hmm length> <bit score> <E-value> <significance> <clan>
+
+01:19072746-19108677:Normal|12855-13458|1_2_ORF5            6     60      1     60 PF03641.13  Lysine_decarbox   Family     7    61   132     32.1   9.5e-08   1 CL0349   
+#HMM       galeaggrviGiipkillaeeapneevnelvivedmeeRkealveladafvilPG
+#MATCH     +a+  g +v+G++pk+l++  +  ++++e + v++m  R++ ++++adaf++l G
+#PP        56667899********************************************976
+#SEQ       AAFLGGSQVLGVVPKALAKGDIIGKTIGEELQVSTMSDRLNTMFNHADAFIALLG
+#CS        HHHCTTS-EEEEEECCHHHHHCCTTT-SEEEEESSHHHHHHHHHHH-SEEEE-S-
+01:24343550-24349413:Overlap|5046-5719|1_1_ORF4             2     29      1     41 PF06075.11  DUF936            Family   498   525   691     22.9   3.4e-05   1 No_clan  
+#HMM       kksatsWvkaALatdLsafsllkkkkkk
+#MATCH     + + +sWv++A++t+Ls fsl+kk+ ++
+#PP        6789*******************99876
+#SEQ       NTNVASWVRSAIQTNLSIFSLFKKPGNS
+01:25656849-25665562:AnchorPoint|7567-7656|1_1_ORF1         1     26      1     29 PF00201.17  UDPGT             Family   360   385   499     21.5     8e-05   1 CL0113   
+#HMM       GvPmvglPlFgdqrdNikrmeakgaa
+#MATCH     GvP+ + P Fgdqr+N++ ++ +++ 
+#PP        9**********************985
+#SEQ       GVPIGCKPCFGDQRMNARYVSDVWGR
+01:25721251-25725286:Normal|1646-2217|1_6_ORF1             17     60     17     60 PF06521.10  PAR1              Family     1    45   156     42.6   4.3e-11   1 No_clan  
+#HMM       iecenldkdtcafavsssgkrcvleksvkrsgeeeytcrtsevea
+#MATCH     ++ce+l+ d c++++++sgkrc+le++ +++   +y+ +tsev++
+#PP        58************************877765.89*******986
+#SEQ       LVCEHLPIDLCSYSIATSGKRCLLENHSTKDR-IKYHGKTSEVVV
+01:25721251-25725286:Normal|1646-2217|1_6_ORF4              4     36      2     36 PF06521.10  PAR1              Family    58    90   156     44.9   8.2e-12   1 No_clan  
+#HMM       vkacGvdrksvGissdsllesqftkklcspacl
+#MATCH     ++acG+dr++v issdsll++qf +klcs +c+
+#PP        68******************************8
+#SEQ       MNACGLDRNTVCISSDSLLQPQFLTKLCSESCY
+01:26100777-26107368:AnchorPoint|6126-6278|1_1_ORF1         5     47      3     50 PF04969.15  CS                Domain     3    46    76     35.9     1e-08   1 CL0190   
+#HMM       ydWyQtldeVvvtiyvkkvnikkkdvkvefkerslkvki.gkekl
+#MATCH     ++W+Qtl+eV+++i+++  n+ +k++ +++++++++v+i g+ ++
+#PP        79****************.9*******************666.33
+#SEQ       FEWDQTLEEVNIYINLPP-NVHSKQFYCKIQSKHVEVGIkGN-PP
+#CS        CEEEEETTEEEEEEE-TTCTTTTTCEEEEEETTEEEEEE.TSCEE
+01:26423142-26431472:Normal|5405-6241|1_4_ORF2              2     60      1     60 PF14223.5   Retrotran_gag_2   Family    36    94   138     48.7   5.2e-13   1 CL0523   
+#HMM       kLkelyekksaankltlrkklfslkmkegesvadhinkleelvneLsalgkkiddedkv
+#MATCH      L+e+++k+sa+nk++++++ ++lk+k+ge+ + hin+++   n+Ls ++ ++ d++++
+#PP        79******************************************************986
+#SEQ       MLEETFAKESAQNKVFVIRDIVNLKYKDGEDASVHINEFQGFLNQLSLMNLELADKMQA
+01:26753233-26763822:Normal|5008-5136|1_1_ORF1              1     40      1     42 PF13960.5   DUF4218           Domain    24    63   114     58.8   3.5e-16   1 No_clan  
+#HMM       klEkiFppaffdvmvHLivHlaeeaklaGpvkyrsmypve
+#MATCH     klE+iFpp ffd m+HL++Hl  e+k++G v+y++my+ e
+#PP        79***********************************987
+#SEQ       KLEMIFPPFFFDSMEHLLIHLSFEVKIKGLVQYKWMYASE
+01:27058003-27070215:Homolog|1399-1963|1_1_ORF6             3     60      1     60 PF14223.5   Retrotran_gag_2   Family    48   105   138     29.6   4.3e-07   1 CL0523   
+#HMM       nkltlrkklfslkmkegesvadhinkleelvneLsalgkkiddedkvvllLasLPesy
+#MATCH     + ltl  +++ +km ++e v+d+ ++l ++vn+++ l k + d+++v +++ s+P+++
+#PP        56899999************************************************97
+#SEQ       RLLTLEIEFELMKMRDNEYVKDYSSRLIDVVNQMRLLCKAFADHKVVEKIMVSVPQKF
+01:27058003-27070215:Homolog|6096-6212|1_1_ORF1             1     39      1     39 PF00450.21  Peptidase_S10     Domain   379   416   419     38.3   9.7e-10   1 CL0028   
+#HMM       vaGyvkeykn.ltfltvkgaGHmvPedkpeealqllerf
+#MATCH     v+Gy++ y++ ltf+tv+gaGH vP+++p +al l ++f
+#PP        68******888***********************99886
+#SEQ       VGGYTQVYRGdLTFATVRGAGHQVPTYQPLRALSLTKHF
+#CS        EEEEEEEETT.EEEEEETT--SSHHHHSHHHHHHHHHHH
+01:28472041-28497212:Normal|7145-7288|1_4_ORF1              1     42      1     47 PF13960.5   DUF4218           Domain    24    65   114     71.2   4.9e-20   1 No_clan  
+#HMM       klEkiFppaffdvmvHLivHlaeeaklaGpvkyrsmypveRy
+#MATCH     klE+iF p+ffd m+HL +Hl+ eak +Gpv+yr+myp+eR 
+#PP        79***************************************6
+#SEQ       KLEMIFHPSFFDSMEHLPIHLPFEAKAGGPVQYRWMYPFERL
+01:28472041-28497212:Normal|8894-9457|1_4_ORF1              4     57      4     60 PF13963.5   Transpos_assoc    Domain     1    49    74     43.7   2.5e-11   1 No_clan  
+#HMM       rsWmy...kkkrfskeyeegveeFlefafs.r.sskeekilCpckkCknkkrlt
+#MATCH     rsWmy    +     +y +gv+ F++f++s + +  ++ i+Cpc+kC+nkk+l+
+#PP        89***8866677799***************9779999*************9865
+#SEQ       RSWMYrdsPQGLQRMDYCNGVQGFINFVTSiPrNFTGGDIRCPCRKCENKKYLH
+01:29731337-29748443:Nested|5782-5922|1_4_ORF1              1     42      1     46 PF13960.5   DUF4218           Domain    24    65   114     63.3   1.4e-17   1 No_clan  
+#HMM       klEkiFppaffdvmvHLivHlaeeaklaGpvkyrsmypveRy
+#MATCH     klE+iFp +ffd m+HL++H+  e+k++G v+yr+myp+eR 
+#PP        79**************************************95
+#SEQ       KLEMIFPLSFFDSMKHLLIHISFEVKVGGLVQYRWMYPFERL
+01:39875107-39919939:Normal|18391-18951|1_1_ORF3            2     42      1     43 PF13963.5   Transpos_assoc    Domain    21    59    74     27.4   3.2e-06   1 No_clan  
+#HMM       Flefafs.r.sskeekilCpckkCknkkrltkeevelhLik
+#MATCH     F+++  s + + +++ i+C ck Cknkk+ + ++v++hL++
+#PP        6666666435778999***********************97
+#SEQ       FINCILSnPrNISGSGIRCSCKMCKNKKFINLDVVTMHLLQ
+01:39875107-39919939:Normal|20546-20689|1_1_ORF1            1     31      1     31 PF13960.5   DUF4218           Domain    24    54   114     31.3   1.1e-07   1 No_clan  
+#HMM       klEkiFppaffdvmvHLivHlaeeaklaGpv
+#MATCH     klE+iF  +ffd m+ L++ l   +k++Gpv
+#PP        79****************************8
+#SEQ       KLEMIFSQSFFDSMEYLLIYLSFTIKVGGPV
+01:41688148-41701605:Normal|2841-3035|1_4_ORF1              1     54      1     59 PF00078.26  RVT_1             Family    76   154   222     28.9   6.9e-07   1 CL0027   
+#HMM       lkkaFdsvpleellrkltafkvptklinliksflstrsfsvrvngeesegryekkglpqGsvlSPllfnlfmnellrel
+#MATCH     lk+++++++ +  ++ +t+fk++                          g+ye+ ++p+G+ ++P++f ++m+++l ++
+#PP        799********************.........................9************************998665
+#SEQ       LKSGYHQIKIRPGDEWKTTFKTK-------------------------DGLYEWLVMPFGLFNAPSTFMRVMTQVLWPF
+#CS        BCCGCCCSBB-GGGGGGG-EEET.........................TEEEEESB--ST-TTHHHHHHHHHHHHHTT-
+01:44397463-44415017:Normal|9485-10247|1_4_ORF8            10     60      3     60 PF04827.13  Plant_tran        Family    29    80   205     57.2   1.6e-15   1 CL0219   
+#HMM       gsldcmhwkwkncptawkgqytrgdkksptiileavasydlwiwhaffglpg
+#MATCH        dcm++kwk+ pta +g y  g+ + pt++leavas+dlwiwh ff ++g
+#PP        567******************9.*************************9875
+#SEQ       REHDCMYYKWKKFPTACHGMYI-GHCREPTVTLEAVASQDLWIWHDFFEMSG
+01:46783221-46788245:Normal|3354-3654|1_4_ORF6              1     55      1     55 PF02798.19  GST_N             Domain    20    76    76     54.2   1.2e-14   1 CL0172   
+#HMM       llaakgveyevvpldfeageekspellklnpl.gkvPaLedngkkltESraIleYiar
+#MATCH     +l++kgv+ye+++ d+   ++ksp ll++np  +kvP+L +ngk+++ES + +eY+++
+#PP        79**************...9999*********************************85
+#SEQ       ALEEKGVNYEYTEQDL---RNKSPLLLQMNPVyKKVPVLLHNGKPICESLIAVEYVDE
+#CS        HHHHTT-EEEEEEEGSTCTHGGCHHHHHHCTT.S-SSEEEETTEEEESHHHHHHHHHH
+01:46783221-46788245:Normal|4611-4727|1_4_ORF1              2     39      1     39 PF02798.19  GST_N             Domain    19    58    76     22.6     9e-05   1 CL0172   
+#HMM       lllaakgveyevvpldfeageekspellklnpl.gkvPaLe
+#MATCH     ++la+k v+ye  ++d+   ++ks  ll++np  +++P+L+
+#PP        89***************...9999***************97
+#SEQ       IALAEKCVKYENSEEDL---RNKSTLLLQMNPVyKNIPVLI
+#CS        HHHHHTT-EEEEEEEGSTCTHGGCHHHHHHCTT.S-SSEEE
+01:6399408-6404886:Normal|1788-2345|1_1_ORF1                4     55      4     57 PF13963.5   Transpos_assoc    Domain     1    47    74     29.5   7.2e-07   1 No_clan  
+#HMM       rsWmy...kkkrfskeyeegveeFlefafsr..sskeekilCpckkCknkkr
+#MATCH     rsW+y    +   + +y ++ + F+++a s+  + +++ i+C ck Cknkk+
+#PP        89***9987888899***************65688899999********997
+#SEQ       RSWIYlvsPEGSYKMDYFNRADGFINYALSNlkNISGGVIRCLCKGCKNKKF
+02:11088193-11104873:Normal|662-1150|1_1_ORF5               3     27      2     31 PF13405.5   EF-hand_6         Domain     2    26    31     29.9   2.7e-07   1 CL0220   
+#HMM       lreaFklfDkdgdGkidaeElrkal
+#MATCH     l++aF +fD+d++G+i+a El+ +l
+#PP        89********************998
+#SEQ       LMDAFLIFDTDKNGQISAGELQTVL
+02:11916701-11918355:Normal|573-1478|1_5_ORF7              12     59      5     60 PF00201.17  UDPGT             Family   328   375   499     34.1   1.2e-08   1 CL0113   
+#HMM       kWlPqndlLgHPktkAFvtHaGangvyEaisnGvPmvglPlFgdqrdN
+#MATCH      W+Pq  +L H   + FvtH   n+ +E i  GvP v+ P+ ++q  N
+#PP        7********************************************877
+#SEQ       AWAPQILILEHEALGGFVTHCERNSPLEVIIAGVPTVIWPVSAEQFYN
+02:12567467-12579774:Normal|1525-1731|1_1_ORF1              2     48      1     59 PF01504.17  PIP5K             Family    75   122   274     26.3   3.8e-06   1 CL0016   
+#HMM       vrfvVmenlfptdleiheryDLKGstvgReakkkeeekkektlkDlDl
+#MATCH     v f V + ++p++ +i + yDLKGs+ gR+++k++   +++ lkD+D 
+#PP        56899999************************86655.5678***996
+#SEQ       VCFAVHSRVIPPHASIFRVYDLKGSWKGRKVNKSKVV-ENIILKDMDS
+#CS        EEEEEEE-SS-TTS--SEEEEE-S--TT-S--HHHHSSSS-EEEHHHH
+02:12743497-12751071:Normal|5569-6027|1_1_ORF1              1     54      1     56 PF14291.5   DUF4371           Family    34    87   236     59.0   4.8e-16   1 No_clan  
+#HMM       klenlknqkqsikkvlkkqttkeksdyrlrlnasidvarfllfqglafrGddes
+#MATCH     +lenlknq ++i+kv+ +q+++e+ ++rl ++ sid++r+l+fq+ af+ ++e+
+#PP        79**************************************************98
+#SEQ       CLENLKNQLCHIEKVVGRQSSQEIINNRLCIKVSIDIVRWLTFQARAFKRHNER
+02:15985579-16002833:Normal|9470-9976|1_4_ORF1              4     59      4     60 PF13963.5   Transpos_assoc    Domain     1    51    74     52.9   3.5e-14   1 No_clan  
+#HMM       rsWmy...kkkrfskeyeegveeFlefafs.r.sskeekilCpckkCknkkrltke
+#MATCH     rsWmy      r  +ey++gv+ F++fafs + + +++ki+Cpc +Ckn+k+l+++
+#PP        89***998899*******************988999***************98876
+#SEQ       RSWMYrrlMDGRLRPEYITGVRRFINFAFSiDkNISGGKIRCPCVRCKNQKFLKED
+02:16453209-16501893:Normal|24459-24581|1_1_ORF1            1     37      1     40 PF13960.5   DUF4218           Domain    30    66   114     48.9   4.1e-13   1 No_clan  
+#HMM       ppaffdvmvHLivHlaeeaklaGpvkyrsmypveRyl
+#MATCH     pp ffd ++HL +Hl  e+k++G ++yr+myp+eR +
+#PP        899********************************87
+#SEQ       PPLFFDSIEHLPIHLSFEVKVRGSIQYRWMYPFERLV
+02:20201072-20234076:Normal|22475-23059|1_4_ORF2            2     27      1     29 PF03641.13  Lysine_decarbox   Family    47    72   132     31.6   1.4e-07   1 CL0349   
+#HMM       ealveladafvilPGGiGTleEllei
+#MATCH     +a++++ da+++lPGG+GTl E++ i
+#PP        689*********************98
+#SEQ       NAMFDHVDALIALPGGFGTLKEIFHI
+#CS        HHHHHH-SEEEE-S-SHHHHHHHHHH
+02:20201072-20234076:Normal|22475-23059|1_4_ORF3            2     56      1     56 PF03641.13  Lysine_decarbox   Family    77   132   132     45.7   5.8e-12   1 CL0349   
+#HMM       qlgkhqkvPiillnpkgyydkllefletlveegtisekareliivvddpeevlekl
+#MATCH     ql++hqk Pi+lln++g+y++ll fl+++ve++++ + ar++ii++ ++e+++++l
+#PP        99*****.********************************************9985
+#SEQ       QLNIHQK-PIGLLNVNGFYNNLLSFLDHAVEHNFLTSLARQIIIFAATAEQLIDQL
+#CS        HTSSC--.EEEEEEGGGTTHHHHHHHHHHHHTTSS-GGGGGCEEEESSHHHHHHHH
+03:10617528-10629558:Normal|2599-3004|1_1_ORF4              1     33      1     36 PF14291.5   DUF4371           Family   121   153   236     38.0   1.3e-09   1 No_clan  
+#HMM       nnkltspdiqkdivhvfakevtssiikelddal
+#MATCH     n+k+ts++iqk+i+hvf ++v+ si +e++d++
+#PP        79****************************986
+#SEQ       NAKYTSHQIQKEILHVFGRNVQPSIHHEIGDEI
+03:11583281-11590645:Normal|15-179|1_1_ORF1                 2     55      1     55 PF00141.22  peroxidase        Domain    92   144   229     34.9   1.1e-08   1 CL0617   
+#HMM       gplvpvslGRrDatessasev.snlPdpkasvdelrdkfarkgltdeelvaLsG
+#MATCH      p+ +v  GR+D+++ss  ++ +++P+p++s+++l+++f+++gl++  lva sG
+#PP        5666999********************************************998
+#SEQ       SPSREVHRGRKDSLKSSSDRAdQFIPAPNSSLETLIANFKQQGLDIGNLVAFSG
+#CS        ---.--EE---S-SSGGGS.S...--..TS.HHHHHHHHHHHT--HHHHHHHHG
+03:15782942-15784691:Normal|381-1190|1_4_ORF2               8     50      3     60 PF00069.24  Pkinase           Domain    46    88   264     27.1   2.2e-06   1 CL0016   
+#HMM       lrEikil.kklkhpnivrlyevfeekdelylvleyveggeladl
+#MATCH     lrE+k l kkl+h+niv l e ++e++ ly+v+ey+e++ l ++
+#PP        688887625799*************************76.4444
+#SEQ       LREVKSLqKKLNHSNIVMLTELIRENSILYFVFEYMEQN-LYQV
+#CS        HHHHHHH.HHHSSTTB--EEEEEEESSEEEEEEE--TTEBHHHH
+03:15782942-15784691:Normal|381-1190|1_5_ORF9               3     46      1     56 PF00069.24  Pkinase           Domain   138   180   264     37.4   1.6e-09   1 CL0016   
+#HMM       KitDFGlakelessskltsfvgtreYlAPEvl.keneyskkvDv
+#MATCH     Ki+D+Gla+e++s  ++t++v tr+Y+APEv+ ++  ys+kv v
+#PP        9******************************9788888999976
+#SEQ       KIADLGLAREINSLPPYTQYVSTRWYRAPEVMlQSDFYSSKVHV
+#CS        EE-SGTTSEECCSSCSBCTCCSCGGGS-HHHH.TTSTCSHHHHH
+03:16371490-16372582:Normal|1-198|1_1_ORF1                  2     60      1     60 PF02507.14  PSI_PsaF          Family   110   168   172     97.4   7.4e-28   1 No_clan  
+#HMM       lyiaGwiGwvGrsyliavrkekkptekeiiidvplalklllkgfiWPvaalkelasGkl
+#MATCH     lyi GwiGwvGrsylia+++ekkp++keiiidvpla++l+++gf WPv+a++el +G+l
+#PP        9********************************************************97
+#SEQ       LYIVGWIGWVGRSYLIAISDEKKPAMKEIIIDVPLATSLVFRGFSWPVSAYRELVNGDL
+03:16560042-16561169:Normal|497-622|1_1_ORF1                8     35      5     36 PF03094.14  Mlo               Family     4    31   479     24.7   6.3e-06   1 No_clan  
+#HMM       Leetptwavavvcavlvlisiliekllh
+#MATCH      ++tptw+va+vc+v+ l +i+ e++lh
+#PP        589************************9
+#SEQ       PQYTPTWVVAAVCFVIALATIFAERVLH
+03:19834473-19843573:Normal|1735-2010|1_1_ORF1             11     56      8     60 PF13650.5   Asp_protease_2    Domain     4    49    90     26.2   8.8e-06   1 CL0129   
+#HMM       tinGkpvrfllDTGasttlispelaeklglkvrksevtvrvsgagg
+#MATCH       ++k +++++D G+s++++ +e +e+lgl++++ +++ +v+ ++ 
+#PP        557899****************************999988877765
+#SEQ       AYGDKALNVIIDNGSSMNVVAKEIVERLGLSQETHPTPYQVRWIND
+03:21201639-21237816:Normal|34879-35010|1_4_ORF2            2     36      1     36 PF13839.5   PC-Esterase       Family     9    43   284     40.0   3.4e-10   1 CL0264   
+#HMM       fLellrgkrlafVGDSlarnqweSLlClLssaved
+#MATCH     +Le+lrgkrl+f  DSl+rn+weSL+ +L+++ved
+#PP        8*****************************99985
+#SEQ       MLEMLRGKRLVFLDDSLSRNMWESLVYVLQNTVED
+03:5160798-5177772:Normal|8445-8885|1_1_ORF2                2     26      1     27 PF14291.5   DUF4371           Family    63    87   236     29.5   5.1e-07   1 No_clan  
+#HMM       rlnasidvarfllfqglafrGddes
+#MATCH      ++a id+ r+l+f++++frG+d++
+#PP        699********************86
+#SEQ       CIKALIDIIRWLIFRACPFRGHDKK
+03:7319243-7337125:Normal|15036-15170|1_4_ORF1              1     41      1     44 PF13960.5   DUF4218           Domain    24    64   114     46.1   2.9e-12   1 No_clan  
+#HMM       klEkiFppaffdvmvHLivHlaeeaklaGpvkyrsmypveR
+#MATCH     kl ++F   ffd m HL +Hla  ak++G v+ ++my ++R
+#PP        699************************************99
+#SEQ       KLKMMFSLFFFDSMDHLPIHLAYRAKVRGCVQCKWMYLFKR
+03:8853381-8887304:Normal|23979-24414|1_4_ORF8              2     44      1     46 PF00244.19  14-3-3            Domain    60   102   222     29.5   4.5e-07   1 No_clan  
+#HMM       keeskeekklelikeyrekiekeLkeiceevlelldktlipka
+#MATCH     ke++ +e++++ ikey++k+e +L+++c++++ ++d++lip++
+#PP        44444499********************************854
+#SEQ       KESKGNETNVKRIKEYMKKMEVKLDDTCNDIMIMIDENLIPSS
+#CS        CCCTCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCCHCH-
+03:8853381-8887304:Normal|23979-24414|1_5_ORF1             14     50     13     51 PF00244.19  14-3-3            Domain     2    38   222     29.2   5.3e-07   1 No_clan  
+#HMM       aklaeqaeryddmveamkkvvelkeeLskeernlLsv
+#MATCH      kl++qa+ y++mv+ mkk+v+l+ eL + er+lLs+
+#PP        599********************************96
+#SEQ       TKLSDQAKHYKEMVDIMKKMVKLDVELIMGERHLLSI
+#CS        HHHHHHCCHHHHHHHHHCHHHHCSS---HCHHHHHHH
+03:9123271-9157496:Nested|11623-12507|1_1_ORF2              1     60      1     60 PF14291.5   DUF4371           Family    58   117   236    100.2   1.3e-28   1 No_clan  
+#HMM       sdyrlrlnasidvarfllfqglafrGddeseesknkGnflellkllasqneaikkvvlkn
+#MATCH     sdyr+rlnasi++a fll+qgl+frG+de+e+s+n+Gn+lell++ +++neaik+v++++
+#PP        69*******************************************************986
+#SEQ       SDYRTRLNASIECACFLLHQGLPFRGHDECECSSNQGNYLELLHFFSRNNEAIKRVTFSE
+03:9123271-9157496:Nested|28827-29475|1_1_ORF2              8     49      1     52 PF13963.5   Transpos_assoc    Domain     8    47    74     32.5   8.3e-08   1 No_clan  
+#HMM       krfskeyeegveeFlefafs.r.sskeekilCpckkCknkkr
+#MATCH     +    +y ++ve+F++++ s + + +++ i+Cpck+C+nk  
+#PP        455679**************6479999************975
+#SEQ       ELRMMDYCNEVENFINYVLSnPrNISGGDIRCPCKRCENKVA
+03:9200368-9224755:Normal|4914-5496|1_5_ORF3                5     59      1     60 PF13963.5   Transpos_assoc    Domain    12    64    74     42.9   4.7e-11   1 No_clan  
+#HMM       keyeegveeFlefafs.r.sskeekilCpckkCknkkrltkeevelhLiknGfme
+#MATCH      +y +gv+ F+++++s + + +++ i+C +k+Cknk++l+ ++v++hL+++ f+e
+#PP        589*************6479999****************************9986
+#SEQ       MNYCNGVQGFINYTKSnPrNINGGDIKCSYKRCKNKNFLDPDVVSMHLLQKRFLE
+04:10850864-10860039:Normal|85-1155|1_4_ORF1                1     60      1     60 PF04833.14  COBRA             Family     3    62   165     85.9   2.6e-24   1 No_clan  
+#HMM       alvtieNeqqlrriekpGWkLsweWakkeviwsmkGaqateqgdCskykeskplsCekkP
+#MATCH     a vt+ N+q++r+  kpGW+++w+Wakke+iws++Gaqa+eqgdCsk+k+++p+sC+++P
+#PP        68********************************************************99
+#SEQ       AIVTLFNFQTFRHFMKPGWTIGWTWAKKEIIWSINGAQAVEQGDCSKFKANIPHSCKRSP
+04:12468284-12590162:Special|106577-107165|1_2_ORF5         7     60      2     60 PF03641.13  Lysine_decarbox   Family     8    61   132     33.4   3.8e-08   1 CL0349   
+#HMM       aleaggrviGiipkillaeeapneevnelvivedmeeRkealveladafvilPG
+#MATCH     a+  g +v+G++pk+l++  +  ++++e + v++m  R++a++++ +af++lPG
+#PP        5556889**********************************************9
+#SEQ       AFLGGSQVLGVVPKALAKGDIIGKTIGEELQVSTMSDRLNAMFNHVEAFIALPG
+#CS        HHCTTS-EEEEEECCHHHHHCCTTT-SEEEEESSHHHHHHHHHHH-SEEEE-S-
+04:12468284-12590162:Special|116650-117072|1_1_ORF1         5     52      1     52 PF03641.13  Lysine_decarbox   Family    11    58   132     23.0   6.3e-05   1 CL0349   
+#HMM       aggrviGiipkillaeeapneevnelvivedmeeRkealveladafvi
+#MATCH      g +v+G++pk+l++e +  ++++e + v++m +R +a++++ +a ++
+#PP        5788****************************************9986
+#SEQ       GGSQVLGVVPKTLAKEDIIGKTIGEELQVSTMSNRMNAMFNHVNACIA
+#CS        TTS-EEEEEECCHHHHHCCTTT-SEEEEESSHHHHHHHHHHH-SEEEE
+04:12468284-12590162:Special|116650-117072|1_1_ORF2         1     59      1     60 PF03641.13  Lysine_decarbox   Family    60   119   132     67.4   1.2e-18   1 CL0349   
+#HMM       PGGiGTleElleiltliqlgkhqkvPiillnpkgyydkllefletlveegtisekareli
+#MATCH     PGG+GTleE++ i +++ql++h+k  i+lln++g+yd+ll fl+++ve++++ ++ar++i
+#PP        9***********************.*******************************9976
+#SEQ       PGGLGTLEEIFHISSWAQLHIHHK-SIGLLNVNGFYDNLLSFLDHAVEQKFLTSSARQII
+#CS        S-SHHHHHHHHHHHHHHHTSSC--.EEEEEEGGGTTHHHHHHHHHHHHTTSS-GGGGGCE
+04:16402333-16436432:Normal|21889-22026|1_1_ORF1            1     40      1     45 PF13960.5   DUF4218           Domain    25    64   114     46.2   2.7e-12   1 No_clan  
+#HMM       lEkiFppaffdvmvHLivHlaeeaklaGpvkyrsmypveR
+#MATCH     +E+i p +ffd ++HL  Hl+ eak+ G  +yr+myp+++
+#PP        69***********************************986
+#SEQ       IEMILPSSFFDSIEHLPTHLPLEAKVDGLFQYRWMYPFKK
+04:16986761-17014220:AnchorPoint|18660-19142|1_4_ORF1       3     60      1     60 PF14291.5   DUF4371           Family    32    89   236     90.2   1.4e-25   1 No_clan  
+#HMM       krklenlknqkqsikkvlkkqttkeksdyrlrlnasidvarfllfqglafrGddesee
+#MATCH      r+lenlknq+++i+kv+k+qtt+e++++rl+++asid++r+l+fq++afrG+de +e
+#PP        69*****************************************************986
+#SEQ       TRCLENLKNQSCHIEKVVKRQTTQEIQNNRLHIKASIDIVRWLTFQACAFRGHDEHPE
+04:17619268-17628225:Normal|3438-3653|1_1_ORF1              2     60      1     60 PF14223.5   Retrotran_gag_2   Family    43   101   138     61.4   6.2e-17   1 CL0523   
+#HMM       kksaankltlrkklfslkmkegesvadhinkleelvneLsalgkkiddedkvvllLasL
+#MATCH     k+s +n+l+l+k+ f+++ k+g+s+++h+n++++++ +L++l+++iddedk++llL+sL
+#PP        7899******************************************************9
+#SEQ       KNSIENRLYLKKRIFRFQHKKGTSMNEHLNDFNKMIADLKNLDVEIDDEDKALLLLNSL
+04:17832430-17839369:Normal|322-411|1_1_ORF1                2     29      1     30 PF05368.12  NmrA              Family   178   205   233     21.9    0.0001   1 CL0063   
+#HMM       vlldaeeDiGafvikilkdprkl.kgkri
+#MATCH     v++ +e+Di++++ik+++dpr+l k+++i
+#PP        677.*******************999998
+#SEQ       VFN-KEDDIATYTIKAVDDPRTLnKILYI
+#CS        -EE-HHHHHHHHHHHHHHHHHHH.TTEEE
+04:18399396-18405098:Normal|2686-3015|1_1_ORF3             25     55     18     55 PF08338.10  DUF1731           Family    17    47    47     44.9   6.9e-12   1 No_clan  
+#HMM       lLegqrVlPkrLleaGFqFrypdleeALrdl
+#MATCH     +L+gqrVlP r+ e+GFqF+yp++++AL+ +
+#PP        9***************************965
+#SEQ       VLDGQRVLPVRAKELGFQFKYPRVKDALKTI
+04:3784749-3793576:Normal|1453-2037|1_1_ORF4                5     57      3     60 PF14223.5   Retrotran_gag_2   Family    64   116   138     30.6   2.1e-07   1 CL0523   
+#HMM       gesvadhinkleelvneLsalgkkiddedkvvllLasLPesyetfvtaiesse
+#MATCH     ++ ++++++ +++l++e++ ++  i+d+d++++ L+ L+++++++vt i+++e
+#PP        567899*****************************************999854
+#SEQ       TSPLKKYLHAVKTLADEIAIIDHSISDDDLTLYVLNGLGSEFQEIVTPIRARE
+04:4187502-4222567:Normal|17801-18076|1_4_ORF2              4     58      1     60 PF13963.5   Transpos_assoc    Domain    11    63    74     45.0   9.8e-12   1 No_clan  
+#HMM       skeyeegveeFlefafs.r.sskeekilCpckkCknkkrltkeevelhLiknGfm
+#MATCH     +++y ++v+ F++f  s + + ++ +i Cpc+kCknk++ +k++v +hL+k+ f 
+#PP        689**************54788999*************************99876
+#SEQ       KQDYHKEVKGFINFMLSnPkNISGVEITCPCAKCKNKSFYHKDVVMMHLFKKIFI
+04:4338765-4344611:Overlap|5030-5137|1_1_ORF1               1     33      1     33 PF09585.9   Lin0512_fam       Family    83   114   114     24.7   1.7e-05   1 No_clan  
+#HMM       vveGGlkv.sgialeelgdkndeivianaavtv
+#MATCH     vv+GGl + s++ +ee+gdk+ +++i+naa++v
+#PP        799*****99********************987
+#SEQ       VVDGGLVCsSAVYIEEMGDKSGDCYIVNAALYV
+04:6273663-6286841:Normal|9342-9929|1_4_ORF9                2     56      1     57 PF05938.10  Self-incomp_S1    Family    35    89   104     23.8   4.7e-05   1 No_clan  
+#HMM       efsfsfkenf.fgttlfsCefrwgkkessfdvfkdkrdskkcgklciWevkedgiy
+#MATCH     ++ f+f+++  +g   ++C + w+++++ fd+++++rd    g    W v ++g++
+#PP        799******967*************999********97777665.77777777776
+#SEQ       SWLFDFCPRCcWGDASYFCIMVWNGQSKLFDIYTGERDGAIRGV-GGWPVLQTGPW
+05:10084482-10101205:Normal|10145-10288|1_4_ORF1            1     42      1     47 PF13960.5   DUF4218           Domain    24    65   114     71.1   5.3e-20   1 No_clan  
+#HMM       klEkiFppaffdvmvHLivHlaeeaklaGpvkyrsmypveRy
+#MATCH     klE+iFpp ffd m+HL +Hl+ eak +Gpv+yr+myp+eR 
+#PP        79***************************************6
+#SEQ       KLEMIFPPLFFDSMEHLPIHLPFEAKAGGPVQYRWMYPFERL
+05:10084482-10101205:Normal|11438-11713|1_4_ORF2           22     58     22     58 PF02992.13  Transposase_21    Family     1    37   213     44.4     1e-11   1 No_clan  
+#HMM       dgllrhPadseaWkkfdekyeefaedarnvrlglatd
+#MATCH     dg++ hP+d+eaWk+f++ +++f+ ++rnvrlgl+td
+#PP        89*********************************98
+#SEQ       DGVMVHPSDGEAWKRFNSVHPHFSAESRNVRLGLCTD
+05:10084482-10101205:Normal|12743-13300|1_4_ORF1            4     49      4     49 PF13963.5   Transpos_assoc    Domain     1    41    74     29.9   5.1e-07   1 No_clan  
+#HMM       rsWmy...kkkrfskeyeegveeFlefafs.r.sskeekilCpckk
+#MATCH     rsWmy    +     +y +gv+ F++f++s + +  ++ i+Cpc+k
+#PP        89***8876677799***************9779999*******96
+#SEQ       RSWMYrdsPQGLRRMDYCNGVQGFINFTTSiPrNFTGGGIRCPCRK
+05:10084482-10101205:Normal|12743-13300|1_4_ORF2            1     32      1     32 PF13963.5   Transpos_assoc    Domain    43    74    74     35.0   1.3e-08   1 No_clan  
+#HMM       knkkrltkeevelhLiknGfmegYtvWthHGE
+#MATCH     +nkk+l+ ++v +hL+ +Gfme+Y++W+ HGE
+#PP        589999*************************9
+#SEQ       QNKKYLHPDVVMMHLLHKGFMENYQCWYAHGE
+05:10138554-10156516:Normal|7384-7527|1_4_ORF1              1     42      1     47 PF13960.5   DUF4218           Domain    24    65   114     65.9   2.1e-18   1 No_clan  
+#HMM       klEkiFppaffdvmvHLivHlaeeaklaGpvkyrsmypveRy
+#MATCH     klE+iFpp+ f+ m+HL +Hl+ +ak +Gpv+yr+myp+eR 
+#PP        79***************************************6
+#SEQ       KLEMIFPPSSFNSMKHLPIHLPFKAKAGGPVQYRWMYPFERL
+05:10138554-10156516:Normal|9132-9685|1_6_ORF1              4     57      4     60 PF13963.5   Transpos_assoc    Domain     1    49    74     43.8   2.3e-11   1 No_clan  
+#HMM       rsWmy...kkkrfskeyeegveeFlefafs.r.sskeekilCpckkCknkkrlt
+#MATCH     rsWmy    +     +y +gv+ F++fa+s + +  ++ i+Cpc+kC+nkk+l+
+#PP        89***8876677799***************989999**************9865
+#SEQ       RSWMYrdsPQGLRRMDYCNGVQGFINFATSiPiNFTGGGIKCPCRKCQNKKYLH
+05:12159848-12249220:Normal|19595-20152|1_1_ORF1            4     57      4     60 PF13963.5   Transpos_assoc    Domain     1    49    74     43.5     3e-11   1 No_clan  
+#HMM       rsWmy...kkkrfskeyeegveeFlefafs.r.sskeekilCpckkCknkkrlt
+#MATCH     rsWmy    +     +y +gv+ F++f++s + +  ++ i+CpckkC+nkk+l+
+#PP        89***8876677799***************9779999*************9865
+#SEQ       RSWMYrdsPQGLRRMNYCNGVQGFINFVTSiPrNFTGGGIRCPCKKCENKKYLH
+05:14435155-14483577:Normal|23553-23708|1_1_ORF1            9     52      2     52 PF00078.26  RVT_1             Family   122   169   222     29.9   3.4e-07   1 CL0027   
+#HMM       esegryekkglpqGsvlSPllfnlfmnellrelrkrakgvtllrYaDD
+#MATCH     + +g+ye  +lp+G+ ++P+lf  +mn +++++       ++++++DD
+#PP        45899*****************************9....59******9
+#SEQ       TRYGHYEFLVLPFGLMNAPALFMDLMNWVFKPYLD----KFVVVFIDD
+#CS        ..TEEEEESB--ST-TTHHHHHHHHHHHHHTT-T......TEEECTTE
+05:14435155-14483577:Normal|9617-9811|1_1_ORF1              1     56      1     60 PF00078.26  RVT_1             Family    76   156   222     29.3   5.1e-07   1 CL0027   
+#HMM       lkkaFdsvpleellrkltafkvptklinliksflstrsfsvrvngeesegryekkglpqGsvlSPllfnlfmnellrelrk
+#MATCH     l++++++v+ +e++ ++t+f+++                         +g+ye+ ++p+G++++P++f  +mn++++++  
+#PP        57899999999999999999999.........................9****************************9876
+#SEQ       LRSGYNQVTIKEQDIQKTTFRTR-------------------------YGHYEYVVMPFGLTNAPTIFMDLMNRVFQSYLD
+#CS        BCCGCCCSBB-GGGGGGG-EEET.........................TEEEEESB--ST-TTHHHHHHHHHHHHHTT-T.
+05:16902945-16920828:Normal|7460-8014|1_1_ORF1              4     57      4     60 PF13963.5   Transpos_assoc    Domain     1    49    74     44.4   1.6e-11   1 No_clan  
+#HMM       rsWmy...kkkrfskeyeegveeFlefafs.r.sskeekilCpckkCknkkrlt
+#MATCH     rsWmy    +     +y +gv+ F++fa+s   +  ++ i+Cpc+kC+nkk+l+
+#PP        89***8866667799***************9669999*************9865
+#SEQ       RSWMYrdsLQGLRRIDYCNGVQGFINFATSiSrNFTGDGIRCPCRKCQNKKYLH
+05:17540041-17596661:Normal|19840-20397|1_1_ORF2            1     38      1     38 PF13963.5   Transpos_assoc    Domain    37    74    74     48.5   8.2e-13   1 No_clan  
+#HMM       CpckkCknkkrltkeevelhLiknGfmegYtvWthHGE
+#MATCH     Cpc +Ckn+k+l++++v +hL+++Gf++ Y+ Wt HGE
+#PP        *************************************9
+#SEQ       CPCVRCKNQKFLKEDDVCKHLLTKGFLPCYENWTVHGE
+05:17540041-17596661:Normal|22009-22131|1_1_ORF1            1     41      1     41 PF13960.5   DUF4218           Domain    24    64   114     74.3   5.3e-21   1 No_clan  
+#HMM       klEkiFppaffdvmvHLivHlaeeaklaGpvkyrsmypveR
+#MATCH     klE+iFpp+ffd m+HL++Hl+ eak++Gpv+yr+myp+eR
+#PP        79**************************************9
+#SEQ       KLERIFPPSFFDSMEHLTIHLPYEAKVGGPVQYRWMYPFER
+05:17540041-17596661:Normal|41456-41596|1_4_ORF1            1     42      1     46 PF13960.5   DUF4218           Domain    24    65   114     57.9   6.3e-16   1 No_clan  
+#HMM       klEkiFppaffdvmvHLivHlaeeaklaGpvkyrsmypveRy
+#MATCH     klE+iFpp+ff+ m+ L + l+ eak+ G v+yr+ yp+eR 
+#PP        79***************************************5
+#SEQ       KLEMIFPPSFFNSMKYLPIYLPYEAKVEGLVQYRWIYPFERL
+05:17540041-17596661:Normal|43192-43749|1_4_ORF3            2     57      1     57 PF13963.5   Transpos_assoc    Domain    21    74    74     55.5   5.2e-15   1 No_clan  
+#HMM       Flefafs.r.sskeekilCpckkCknkkrltkeevelhLiknGfmegYtvWthHGE
+#MATCH     F+++a+  + + ++++i+C ck+Cknkk+ + ++v++hL+ +Gfme+Y +W+ H E
+#PP        777777665588999***************************************98
+#SEQ       FINYATFiPrNISGGNIWCSCKRCKNKKFFHPNVVTMHLLHKGFMEEYLCWYAHRE
+05:19711648-19758042:Normal|18097-18957|1_1_ORF1           21     36     20     37 PF00098.22  zf-CCHC           Domain     2    17    18     22.2   9.6e-05   1 CL0511   
+#HMM       kCynCGepGHiardCp
+#MATCH     kCy+CG+p H++++Cp
+#PP        8**************9
+#SEQ       KCYRCGQPRHRSNQCP
+#CS        CTSSSSSSSSTTTTST
+05:23250997-23273745:AnchorPoint|2346-2462|1_1_ORF1         1     39      1     39 PF14244.5   Retrotran_gag_3   Family     9    47    48     33.0   3.5e-08   1 CL0523   
+#HMM       vlvsvqLdgdNYssWkrsmrlaLsvKnklGFidGslkkP
+#MATCH     ++vs  L+ +NY +W+ +m   L++   + F+dGsl+ P
+#PP        69*********************************9866
+#SEQ       QIVSLKLTNTNYLYWRMHMKPYLLGQGVFHFVDGSLPCP
+05:23250997-23273745:AnchorPoint|6896-7261|1_1_ORF1        17     56     12     59 PF00076.21  RRM_1             Domain    11    49    70     21.4   0.00015   1 CL0221   
+#HMM       teeeLkelFskfGpiksiklvrd.etgkskgfafVeFesk
+#MATCH     + + L+e F+k G+++ + l r+ ++++  +++fV+ +s+
+#PP        6789*******************************97776
+#SEQ       DYHSLRETFNKHGKVTALFLARKkQNRRWSRYGFVTIQSQ
+#CS        SHHHHHHHHCTTSCEEEEEEEEE.TTTSEEEEEEEEESSH
+05:24205332-24218869:Normal|10388-11392|1_1_ORF2            4     26      2     28 PF00319.17  SRF-TF            Domain    15    37    48     42.2   3.8e-11   1 No_clan  
+#HMM       RrnGLfKKAsELsvLcgaevavv
+#MATCH     RrnGLfKKA+EL+vLc+aev ++
+#PP        9*******************986
+#SEQ       RRNGLFKKAHELAVLCDAEVSLL
+05:25205430-25222695:Normal|7489-8161|1_2_ORF8              2     60      1     60 PF03087.13  DUF241            Family   178   234   234     51.9   8.4e-14   1 CL0133   
+#HMM       ekvdaalesllssskkek..vqsalkrleeleecieeleeglekvfRrLIktRVsLLNI
+#MATCH     e++da+l +l ss++ +   vq+alk l ++  +i+e+ee+le+v+R L++tRVsLLNI
+#PP        789****99999965554****************************************9
+#SEQ       EMIDAELLALKSSKDISFlqVQNALKILGAFHWSIQEVEEELESVYRLLVNTRVSLLNI
+05:9314283-9331027:Nested|6788-8284|1_4_ORF1                4     60      1     60 PF06792.10  UPF0261           Family    53   106   404     29.6   3.2e-07   1 No_clan  
+#HMM       leaageeaeee..lesldrgeaieamseaaaklvkely.eekidgvislGGsggtsl
+#MATCH     l+++  +ae++  + ++d g+a+++ms a++++++++  +++++g i+lGG ggtsl
+#PP        5555554443335999**********************6677*************97
+#SEQ       LARYLGSAEQRrnVLPDDSGQAVAVMSGALKNFLQKVKeDGALSGAIGLGGNGGTSL
+05:9314283-9331027:Nested|6788-8284|1_4_ORF17              20     60     19     60 PF09370.9   PEP_hydrolase     Domain     2    42   267     38.1   9.2e-10   1 CL0151   
+#HMM       ilkrlrkkikkgkpiigagaGtGlsakaaeaggaDliliyn
+#MATCH     il++l ++i kg piigag GtG+s+k++eag +Dli++yn
+#PP        89**************************************8
+#SEQ       ILQHLSDQIGKGLPIIGAGPGTGISTKFEEAGSVDLIVVYN
+05:9314283-9331027:Nested|6788-8284|1_5_ORF14              11     50      5     53 PF06792.10  UPF0261           Family   308   347   404     41.5   7.6e-11   1 No_clan  
+#HMM       qvtlvrtsaeenreigefiaeklnkakgpvrvllPkkGvs
+#MATCH     qv+l+rt+++en+++++fia+klnk++++vrv+lP+kG+ 
+#PP        89************************************86
+#SEQ       QVSLMRTTVDENKKFAAFIADKLNKSSSKVRVCLPQKGIT
+05:9314283-9331027:Nested|8810-8914|1_4_ORF1                8     32      8     34 PF06792.10  UPF0261           Family     1    25   404     21.6   8.4e-05   1 No_clan  
+#HMM       ktvlligtlDTKleellflreliee
+#MATCH     ++v++igt+DTKl+ellfl++ +++
+#PP        689******************9987
+#SEQ       PQVFCIGTADTKLDELLFLSDSVRS
+05:9511378-9514195:Normal|2482-2625|1_1_ORF1                9     48      1     48 PF12037.7   DUF3523           Family     8    49   265     48.6   6.1e-13   1 No_clan  
+#HMM       kekkkskdkakeaasgFDpeaLERaAkalrelesskhakkal
+#MATCH     ++ k +   +  + +gFDpeaLER+Akalre++ss+hak++l
+#PP        222222..23346899************************97
+#SEQ       SDAKPE--PEDPKGAGFDPEALERGAKALREINSSPHAKQVL
+06:155573-170294:Normal|5619-6102|1_4_ORF6                 35     60     28     60 PF00366.19  Ribosomal_S17     Domain    41    64    68     26.6   4.6e-06   1 CL0021   
+#HMM       nns..vkvGDiVrieecrPlSktkrf
+#MATCH     ++   vk+GD   i++crPlSkt+rf
+#PP        555579*******************9
+#SEQ       PCRfrVKEGDHLIIGQCRPLSKTVRF
+#CS        TTS..S-TTEEEEEEEEEEECTTEEE
+06:155573-170294:Normal|5619-6102|1_6_ORF4                  3     42      1     42 PF16205.4   Ribosomal_S17_N   Family    30    69    69     78.7   2.9e-22   1 No_clan  
+#HMM       kryvknvglgfktPkeAiegtYiDkKcPFTGnvsIrGriL
+#MATCH     k++ k+vglgfktP+eAiegtYiDkKcPF G+vsIrGriL
+#PP        6789***********************************8
+#SEQ       KQILKSVGLGFKTPREAIEGTYIDKKCPFSGTVSIRGRIL
+06:171080-180759:Normal|7341-7665|1_1_ORF1                  2     39      1     49 PF00365.19  PFK               Domain    96   133   284     31.3   1.1e-07   1 CL0240   
+#HMM       vviGGdgslkganklseerkglleeikivgiPkTidND
+#MATCH      +iGGdg+++ga k+s+e ++ + +i + giPkT+dND
+#PP        59*****************999999************9
+#SEQ       YIIGGDGTVRGAVKISDEIDRRKLNIAVTGIPKTVDND
+#CS        EEEESHHHHHHHHHHHHT..T....--EEEEEEETT--
+06:17553368-17583167:Normal|23195-23338|1_4_ORF1            1     42      1     47 PF13960.5   DUF4218           Domain    24    65   114     74.4     5e-21   1 No_clan  
+#HMM       klEkiFppaffdvmvHLivHlaeeaklaGpvkyrsmypveRy
+#MATCH     klE+iFpp+ff++m+HL +Hl+ eak +Gpv+yr+myp+eR 
+#PP        79***************************************6
+#SEQ       KLEMIFPPSFFNLMEHLPIHLPFEAKAGGPVQYRWMYPFERL
+06:17553368-17583167:Normal|24940-25494|1_4_ORF1            4     57      4     60 PF13963.5   Transpos_assoc    Domain     1    49    74     44.5   1.4e-11   1 No_clan  
+#HMM       rsWmy...kkkrfskeyeegveeFlefafs.r.sskeekilCpckkCknkkrlt
+#MATCH     rsWmy    +     +y +gv+ F++fa+s   +  ++ i+Cpc+kC+nkk+l+
+#PP        89***8876677799***************9669999*************9865
+#SEQ       RSWMYrdsPQGLRRMDYCNGVQGFINFATSiSrNFTGGGIRCPCRKCQNKKYLH
+06:1762353-1765067:Homolog|1402-1530|1_4_ORF1              12     43      9     43 PF08699.9   ArgoL1            Domain     4    35    51     24.5   1.4e-05   1 No_clan  
+#HMM       rsFfsppskqrkdLggGleawrGfyqSvRptq
+#MATCH     +sFf++++++ +dLgg +  + Gf++S+R +q
+#PP        8******9999***99*************876
+#SEQ       QSFFHNDPGSFVDLGGDVLGCLGFHSSFRVSQ
+06:18715475-18774448:Normal|25364-25729|1_1_ORF1            2     57      1     60 PF14223.5   Retrotran_gag_2   Family    21    73   138     30.2   2.8e-07   1 CL0523   
+#HMM       lelvkeektakevWdkLkelyekksaankl...tlrkklfslkmkegesvadhink
+#MATCH     le + +++t+k +Wd +k+ ++++ + + +   +lr++++ l+mk++e+v+d++++
+#PP        78999******************999888877799******************986
+#SEQ       LETILDKETSKGIWDSMKKKFQGNARVKHAqlqALRNDFEILHMKDDETVSDYFAR
+06:18715475-18774448:Normal|36234-36791|1_1_ORF3            2     57      1     57 PF13963.5   Transpos_assoc    Domain    21    74    74     60.8   1.2e-16   1 No_clan  
+#HMM       Flefafs.r.sskeekilCpckkCknkkrltkeevelhLiknGfmegYtvWthHGE
+#MATCH     F++f+   + + +++ i+Cpc+kCknkk l+ ++v++hL+ +Gfme+Y++W+ H E
+#PP        777776665588999***************************************98
+#SEQ       FINFTACiPrNFNGSGIWCPCRKCKNKKLLHPDVVTMHLLHKGFMEDYQCWYAHRE
+06:18715475-18774448:Normal|38203-38316|1_1_ORF1            1     32      1     36 PF13960.5   DUF4218           Domain    34    65   114     44.4     1e-11   1 No_clan  
+#HMM       fdvmvHLivHlaeeaklaGpvkyrsmypveRy
+#MATCH     f  m+HL +Hl+ eak++G v+yr+myp+eR 
+#PP        567***************************95
+#SEQ       FYSMEHLPIHLPCEAKVGGLVQYRWMYPFERL
+06:20065779-20077445:Normal|6576-7001|1_4_ORF1              3     59      1     60 PF14111.5   DUF4283           Domain     6    67   145     28.4   8.9e-07   1 No_clan  
+#HMM       keelkwclvgrv.sgkkpslsalrnviakaWklgggvkikelgdglflfrfsseedaekvleg
+#MATCH      +++  + vgr+ +++ ++++a+rn ++        ++i++l++g++lf+f++++ ++kvleg
+#PP        57788999*****************9987......789***********************75
+#SEQ       VQSFDLYSVGRFlTYRGINFNAMRNKVEV------YMCIRDLNSGHYLFQFFHQVVMKKVLEG
+06:21345810-21347557:Normal|353-493|1_1_ORF2               19     34     19     37 PF00098.22  zf-CCHC           Domain     2    17    18     22.9   5.7e-05   1 CL0511   
+#HMM       kCynCGepGHiardCp
+#MATCH     +Cy+CG  GH+a +C+
+#PP        7************997
+#SEQ       TCYKCGVAGHFAGNCS
+#CS        CTSSSSSSSSTTTTST
+06:21621734-21646582:Normal|3040-3656|1_1_ORF2              2     60      1     60 PF05758.11  Ycf1              Family    30    87   945     71.6   3.1e-20   1 No_clan  
+#HMM       leegeeGtekkvsattGfitGqllm.fisiyyaplhlalGrphtitvlalpyllfhffw
+#MATCH     +++ eeG ek +s t  f+ Gqllm fisiyyaplh+al r +ti vl lp++ fhffw
+#PP        7789******************86549*******************************9
+#SEQ       IKKEEEGIEKNLSLTISFLIGQLLMiFISIYYAPLHIALVRSYTIIVLNLPFISFHFFW
+06:21621734-21646582:Normal|3040-3656|1_3_ORF5              3     40      1     40 PF05758.11  Ycf1              Family   119   156   945     54.9   3.5e-15   1 No_clan  
+#HMM       fqllnhfilpssllvrlvniylfrcnnkllfvtssfvG
+#MATCH     f +l+hfil ss+lv lvniy+frcnnk+lf+tssf+G
+#PP        7899*********************************8
+#SEQ       FLILQHFILSSSILVILVNIYMFRCNNKMLFITSSFIG
+06:22105446-22116124:Normal|4283-4483|1_4_ORF1              4     59      3     60 PF13963.5   Transpos_assoc    Domain     2    52    74     27.7   2.5e-06   1 No_clan  
+#HMM       sWmy...kkkrfskeyeegveeFlefafs..rsskeekilCpckkCknkkrltkee
+#MATCH     sWmy    +     +y +gv+ F+++a    r+++++ i+ pck Cknkk+ +++ 
+#PP        7***88766677899***********97634499999************9988765
+#SEQ       SWMYrvsLEGLRMMDYCSGVKCFINYALFnlRNNSRGGIKYPCKTCKNKKNFNSNI
+06:24131501-24133973:Normal|1102-1761|1_1_ORF1             11     31     11     31 PF06888.11  Put_Phosphatase   Family     1    21   234     26.2   4.2e-06   1 CL0137   
+#HMM       ilvvfDFDktiidedsdnwvv
+#MATCH     ++vvfDFDktiid dsdnwvv
+#PP        59******************7
+#SEQ       VVVVFDFDKTIIDCDSDNWVV
+06:5946375-5951019:Normal|296-487|1_4_ORF1                 12     48     10     55 PF00582.25  Usp               Domain     4    40   141     26.1   9.5e-06   1 CL0039   
+#HMM       rIlVavDgseeskkAlewAlelakargaelillhvid
+#MATCH     ++ Va+D+ ++s++Al+w ++ + +rg +l+llh+  
+#PP        789*******************************976
+#SEQ       NVAVAIDKDKSSQHALKWTVDHLLTRGQALTLLHIKQ
+#CS        EEEEEE-SSHHHHHHHHHHHHHHHHCTSEEEEEEEEE
+06:8009271-8011180:Normal|397-1740|1_1_ORF16                5     57      1     60 PF00201.17  UDPGT             Family   312   361   499     41.4   7.7e-11   1 CL0113   
+#HMM       fdgkkPstLaknt...llvkWlPqndlLgHPktkAFvtHaGangvyEaisnGv
+#MATCH      +  +P++La+      l  W Pq ++L+HP+t+ F +H G+n+++E++s Gv
+#PP        55578999998877779***********************************9
+#SEQ       VTILPPEFLAETKdrgNLASWCPQEQILKHPSTGGFASHMGWNSMLESVSCGV
+06:8375075-8398712:Normal|11588-12145|1_1_ORF1              4     56      4     60 PF13963.5   Transpos_assoc    Domain     1    48    74     39.5   5.4e-10   1 No_clan  
+#HMM       rsWmy...kkkrfskeyeegveeFlefafs.r.sskeekilCpckkCknkkrl
+#MATCH     rsW+y    +     +y +gv+ F++f++s + +  ++ i+Cpc kC+nkk+l
+#PP        89***8876677799***************9779999*************986
+#SEQ       RSWIYqdsPQGLRRMDYCNGVQGFINFTTSiPrNFTGGGIRCPCMKCQNKKYL
+06:8375075-8398712:Normal|13750-13893|1_1_ORF1              1     42      1     47 PF13960.5   DUF4218           Domain    24    65   114     73.8   7.7e-21   1 No_clan  
+#HMM       klEkiFppaffdvmvHLivHlaeeaklaGpvkyrsmypveRy
+#MATCH     klE+iFpp+ffd m+HL +Hl+ eak +Gpv+yr+myp+eR 
+#PP        79***************************************6
+#SEQ       KLEMIFPPSFFDSMEHLPIHLPFEAKARGPVQYRWMYPFERL
+07:11422610-11464519:Normal|24978-25532|1_4_ORF2            5     58      2     59 PF13963.5   Transpos_assoc    Domain    13    64    74     47.1   2.2e-12   1 No_clan  
+#HMM       eyeegveeFlefafs.r.sskeekilCpckkCknkkrltkeevelhLiknGfme
+#MATCH     +y + v+ F++fa+  + +  ++ i+Cpc+kCkn k+l++++v++hL+++ fme
+#PP        799**********99866999*******************************97
+#SEQ       DYCNSVQGFINFATFiPrNFTDGGIRCPCRKCKNLKFLHQDVVTMHLLTKEFME
+07:11781713-11809359:Normal|10337-10909|1_4_ORF2            2     41      1     41 PF13963.5   Transpos_assoc    Domain    21    58    74     34.4   2.1e-08   1 No_clan  
+#HMM       Flefafs.r.sskeekilCpckkCknkkrltkeevelhLi
+#MATCH     F+++a s   + ++e i CpckkCknkk+ + +++++hL+
+#PP        999999954688999***********************96
+#SEQ       FINYALSnSrNISGEGITCPCKKCKNKKFFDIDVITMHLL
+07:12708177-12742710:Normal|3938-4598|1_2_ORF11             3     54      1     54 PF13359.5   DDE_Tnp_4         Domain   106   158   158     27.3   2.2e-06   1 CL0219   
+#HMM       evefnraiasarihvErvigrlkgrfrilrsrlriklvekidkivkvccvLhN
+#MATCH     +  fn +++s ri++E+ +  lk+ fr ++++   +  e+  +iv +cc+ hN
+#PP        5679*************************8887788.799999*********9
+#SEQ       KDLFNLRHSSLRIIIEQGFCILKNHFREIDGKHFWS-YETQVNIVLACCIVHN
+07:12947819-12956010:Normal|5583-5690|1_4_ORF1              1     35      1     36 PF00646.32  F-box             Domain     5    37    48     36.9   2.1e-09   1 CL0271   
+#HMM       rLPsevlrhILerLplsd..llalrrVSkgwrili
+#MATCH     ++P++v+++IL+rL  ++  l+++r+VSk w ili
+#PP        69*******************************98
+#SEQ       NVPEDVILNILSRLAVRSetLCRFRCVSKQWCILI
+#CS        HS-HHHHHHHHHTS-HHH..HHHHCTT-HHHHHHH
+07:3918292-3941145:Normal|17793-18353|1_4_ORF5              1     45      1     45 PF03732.16  Retrotrans_gag    Family    28    71    97     30.2   3.9e-07   1 CL0523   
+#HMM       sWkdlkkafrktflpserkdqleeelrslrQ.gtesvreYverfk
+#MATCH     sWkdl +af k++  ++++   ++ l++l++ ++es reY++r+k
+#PP        7******************************99**********97
+#SEQ       SWKDLMDAFIKKYKYKMDITPERTSLSHLKKgNKESMREYAQRLK
+07:4583582-4667526:Normal|15492-15953|1_4_ORF2              9     26      7     27 PF00612.26  IQ                 Motif     3    20    21     14.0     0.029   1 CL0220   
+#HMM       aaikIQaawRGylaRkry
+#MATCH     ++++IQ+++R +l  + y
+#PP        689***********9988
+#SEQ       IVVIIQKYIRKWLIQRVY
+#CS        HHHHHHHHHHHHHHHHHH
+07:4583582-4667526:Normal|15492-15953|1_4_ORF2             33     49     30     50 PF00612.26  IQ                 Motif     4    20    21     12.4     0.099   1 CL0220   
+#HMM       aikIQaawRGylaRkry
+#MATCH     ++ IQ++wR  la  ++
+#PP        799*********97777
+#SEQ       ITFIQCCWRKVLAISEF
+#CS        HHHHHHHHHHHHHHHHH
+07:4583582-4667526:Normal|22888-23459|1_6_ORF2              7     60      3     60 PF13963.5   Transpos_assoc    Domain    10    61    74     35.4     1e-08   1 No_clan  
+#HMM       fskeyeegveeFlefafs.r.sskeekilCpckkCknkkrltkeevelhLiknG
+#MATCH     +  +y +++e F+++a s   + +++ i+C ck Cknkk+ + ++v +h + +G
+#PP        5678**************54788999***********************99987
+#SEQ       HMMNYCNEIEGFINYALSnMkNINRGGIRCLCKMCKNKKFIDLNVVMRHFLSKG
+07:4583582-4667526:Normal|40385-40525|1_1_ORF1              1     34      1     34 PF13960.5   DUF4218           Domain    24    57   114     50.0   1.8e-13   1 No_clan  
+#HMM       klEkiFppaffdvmvHLivHlaeeaklaGpvkyr
+#MATCH     klE+iFpp+ffd+m+HL +Hl  ea ++G v+yr
+#PP        79*******************************8
+#SEQ       KLEMIFPPSFFDLMEHLPIHLLFEAEVRGLVQYR
+07:4760930-4801366:Normal|17623-17892|1_1_ORF1              2     24      1     25 PF14291.5   DUF4371           Family    31    53   236     25.1   1.1e-05   1 No_clan  
+#HMM       akrklenlknqkqsikkvlkkqt
+#MATCH     a r+le+lknq+++ikk++k+qt
+#PP        789*******************9
+#SEQ       ATRCLEDLKNQSCHIKKIVKRQT
+07:4760930-4801366:Normal|17623-17892|1_1_ORF2              3     31      1     34 PF14291.5   DUF4371           Family    58    86   236     33.4   3.2e-08   1 No_clan  
+#HMM       sdyrlrlnasidvarfllfqglafrGdde
+#MATCH      +++l ++asi ++r+l fq+ afrG+de
+#PP        5899************************9
+#SEQ       LNNQLNIKASIYIVRWLAFQARAFRGHDE
+07:4760930-4801366:Normal|18516-18759|1_1_ORF3              3     37      1     39 PF14291.5   DUF4371           Family   134   168   236     34.0   2.2e-08   1 No_clan  
+#HMM       vhvfakevtssiikelddalfsllvdesrdasrke
+#MATCH      hvfa++v+  i++e++da+f+++v+e++d+s+k 
+#PP        69******************************985
+#SEQ       SHVFARNVQFLIRHEIGDAKFCFIVNEAQDESKKR
+08:11229066-11238184:Normal|2222-2320|1_1_ORF1              4     33      1     33 PF14291.5   DUF4371           Family    57    86   236     26.6   3.8e-06   1 No_clan  
+#HMM       ksdyrlrlnasidvarfllfqglafrGdde
+#MATCH     +  +rlr++a i+++ +l fq+ a+r +de
+#PP        5679*************************8
+#SEQ       IIRNRLRIKAIINIVSWLAFQAFAYRDHDE
+08:11229066-11238184:Normal|5194-6022|1_5_ORF1              1     27      1     28 PF00097.24  zf-C3HC4          Domain     2    29    41     36.5     3e-09   1 CL0229   
+#HMM       piCleeakepnelleCkHsfCskCirki
+#MATCH     piCle+a +p+ +++C H++C++C+++ 
+#PP        7**********.*************986
+#SEQ       PICLEYADDPV-ITPCAHRMCRECLLSS
+#CS        SST-S--SS-EEETTTSEEESCHHHHHH
+08:12040919-12044907:Normal|3142-3688|1_4_ORF9             38     60      3     60 PF03200.15  Glyco_hydro_63    Domain   140   162   491     23.5   1.9e-05   1 CL0059   
+#HMM       arskvPeefvvqkpeianPPtll
+#MATCH       skvPeefvvq+  ++nPPtl+
+#PP        579******************97
+#SEQ       NCSKVPEEFVVQRRTNGNPPTLF
+#CS        HHTTS-GGGTEE-TT-----HHH
+08:12040919-12044907:Normal|3142-3688|1_5_ORF1              6     43      2     53 PF03200.15  Glyco_hydro_63    Domain    70   107   491     63.2   1.7e-17   1 CL0059   
+#HMM       defvkykpaeLftavPsRpfFPRGFlWDeGFhqllilk
+#MATCH     ++f++y+paeL+tavPsRpfFPRGF WDeGFhqlli++
+#PP        6899********************************85
+#SEQ       NNFISYWPAELHTAVPSRPFFPRGFSWDEGFHQLLIWS
+#CS        T--S---EEEEEE--SBTTTB-SEEHHHHHHHHHHHHH
+08:12590108-12619638:Normal|20950-21114|1_4_ORF1            6     35      1     39 PF00385.23  Chromo            Domain    13    44    54     25.9   6.4e-06   1 CL0049   
+#HMM       kdgleleYlVKWkglpysentWEpeenlekcf
+#MATCH     k +  ++ lV+W+glp+ ++tWE  ++l+  f
+#PP        333..6*****************999888665
+#SEQ       KAT--TQVLVHWEGLPPADATWEFTDELSMRF
+#CS        TTEECEEEEEEETTSTGGGTEEEEGGGCSSHS
+08:12590108-12619638:Normal|23221-23376|1_4_ORF1            9     52      2     52 PF00078.26  RVT_1             Family   122   169   222     32.2     7e-08   1 CL0027   
+#HMM       esegryekkglpqGsvlSPllfnlfmnellrelrkrakgvtllrYaDD
+#MATCH     + +g+y+  ++p+G++++P++f+ +mne++r+  ++    ++l++ DD
+#PP        4589***************************99984....9******9
+#SEQ       THSGHYKFLVMPFGLTNAPATFQSLMNEVFRDHLRK----FILVFFDD
+#CS        ..TEEEEESB--ST-TTHHHHHHHHHHHHHTT-T......TEEECTTE
+08:12590108-12619638:Normal|3956-4496|1_4_ORF3              2     60      1     60 PF14223.5   Retrotran_gag_2   Family    56   114   138     34.5   1.3e-08   1 CL0523   
+#HMM       lfslkmkegesvadhinkleelvneLsalgkkiddedkvvllLasLPesyetfvtaies
+#MATCH     ++  kmke ++++++ +kl ++vn+ + l ++++d+++  +lL  +P++ye ++t++e+
+#PP        7889*****************************************************96
+#SEQ       FELQKMKEFKTIKEYSDKLHSIVNRVRLLRTTFTDSRIKEKLLVIVPKKYEALITTLEN
+08:12590108-12619638:Normal|7275-7427|1_1_ORF1             24     49     14     51 PF08284.10  RVP_2             Domain    31    56   136     21.5   0.00014   1 CL0129   
+#HMM       ipakvLfdsGasHSFiskafvsklkl
+#MATCH     + + vL+d G +H Fis+ ++++l+l
+#PP        5789******************9998
+#SEQ       YEVVVLIDNGSTHNFISERVANMLQL
+08:13859728-13862233:Normal|2234-2341|1_1_ORF1              1     34      1     36 PF05078.11  DUF679            Family    94   127   163     26.9   3.8e-06   1 No_clan  
+#HMM       rlrllDfvhAvlsvvvFlavalsdknvvkClfpe
+#MATCH     +lr+ Dfv A++s++vF ++ l+d+ +v+ ++p+
+#PP        79******************************98
+#SEQ       KLRVGDFVNAFFSLIVFSVLVLLDSYMVESFYPS
+08:1583754-1589138:Overlap|404-2326|1_4_ORF15               6     34      4     35 PF05577.11  Peptidase_S28     Domain   123   151   434     25.9   3.7e-06   1 CL0028   
+#HMM       sgsLaawarkkyPelvvgavaSSaPllak
+#MATCH     + +Laaw+r k+P++  ga+aSSa +l +
+#PP        668*********************99865
+#SEQ       AIVLAAWFRLKHPHIAPGALASSARVLYF
+08:1583754-1589138:Overlap|404-2326|1_5_ORF15               3     60      1     60 PF05577.11  Peptidase_S28     Domain    65   123   434     42.9   2.6e-11   1 CL0028   
+#HMM       lEHRfYGqSiPvkdlstenlry.lsseqaLaDlasfikalkqkfklsssskwitfGgSYs
+#MATCH     + HR YG+SiP +  + +nlr  +ss+qaL D a++   +k+k+  ++s+++++fGgSY+
+#PP        68********9765.55599855******************888.667888********7
+#SEQ       MQHRLYGESIPEAL-KAKNLRGyCSSAQALPDYAEVLLHIKKKY-PADSTPVMVFGGSYG
+08:16986499-17029384:Normal|14771-15043|1_1_ORF1            6     31      1     32 PF03641.13  Lysine_decarbox   Family    47    72   132     21.5   0.00018   1 CL0349   
+#HMM       ealveladafvilPGGiGTleEllei
+#MATCH     + ++e++d f++l GG+GTle +++i
+#PP        66789*******************97
+#SEQ       ARILEYSDVFITLTGGLGTLEKIFQI
+#CS        HHHHHH-SEEEE-S-SHHHHHHHHHH
+08:16986499-17029384:Normal|38484-38627|1_4_ORF1            1     42      1     47 PF13960.5   DUF4218           Domain    24    65   114     72.9   1.4e-20   1 No_clan  
+#HMM       klEkiFppaffdvmvHLivHlaeeaklaGpvkyrsmypveRy
+#MATCH     klE+iFpp+ffd m+HL +Hl  eak++Gpv+yr+myp+eR 
+#PP        79***************************************6
+#SEQ       KLEMIFPPSFFDSMEHLPIHLLFEAKVGGPVQYRWMYPFERL
+08:16986499-17029384:Normal|40231-40788|1_4_ORF1            4     57      4     60 PF13963.5   Transpos_assoc    Domain     1    49    74     44.2   1.8e-11   1 No_clan  
+#HMM       rsWmy...kkkrfskeyeegveeFlefafs.r.sskeekilCpckkCknkkrlt
+#MATCH     rsWmy    +     +y +gv+ F++fa+s + +  ++ i+Cpc+kC+nkk+l+
+#PP        89***8876677799***************9779999*************9865
+#SEQ       RSWMYrdsPQGLRMIDYCNGVQGFINFATSiPrNFTGGGIRCPCRKCQNKKYLH
+08:18702494-18709985:Overlap|2504-2698|1_4_ORF1             1     56      1     59 PF00078.26  RVT_1             Family    76   156   222     36.9   2.5e-09   1 CL0027   
+#HMM       lkkaFdsvpleellrkltafkvptklinliksflstrsfsvrvngeesegryekkglpqGsvlSPllfnlfmnellrelrk
+#MATCH     l++++++v+++e++ ++taf+++                         +g+ye +++p+G++++P++f+ +mn++l+++ +
+#PP        689********************.........................9***************************99876
+#SEQ       LRSGYHQVRMHEEDIEKTAFRTH-------------------------HGHYEFRVMPFGLTNAPATFQALMNSILEPYLR
+#CS        BCCGCCCSBB-GGGGGGG-EEET.........................TEEEEESB--ST-TTHHHHHHHHHHHHHTT-T.
+08:19344327-19378711:Overlap|16270-18324|1_1_ORF1          35     60     35     60 PF02892.14  zf-BED            Domain     1    24    44     23.2   4.9e-05   1 CL0361   
+#HMM       skvWkyftpvs..lkeqkavCryCgk
+#MATCH     s +W++ft+++   +  +a+C+yCgk
+#PP        689********777788********8
+#SEQ       SQIWDHFTKLDgdPTTPRAECNYCGK
+#CS        --TTSSS----..GGSS--EETTTTE
+08:2812920-2822390:Normal|4518-4739|1_1_ORF1                9     43      3     44 PF13456.5   RVT_3             Domain    89   123   124     27.1   2.6e-06   1 CL0219   
+#HMM       nlldeirkllksfesvsvehipReqNrvAdalAkr
+#MATCH     n++ +i+ +l + ++v++ h++Re+N vAd+lA+ 
+#PP        67899****************************97
+#SEQ       NIIIQIKGMLGRDWEVTTYHVYREANCVADWLANY
+08:3289077-3290082:Overlap|504-623|1_1_ORF1                 5     35      3     40 PF14990.5   DUF4516           Family     4    36    46     36.8   2.2e-09   1 No_clan  
+#HMM       GvswgeYlkfvtasllsMlaGAqvVHlyYkPdl
+#MATCH     G++++  + ++  +++s+laGA+vVH+ YkP l
+#PP        66666655555..******************87
+#SEQ       GTPSLGRSCVA--VFVSLLAGASVVHNMYKPSL
+08:5009685-5014442:Normal|2556-2955|1_4_ORF5                6     35      2     35 PF00005.26  ABC_tran          Domain   108   137   137     31.2   2.5e-07   1 CL0023   
+#HMM       sLSgGqkqrvalarallkkpkllllDEpta
+#MATCH      LS G++qr+ lar+ll+kpkl+l+DE t+
+#PP        69*************************995
+#SEQ       VLSLGEQQRLTLARLLLSKPKLVLMDESTS
+#CS        GS-HHHHHHHHHHHHHHHTSSEEEEESTTT
+08:6764166-6774871:Normal|4760-5051|1_5_ORF2                1     23      1     28 PF03000.13  NPH3              Family   210   232   257     27.1   2.7e-06   1 No_clan  
+#HMM       lpesaRkvdDgLYrAidiYLkaH
+#MATCH     lpe+aR vdDgLYr +d+YLk +
+#PP        7********************75
+#SEQ       LPEQARLVDDGLYRVVDVYLKVQ
+08:8746798-8750018:Overlap|883-1420|1_5_ORF2                7     56      3     57 PF13963.5   Transpos_assoc    Domain    10    57    74     31.1   2.3e-07   1 No_clan  
+#HMM       fskeyeegveeFlefafs.r.sskeekilCpckkCknkkrltkeevelhL
+#MATCH     +  +y +gve F+++a s + + +e+ i+Cpckk knk +   + v++ L
+#PP        5679**************558999****************9999999887
+#SEQ       HMMDYCNGVEGFINYALSnPtNINEGGIRCPCKKYKNKDFYYPDGVTMRL
+09:10685306-10698190:Normal|3188-3343|1_1_ORF1              1     52      1     52 PF14223.5   Retrotran_gag_2   Family    79   128   138     33.5   2.7e-08   1 CL0523   
+#HMM       neLsalgkkiddedkvvllLasLPesyetfvtaies..seedltleeviekl
+#MATCH     n++++lg+ i+de++v ++L++L+e+y+ +v+ ie+  +  +l+++e++++l
+#PP        799*********************************6666788899988876
+#SEQ       NDMRNLGESIPDEKIVEKILRTLTEKYNYIVCSIEEskDINHLSVDELQSSL
+09:1485346-1545323:Normal|35266-35823|1_1_ORF2              5     59      2     60 PF13963.5   Transpos_assoc    Domain    12    64    74     54.9   8.4e-15   1 No_clan  
+#HMM       keyeegveeFlefafs.r.sskeekilCpckkCknkkrltkeevelhLiknGfme
+#MATCH      +y +gv+ F++fa+s + +  +++i+Cpc+kCkn k+l++e+v++hL+++Gf+e
+#PP        589*************977999*******************************97
+#SEQ       MDYCNGVQGFINFATSiPrNFTDGSIRCPCRKCKNLKFLHQEVVTMHLLTKGFVE
+09:1485346-1545323:Normal|4663-6226|1_1_ORF1                3     47      3     53 PF02892.14  zf-BED            Domain     1    40    44     44.1   1.4e-11   1 CL0361   
+#HMM       skvWkyftpvs..lkeqkavCryCgkilsrg...ggttnLkrHLr
+#MATCH     s +W++ft+++   +  +a+C+yCgk ++ +   ++t+n+++HL+
+#PP        689********777788***************************5
+#SEQ       SQIWDHFTKLDgdPTTPRAECNYCGKDYACHtiiNETSNMWSHLK
+#CS        --TTSSS----..GGSS--EETTTTEE----...SSTHHHHHHHH
+09:1485346-1545323:Normal|4663-6226|1_2_ORF33               2     45      1     45 PF05699.13  Dimer_Tnp_hAT     Domain    43    86    86     56.8   1.4e-15   1 No_clan  
+#HMM       vLsipvssaasErsFstlgkvllesrnsleplnveallcieqwl
+#MATCH     vL+ip+s++asE++Fst+g++l+++r+sl p +v+al+c ++wl
+#PP        8******************************************8
+#SEQ       VLAIPISTVASESVFSTGGRILDQFRSSLSPATVQALICCQNWL
+#CS        HHTS-S-TTTTHHHHHHTHHHHH-TTT---HHHHHHHHHHHHHH
+09:3977823-3995435:Normal|9068-9208|1_1_ORF2                1     39      1     42 PF13960.5   DUF4218           Domain    27    65   114     44.3     1e-11   1 No_clan  
+#HMM       kiFppaffdvmvHLivHlaeeaklaGpvkyrsmypveRy
+#MATCH     +iFp  ff  m HL +Hl  eak++G ++yr myp++R 
+#PP        79***********************************95
+#SEQ       MIFPLCFFYSMDHLSIHLLFEAKVGGFIQYRCMYPFDRL
+09:5356660-5382460:Overlap|1977-2075|1_1_ORF1               2     32      1     33 PF04227.11  Indigoidine_A     Family   160   190   291     30.0     3e-07   1 No_clan  
+#HMM       leyLetqgvpvvtyktdefpaFytresgvkv
+#MATCH     l+  etqg++v++ykt+efpaF+t++sg++v
+#PP        56679***********************986
+#SEQ       LNKQETQGICVAAYKTNEFPAFFTERSGCEV
+#CS        HHHHHHTT--EEEES-SB--BTTBS--S-B-
+09:9398074-9401739:AnchorPoint|3425-3616|1_4_ORF2           1     38      1     39 PF13041.5   PPR_2             Repeat     7    44    50     32.3   7.8e-08   1 CL0020   
+#HMM       NtlIsglckkgkveeAfklfneMkkrgvePnsyTysil
+#MATCH     N+ I+glck+ + + A +l++eM+++g+ P+++ y +l
+#PP        788****************************9877666
+#SEQ       NARIQGLCKNQEGDHAEQLLKEMVSKGITPDDSIYLSL
+10:15391520-15395645:AnchorPoint|1055-1366|1_1_ORF1         2     27      1     28 PF02150.15  RNA_POL_M_15KD    Domain     3    28    36     26.8   3.2e-06   1 CL0167   
+#HMM       FCpkCgNlLlpkedkegkn..feCrqCg
+#MATCH     FC+  +N L+p+ed+  k+  ++Cr+C+
+#PP        666..9*********************7
+#SEQ       FCS--NNILYPREDRDQKIllYACRNCD
+#CS        BETTTTSBEEEEECSSSTE..EEETTSS
+10:3121682-3144273:Overlap|1094-2392|1_5_ORF28              2     54      1     54 PF13359.5   DDE_Tnp_4         Domain   105   158   158     34.0     2e-08   1 CL0219   
+#HMM       eevefnraiasarihvErvigrlkgrfrilrsrlriklvekidkivkvccvLhN
+#MATCH     +e+ fnr ++s r+ +E+++g +k+r+ril++ l     ++  +iv + + LhN
+#PP        5889**************************9888777.888899********99
+#SEQ       REEIFNRVHSSLRCAIEHTFGVWKKRWRILQNMLVFF-YKTQVQIVVASMTLHN
+10:3121682-3144273:Overlap|18527-18676|1_4_ORF1             7     50      1     50 PF00078.26  RVT_1             Family   122   169   222     35.0   9.6e-09   1 CL0027   
+#HMM       esegryekkglpqGsvlSPllfnlfmnellrelrkrakgvtllrYaDD
+#MATCH     + +g+ye  ++p+G++++P++f+ +mne++re+ ++    ++l++ DD
+#PP        4589******************************95....9******9
+#SEQ       THSGHYEFLVMPFGLTNAPTTFQSLMNEIFREYLRK----FILVFFDD
+#CS        ..TEEEEESB--ST-TTHHHHHHHHHHHHHTT-T......TEEECTTE
+11:11982565-12006263:Overlap|10859-11429|1_5_ORF5           2     41      1     41 PF13963.5   Transpos_assoc    Domain    21    58    74     30.7     3e-07   1 No_clan  
+#HMM       Flefafs.r.sskeekilCpckkCknkkrltkeevelhLi
+#MATCH     F+++a s   + +e+ i+Cpck+C+nk++ +  +v++hL+
+#PP        999999954688999***********************96
+#SEQ       FINYALSnMrNISEGGIKCPCKRCNNKNFIDPIVVTMHLL
+11:13740579-13764313:Normal|9432-9892|1_4_ORF3              2     42      1     44 PF14223.5   Retrotran_gag_2   Family    74   114   138     43.0     3e-11   1 CL0523   
+#HMM       leelvneLsalgkkiddedkvvllLasLPesyetfvtaies
+#MATCH     ++ l+++L+++gk+i++++kv++lL+sL+++ye f+t++ +
+#PP        899***********************************987
+#SEQ       FKGLCDDLAVIGKPISNKEKVFCLLTSLGPQYEIFTTTMLK
+11:14134391-14167718:Normal|23021-23461|1_1_ORF3            1     60      1     60 PF14291.5   DUF4371           Family    73   132   236     67.3   1.5e-18   1 No_clan  
+#HMM       fllfqglafrGddeseesknkGnflellkllasqneaikkvvlknaPknnkltspdiqkd
+#MATCH     +l  q++afrG++es  s+n+Gnf+e+++l+ + n +i+ vvl++a kn k+tsp iqk+
+#PP        899********************************************************7
+#SEQ       WLSLQACAFRGHNESSASNNRGNFMEVIRLIGRLNVNIDDVVLGKALKNVKYTSPTIQKE
+11:14134391-14167718:Normal|7155-8001|1_4_ORF10             2     24      1     24 PF14392.5   zf-CCHC_4         Domain    27    49    49     31.8   8.4e-08   1 CL0511   
+#HMM       YErLpsfCfiCgrlGHsekeCpk
+#MATCH     YE Lp+fC +C+++GH+++ C+k
+#PP        *********************85
+#SEQ       YESLPRFCKLCRVFGHTVSTCNK
+11:14134391-14167718:Normal|7155-8001|1_5_ORF2              1     60      1     60 PF14111.5   DUF4283           Domain    14    75   145     41.1   1.1e-10   1 No_clan  
+#HMM       vgrvsgkkpslsalrnviakaWklgggvkikelgdglflfrfsseedaekvleggpwlingr
+#MATCH     +++++ k+p++s+l ++i+++Wk  ++++++ +++ +++f fs e ++  +l ggp++++g+
+#PP        578899*****************..99********************************986
+#SEQ       ISYIARKFPGFSTLIKFINSSWK--HKANFTVHDSSWLIFAFSLELEMLDILGGGPYYVYGW
+11:15131739-15140253:Normal|7918-8158|1_2_ORF5              7     28      1     29 PF12609.7   DUF3774           Family    53    74    75     29.0   1.5e-06   1 No_clan  
+#HMM       keekrkqaEesLrkVmyLscWG
+#MATCH     + ek + aE+sLr+V+yLscWG
+#PP        5678889**************9
+#SEQ       SYEKYQAAEKSLRMVFYLSCWG
+11:16904810-16906810:Normal|261-607|1_3_ORF8                5     32      1     33 PF00891.17  Methyltransf_2    Family    72    99   227     20.5    0.0002   1 CL0063   
+#HMM       leglkslvDvGGGtGalakaivsayPti
+#MATCH     +eg+k+lvDvGG  G ++++i s+y t+
+#PP        99**********************9765
+#SEQ       FEGVKTLVDVGGDNGSVLNMIISNYLTV
+#CS        GGG-SEEEEET-TTSHHHHHHHHH-TT-
+11:17335138-17340605:Normal|259-1041|1_4_ORF6               4     53      1     59 PF07714.16  Pkinase_Tyr       Domain    46    95   260     38.1   9.3e-10   1 CL0016   
+#HMM       eefleeakimkklkhenivkllgvctkeepllivteyvegGdLlkfLrkk
+#MATCH     +ef +e+ + +kl+h n+v+llg+c+++++ ++v ey+++ +L++f+  k
+#PP        6899******************************************9665
+#SEQ       AEFKNELILVSKLQHMNLVRLLGCCIQGDEKMLVYEYMPNKSLDSFIFGK
+#CS        HHHHHHHHHHHTS-BTTB--EEEEEESSSSEEEEEE--TTEBHHHHHHHT
+11:18382595-18385296:Normal|357-1475|1_1_ORF19              4     30      4     31 PF01535.19  PPR               Family     5    30    31     10.4       0.6   1 CL0020   
+#HMM       slIsgycknGklee.AlelfkeMkekG
+#MATCH     +lI+ y+k+G +e  A elf++M +++
+#PP        5999******99953789999998876
+#SEQ       CLIDMYAKCGSIECcAYELFQKMPQRD
+11:18382595-18385296:Normal|357-1475|1_1_ORF19             38     58     38     60 PF01535.19  PPR               Family     7    27    31     11.5      0.26   1 CL0020   
+#HMM       IsgycknGkleeAlelfkeMk
+#MATCH     Is+ +  G+ +++++lf+eM+
+#PP        566677799***********7
+#SEQ       ISASAIYGQAKKCFQLFDEML
+11:4496866-4527409:Normal|22319-23325|1_3_ORF24             6     58      3     60 PF05699.13  Dimer_Tnp_hAT     Domain    28    78    86     38.8   5.7e-10   1 No_clan  
+#HMM       ensskyPnlsklardvLsipvssaasErsFstl..gkvllesrnsleplnvea
+#MATCH     ++s+ y ++ +l r vL++pvs+a++Er+Fs++  +k++l+++++ e l + +
+#PP        5788999999***********************99999999999988877665
+#SEQ       NKSQHYHLIDRLIRLVLTLPVSTATTERAFSAMkhVKTVLRNKMEKEFLADSM
+#CS        HTTTTSHHHHHHHHHHHTS-S-TTTTHHHHHHT..HHHHH-TTT---HHHHHH
+11:6263420-6273821:Normal|5365-5541|1_1_ORF1                3     42      1     47 PF13960.5   DUF4218           Domain    26    65   114     55.7   3.1e-15   1 No_clan  
+#HMM       EkiFppaffdvmvHLivHlaeeaklaGpvkyrsmypveRy
+#MATCH     E+iFpp+ffdvm+H+ +Hl  ea ++G ++yr  yp+eR 
+#PP        9*************************************95
+#SEQ       EMIFPPSFFDVMKHIPIHLLFEANVRGLIQYRLIYPFERL
+12:12756875-12766213:Overlap|2752-3004|1_1_ORF1             1     56      1     60 PF03083.15  MtN3_slv          Family    21    76    87     41.3   1.1e-10   1 CL0141   
+#HMM       ilrkiikkksveelsfllflatllsallWllYGllkkdaliiivNlvgvlleliyl
+#MATCH     ++++i+k+k+ +++++++++++l++a++Wl+Y++ +kd+++ i  ++   + ++ +
+#PP        589************************************99887766655555444
+#SEQ       TFYQICKRKTNQGFQSIPYVIALFNAMFWLFYAIFIKDNILFINDVLKNSVLFVWF
+12:12756875-12766213:Overlap|2752-3004|1_2_ORF2             8     36      4     37 PF03083.15  MtN3_slv          Family    33    61    87     25.2   1.2e-05   1 CL0141   
+#HMM       elsfllflatllsallWllYGllkkdali
+#MATCH     ++++++++++l++a++Wl+Y++ +kd ++
+#PP        689***********************976
+#SEQ       GFQSIPYVIALFNAMFWLFYAIFIKDIIL
+12:14309560-14327251:Normal|9941-10105|1_4_ORF1             2     35      1     53 PF07714.16  Pkinase_Tyr       Domain   177   211   260     21.1   0.00014   1 CL0016   
+#HMM       slkekkftsksDvWsfGvllwEiftlgeepypgls
+#MATCH       +++k+++k Dv+sfGv++ Ei   g++p   +s
+#PP        5678899***************987.999987775
+#SEQ       RAHTMKVSEKCDVYSFGVITSEITM-GRQPRDFMS
+#CS        HHHHSEEEHHHHHHHHHHHHHHHHTTSSGTTTTSH
+12:14643503-14647253:Normal|896-1018|1_1_ORF1               4     40      2     41 PF05890.11  Ebp2              Family   102   138   268     49.9   2.9e-13   1 No_clan  
+#HMM       PeDYFAEMvKsDehMekvkekLleeqaakkaseeark
+#MATCH     P DY+AEMvKsD hMe vk  Ll+e+ +++++ee+rk
+#PP        99**********************************9
+#SEQ       PPDYYAEMVKSDGHMEEVKGWLLAEKRSIEEAEERRK
+12:15038916-15066730:Normal|23282-23503|1_1_ORF1            5     34      3     45 PF00091.24  Tubulin           Domain     3    32   197     33.4   4.5e-08   1 CL0566   
+#HMM       ivigvGqcGnqignelwellakehgiqsdg
+#MATCH     ++i+ GqcGnqig ++we++++eh+i+++g
+#PP        689***********************9766
+#SEQ       LHIQGGQCGNQIGAKFWEVICDEHEINHTG
+#CS        EEEEEHHHHHHHHHHHHH...HHHCH....
+12:15038916-15066730:Normal|4101-4661|1_1_ORF1              4     57      4     60 PF13963.5   Transpos_assoc    Domain     1    49    74     43.0   4.1e-11   1 No_clan  
+#HMM       rsWmy...kkkrfskeyeegveeFlefafs.r.sskeekilCpckkCknkkrlt
+#MATCH     rsWmy    +     +y +gv+ F++f++s + +  ++ i+Cpc+kC+nkk+l+
+#PP        89***8876677799***************98999***************9865
+#SEQ       RSWMYrdsPQGLRRMDYCNGVQGFINFVTSiPiNFTGGGIRCPCRKCENKKYLH
+12:15038916-15066730:Normal|6270-6413|1_1_ORF1              1     42      1     47 PF13960.5   DUF4218           Domain    24    65   114     73.8   7.5e-21   1 No_clan  
+#HMM       klEkiFppaffdvmvHLivHlaeeaklaGpvkyrsmypveRy
+#MATCH     klE+iFpp+ffd m+HL +Hl+ eak +Gpv+yr+myp+eR 
+#PP        79***************************************6
+#SEQ       KLEMIFPPSFFDSMEHLPIHLPFEAKAGGPVQYRWMYPFERL
+12:15142143-15154882:Normal|1451-2370|1_1_ORF3             19     60      4     60 PF00107.25  ADH_zinc_N        Family    47    89   130     33.3   3.6e-08   1 CL0063   
+#HMM       vkaikeltggkgvdvvfecvGapatfdqalsllapgGrvvvvG
+#MATCH     v +i+++ g  g+dv+f+cvG+++t+++al++++ gG+v ++G
+#PP        3455666665.*****************************998
+#SEQ       VIKIQNAMGS-GIDVSFDCVGYNKTMTTALNATQSGGKVCLIG
+#CS        HHHHHHHCTTSSEEEEEESSCSCHHHHHHHHHEEEEEEEEESS
+12:1888636-1891792:Overlap|172-270|1_4_ORF1                 1     33      1     33 PF03690.12  UPF0160           Family   276   308   317     39.8   3.9e-10   1 No_clan  
+#HMM       GlrdeeLsevsgiegavFvHasgFiggnktkeg
+#MATCH     G  d+eLse++gi+g+vFvH sgFiggn+++eg
+#PP        6679***************************97
+#SEQ       GEVDNELSEAAGIPGCVFVHLSGFIGGNRSYEG
+12:4624052-4658390:Normal|29446-30527|1_1_ORF2              1     57      1     60 PF13966.5   zf-RVT            Domain     1    55    85     37.5   2.7e-09   1 No_clan  
+#HMM       ysvksaYellfqgs..ekvrlakliWkskappkvkfflWlllkdrlptadnlakrgi
+#MATCH     +svks+  ll  +s  ++   +  iWk  +ppkv++f+W+++ +r++t+ +l +rgi
+#PP        899****99999985444467999*******************************98
+#SEQ       FSVKSLCGLLSPKSsiNSGFSFAGIWKGIVPPKVEIFCWMAIINRINTRCMLVRRGI
+12:4624052-4658390:Normal|6706-8529|1_4_ORF1               21     58     21     59 PF02892.14  zf-BED            Domain     1    39    44     33.4   3.1e-08   1 CL0361   
+#HMM       skvWkyftpvslkeqkavCryCgkilsrgggttnLkrHL
+#MATCH     +++W + + v   +++ +C +C k +++g g+t+Lk+HL
+#PP        79**************************9.********9
+#SEQ       DPAWAHRQVVVGAKNSSICVHCSKRINGG-GITRLKYHL
+#CS        --TTSSS----GGSS--EETTTTEE----SSTHHHHHHH
+12:5546159-5556602:Normal|4929-5549|1_1_ORF4                2     58      2     60 PF14223.5   Retrotran_gag_2   Family     1    57   138     31.2   1.4e-07   1 CL0523   
+#HMM       wkkkdakalalIvlsisdsllelvkeektakevWdkLkelyekksaankltlrkklf
+#MATCH     w k+d+  l +I+ s+ +s +  ++ ++ta+ vW kL+ ly + s ++ ++l+k+l+
+#PP        889***************************************************997
+#SEQ       WLKQDKLILHVILASVFESIMPFIVVSSTAHNVWSKLQRLYTNHSCTRVMQLKKNLT
+13:15249907-15263760:Normal|8435-8539|1_4_ORF1              9     35      9     35 PF12609.7   DUF3774           Family     1    27    75     32.8   9.8e-08   1 No_clan  
+#HMM       vAasvgaVealkDqGlcRwnyalrslh
+#MATCH     vAa++g VealkD+G+c +ny+lr+lh
+#PP        8************************98
+#SEQ       VAAALGGVEALKDRGFCWCNYTLRTLH
+13:2325561-2327307:Normal|1382-1668|1_6_ORF3                4     50      1     57 PF02544.15  Steroid_dh        Family    87   134   150     51.1   1.3e-13   1 CL0115   
+#HMM       apnyfgEilewigyalvtkslaalaFalftvlnltvraaahhkwykkk
+#MATCH      pnyfgE +ew+g++++t+ + ++ F+lf+++nl +ra a+h wy+++
+#PP        69*****.7************************************986
+#SEQ       PPNYFGE-MEWLGWTVMTWYWVGFSFFLFACSNLIPRAYANHDWYLER
+14:15154134-15176521:Normal|13504-14061|1_1_ORF2           11     60      1     60 PF13963.5   Transpos_assoc    Domain    11    58    74     40.1   3.4e-10   1 No_clan  
+#HMM       skeyeegveeFlefafs.r.sskeekilCpckkCknkkrltkeevelhLi
+#MATCH       +y +gv+ F++f++s + +  ++ i+C ckkC+nkk+l+ ++v +hL+
+#PP        578**************9779999************************96
+#SEQ       RMDYCNGVQGFINFTTSiPkNFTGGGIRCSCKKCQNKKYLHPDVVMMHLL
+14:15154134-15176521:Normal|15664-15807|1_1_ORF1            1     42      1     47 PF13960.5   DUF4218           Domain    24    65   114     68.6   3.1e-19   1 No_clan  
+#HMM       klEkiFppaffdvmvHLivHlaeeaklaGpvkyrsmypveRy
+#MATCH     klE+iFpp+ffd m HL +Hl+ e k++Gpv+yr+my +eR 
+#PP        79**************************************96
+#SEQ       KLEMIFPPSFFDSMDHLPIHLPFEGKVGGPVQYRWMYLFERL
+14:17864759-17913587:Normal|22288-23316|1_1_ORF10           8     48      4     59 PF14372.5   DUF4413           Family    51    89   100     27.6   2.9e-06   1 No_clan  
+#HMM       inlllaiaviLDPryKlkyvefllkkiygee..akkvvdkv
+#MATCH     ++++l++ ++L P+yKlky++f+++++y+++   k+ ++k 
+#PP        67899***********************8764433444443
+#SEQ       YKFFLFVIIVLGPHYKLKYMKFCFCQVYKSDvmVKELIKKD
+14:17864759-17913587:Normal|22288-23316|1_1_ORF11          16     59     16     60 PF05699.13  Dimer_Tnp_hAT     Domain     1    46    86     34.4   1.3e-08   1 No_clan  
+#HMM       eldkyleelpvlrrkeksefdvlewwkensskyPnlsklardvLsi
+#MATCH     el+kyl    + + + ++ fd+l wwk n+ ky +ls +a+dvL i
+#PP        89*****9.999976.499*************************87
+#SEQ       ELEKYLAN-ACEDLS-DTSFDILTWWKANNFKYLILSMVAKDVLVI
+#CS        HHHHHHT------TT....--HHHHHHHTTTTSHHHHHHHHHHHTS
+14:2410806-2421356:Normal|6413-8202|1_1_ORF37              15     56     11     58 PF05699.13  Dimer_Tnp_hAT     Domain     5    48    86     28.9   6.9e-07   1 No_clan  
+#HMM       yleelpvlrrkeksefdvlewwkensskyPnlsklardvLsipv
+#MATCH     yl +  + + k + ++++l+ww++n   y +lsk+a  vL+i v
+#PP        6666.666655.378**************************976
+#SEQ       YLGD-GCEDLK-DYKLNILSWWRRNAITYKILSKIAEHVLAIIV
+#CS        HHT------TT....--HHHHHHHTTTTSHHHHHHHHHHHTS-S
+14:2410806-2421356:Normal|6413-8202|1_3_ORF34               1     50      1     50 PF14372.5   DUF4413           Family    52   100   100     27.9   2.2e-06   1 No_clan  
+#HMM       nlllaiaviLDPryKlkyvefllkkiygee.akkvvdkvrdklkelfeeY
+#MATCH     nlll + ++  Pr+Klkyv+f++++  + e  ++ ++kv+d+l +l+e Y
+#PP        67888889999****************6663668999**********998
+#SEQ       NLLLRVTIVSYPRFKLKYVRFYFRRSNDAEnDENLTKKVKDTLLKLYEYY
+15:3380771-3399353:Overlap|7578-7706|1_4_ORF1               1     43      1     43 PF02765.16  POT1              Domain    34    80   143     32.6   5.6e-08   1 CL0021   
+#HMM       yvctfkivDpsknkgdendglrvvlFsknfedLpivkkvgdiirlhr
+#MATCH     y+ct+kivD+s    + + g+r+++F +++ +Lp+v++ gdii+l+r
+#PP        89*********....****************************9986
+#SEQ       YFCTVKIVDES----YPKPGIRLNIFLESVGNLPSVRSSGDIIKLSR
+#CS        EEECCCCCTTTSCCHCTTTEEEEEEEECCCCCCCCGGCCCCEEECCC
+15:8703077-8741161:Normal|22898-23608|1_1_ORF3              3     40      2     46 PF03732.16  Retrotrans_gag    Family     7    47    97     23.0   6.5e-05   1 CL0523   
+#HMM       LegrAkswlkslvarsidasesWkdlkkafrktflpserkd
+#MATCH     L+++A++w+ +l+ ++++    Wkdl++ f +++  ++++ 
+#PP        89****************...8***********98766665
+#SEQ       LSDAALTWYMQLENTKVK---KWKDLVDTFIRQYKFNMDMG
+16:1820513-1829339:Normal|6267-7040|1_4_ORF4                1     47      1     47 PF04827.13  Plant_tran        Family    22    69   205     76.9   1.4e-21   1 CL0219   
+#HMM       rgfpgmlgsldcmhwkwkncptawkgqytrgdkksptiileavasydl
+#MATCH     rgfpgmlgs+dcmhwkw++cp++w+g yt g+ ++ptiileavas+dl
+#PP        8****************************.999**************8
+#SEQ       RGFPGMLGSIDCMHWKWEKCPISWHGMYT-GHCRKPTIILEAVASQDL
+16:1820513-1829339:Normal|6267-7040|1_4_ORF5                1     44      1     45 PF04827.13  Plant_tran        Family    71   114   205     53.5   2.1e-14   1 CL0219   
+#HMM       iwhaffglpgsnndinvldrsplfadilkGeaprvkyvvnekqy
+#MATCH     iwhaffg+pgs+ndinv+drsp+fa +++ +++ v+y++n+++y
+#PP        8******************************************9
+#SEQ       IWHAFFGMPGSLNDINVFDRSPIFAALAEVRTAPVNYTINGHEY
+16:2007866-2031923:Normal|20051-21477|1_1_ORF2              1     24      1     26 PF02892.14  zf-BED            Domain     5    26    44     21.5   0.00016   1 CL0361   
+#HMM       kyftpvs..lkeqkavCryCgkil
+#MATCH     ++ft+++   k  +a+C+yCgki 
+#PP        7******888899*********95
+#SEQ       NHFTKLEgdSKTRRAKCNYCGKIM
+#CS        SSS----..GGSS--EETTTTEE-
+16:2007866-2031923:Normal|20051-21477|1_3_ORF50             1     24      1     31 PF14372.5   DUF4413           Family    57    80   100     28.4   1.6e-06   1 No_clan  
+#HMM       iaviLDPryKlkyvefllkkiyge
+#MATCH     +a +LDPr+Klky++f+++++y+ 
+#PP        689******************964
+#SEQ       MANVLDPRFKLKYIKFCFDDLYDY
+16:3534812-3541745:Normal|5057-5764|1_5_ORF8               34     59     34     59 PF01535.19  PPR               Family     1    26    31     23.7   3.4e-05   1 CL0020   
+#HMM       vtynslIsgycknGkleeAlelfkeM
+#MATCH     +++n++I +y+ +G+ ++Al l+ eM
+#PP        69***********************9
+#SEQ       ISWNAVIFAYALHGQGQKALLLYLEM
+16:4235099-4244062:Normal|5815-6249|1_4_ORF4                7     57      2     60 PF00891.17  Methyltransf_2    Family    28    76   227     24.0   1.7e-05   1 CL0063   
+#HMM       ifkkafGislfeaikrdeeerakfneglqessslvakkvleafd..leglk
+#MATCH     i +ka+G +l++++ +++e+++ fn+++++ ++++++  l +++  l ++k
+#PP        5579***************************************98888776
+#SEQ       ISRKAHGCELWDFTSQNPEVSRIFNKAMASPTKIMMRAFLSHYKhgLDNVK
+#CS        .HHHHHS--HHHHHTSSHHHHHHHHHHHHTTHHHHHHHHHHSS-..GGG-S
+16:4851991-4875107:Normal|7036-7380|1_4_ORF1                4     59      4     60 PF13963.5   Transpos_assoc    Domain     1    51    74     36.9   3.4e-09   1 No_clan  
+#HMM       rsWmy...kkkrfskeyeegveeFlefafsr..sskeekilCpckkCknkkrltke
+#MATCH     rsWmy    k+  +k+y +gve F++fa s+  +  +++i+C c k kn+++++++
+#PP        89***99888889*****************65688899*************98875
+#SEQ       RSWMYrdsPKELYKKDYCKGVECFINFALSNlkNTGGGEIRCSCVKYKNNNFHQSD
+16:5023268-5045014:Normal|8488-9016|1_1_ORF3                5     46      2     59 PF13963.5   Transpos_assoc    Domain    13    52    74     36.3   5.4e-09   1 No_clan  
+#HMM       eyeegveeFlefafs.r.sskeekilCpckkCknkkrltkee
+#MATCH     +y +gv+ F++fa+s + + +++ i+Cpc+kCknkk + ++ 
+#PP        79*************977999**************9977765
+#SEQ       DYCNGVQGFINFATSiPrNFSGDGIKCPCRKCKNKKVSASRY
+16:5624830-5655931:Normal|25408-25962|1_1_ORF1              4     59      4     60 PF13963.5   Transpos_assoc    Domain     1    51    74     44.8   1.2e-11   1 No_clan  
+#HMM       rsWmy...kkkrfskeyeegveeFlefafs.r.sskeekilCpckkCknkkrltke
+#MATCH     rsWmy    +     +y +gv+ F++fa+s   +  ++ i+Cpc+kCkn k+l+++
+#PP        89***8876677799***************966999*************9997765
+#SEQ       RSWMYrdsPQGLRRMDYCNGVQGFINFATSiSrNFTDDGIRCPCRKCKNLKFLHQD
+16:6160487-6172062:Normal|9607-9753|1_4_ORF1                1     38      1     39 PF13960.5   DUF4218           Domain    24    61   114     53.8   1.2e-14   1 No_clan  
+#HMM       klEkiFppaffdvmvHLivHlaeeaklaGpvkyrsmyp
+#MATCH     klE iF p+ffd m+HL +Hla eak++ p++y++my 
+#PP        79***********************************6
+#SEQ       KLEIIFSPSFFDPMEHLPIHLAYEAKVKEPMQYKWMYL
+16:6748379-6760348:Homolog|4587-5563|1_1_ORF6              30     45     29     46 PF00098.22  zf-CCHC           Domain     2    17    18     30.2   2.9e-07   1 CL0511   
+#HMM       kCynCGepGHiardCp
+#MATCH     +Cy+C+++GHi+ dCp
+#PP        6**************9
+#SEQ       GCYKCNKTGHIKVDCP
+#CS        CTSSSSSSSSTTTTST
+17:4847652-4863233:Normal|1016-1192|1_1_ORF1                4     28      2     28 PF13961.5   DUF4219           Domain     3    27    27     34.9   8.1e-09   1 CL0523   
+#HMM       gtNYatWklrMklyLeaqdLWdvVe
+#MATCH     g NY+ W+++Mk  L+ +d+W++Ve
+#PP        66**********************8
+#SEQ       GYNYDFWSIKMKTLLISLDMWEMVE
+17:5756376-5789193:Normal|14958-15518|1_1_ORF2              1     35      1     35 PF13963.5   Transpos_assoc    Domain    40    74    74     41.6   1.2e-10   1 No_clan  
+#HMM       kkCknkkrltkeevelhLiknGfmegYtvWthHGE
+#MATCH     +kC+nkk+l+ ++v +hL+ +Gfme+Y++W+ HGE
+#PP        69********************************9
+#SEQ       RKCQNKKYLHPNVVMMHLLHKGFMENYQCWYAHGE
+17:5756376-5789193:Normal|2623-3594|1_4_ORF1                2     60      1     60 PF04937.14  DUF659            Family    24    82   152     71.6   5.9e-20   1 No_clan  
+#HMM       eikkewektgcsillDgwtdkkgrslinflvscpkGtvFlksvdaseekkdaeylaell
+#MATCH     eik++w+ +gcsi++Dgw+++++  ++nfl+++p+Gt+Flksvd+s  +kd+e+l e++
+#PP        79*****************************************************9987
+#SEQ       EIKADWKLYGCSIMADGWSNRRNVPIVNFLAYSPRGTIFLKSVDTSGLRKDKETLLEMF
+17:5756376-5789193:Normal|28129-28218|1_1_ORF1              2     28      1     29 PF06203.13  CCT                Motif    17    43    44     41.4     1e-10   1 CL0281   
+#HMM       fdkkirYevRkalAdkRpRvKGRFvkk
+#MATCH     +dk++rYe+Rka+A++R+RvKGRFvk+
+#PP        89***********************96
+#SEQ       YDKRVRYESRKARAHTRKRVKGRFVKS
+18:12745271-12751590:Nested|3281-3454|1_1_ORF1              1     30      1     36 PF12076.7   Wax2_C            Domain    58    87   164     31.9   8.9e-08   1 No_clan  
+#HMM       vWlvgdgltekeqkkapkGtlfipfsqfpl
+#MATCH     +W+vg+ +t +e+++ap+Gt+f++f+++p 
+#PP        7*************************9996
+#SEQ       TWIVGKLITPREKSWAPRGTHFHQFVVPPH
+18:2980133-2996090:Normal|10109-10666|1_4_ORF1              4     59      4     60 PF13963.5   Transpos_assoc    Domain     1    51    74     54.3   1.2e-14   1 No_clan  
+#HMM       rsWmy...kkkrfskeyeegveeFlefafs.r.sskeekilCpckkCknkkrltke
+#MATCH     rsWmy     +r+ +ey++gv+ F++fafs + + +++ki+Cpc +Ckn+k+l+++
+#PP        89***999999*******************988999***************98876
+#SEQ       RSWMYrrlMDSRIRPEYITGVRRFINFAFSiDkNISAGKIRCPCVRCKNQKFLKED
+18:2980133-2996090:Normal|13844-14132|1_4_ORF4             20     47     10     48 PF04752.11  ChaC              Family    32    59   179     22.5   8.9e-05   1 CL0278   
+#HMM       fwlsstdhRGteekPGrvltLiedeegs
+#MATCH     + ++stdhRGt+e PGr +tL++ + ++
+#PP        5689******************986555
+#SEQ       LVIGSTDHRGTTEYPGRTVTLEPADREV
+18:2980133-2996090:Normal|13844-14132|1_5_ORF1              8     42      8     45 PF04752.11  ChaC              Family     1    35   179     45.5   7.9e-12   1 CL0278   
+#HMM       lwvfgYGSLiwkpdfeytesrravihgyaRrfwls
+#MATCH     lwvf YGSLiwk++f+y+++++++i+gy+R f+++
+#PP        7********************************97
+#SEQ       LWVFVYGSLIWKVGFNYDDRVVGFIKGYRRVFYQG
+18:2980133-2996090:Normal|8375-8497|1_4_ORF1                1     41      1     41 PF13960.5   DUF4218           Domain    24    64   114     74.3   5.3e-21   1 No_clan  
+#HMM       klEkiFppaffdvmvHLivHlaeeaklaGpvkyrsmypveR
+#MATCH     klE+iFpp+ffd m+HL++Hl+ eak++Gpv+yr+myp+eR
+#PP        79**************************************9
+#SEQ       KLERIFPPSFFDSMEHLTIHLPYEAKVGGPVQYRWMYPFER
+18:7959603-7981112:Normal|3870-4759|1_1_ORF1                6     38      5     41 PF02892.14  zf-BED            Domain     2    29    44     22.1    0.0001   1 CL0361   
+#HMM       kvWkyftpvs.....lkeqkavCryCgkilsrg
+#MATCH      +W + ++++      k++k vC yC k++++g
+#PP        69************99**************997
+#SEQ       LAWGHCREAPelsvgCKKTKLVCLYCAKVFAGG
+#CS        -TTSSS----.....GGSS--EETTTTEE----
+18:7959603-7981112:Normal|5793-5993|1_1_ORF1                1     58      1     59 PF05699.13  Dimer_Tnp_hAT     Domain    25    82    86     42.0   5.6e-11   1 No_clan  
+#HMM       wwkensskyPnlsklardvLsipvssaasErsFstlgkvllesrnsleplnveallci
+#MATCH     ww +++++ Pn ++la++vLs+++ss  +Er +s   ++++++rn+le++ ++  +++
+#PP        **************************************************99998876
+#SEQ       WWMTYRTSAPNPQQLAIRVLSQTCSSSGCERNWSMFEHIHSKKRNRLEDQRLNDFVYV
+#CS        HHHHTTTTSHHHHHHHHHHHTS-S-TTTTHHHHHHTHHHHH-TTT---HHHHHHHHHH
+18:8115745-8133687:Normal|15231-15591|1_5_ORF1              1     60      1     60 PF14111.5   DUF4283           Domain    68   127   145     38.7     6e-10   1 No_clan  
+#HMM       gpwlingrplilkrwspkfdpeeeeltsipvWvrlpglPlelwseevlskiasavGkple
+#MATCH     gpw+i  ++l+++ ws++f  + ++++++ vWvr+ +l + +  e +  ++as +G p++
+#PP        8*********************************************************96
+#SEQ       GPWMIFYHYLMVRTWSSNFISSAAKIDRTTVWVRIMDLNVVFSGESFHLSVASTLGTPIK
+19:4274707-4280478:Normal|742-1215|1_1_ORF1                 9     54      1     54 PF13963.5   Transpos_assoc    Domain    29    74    74     45.3   8.1e-12   1 No_clan  
+#HMM       sskeekilCpckkCknkkrltkeevelhLiknGfmegYtvWthHGE
+#MATCH     + ++++i+Cpc kCknk +++k+ v  h +k+Gf ++Y  W+  GE
+#PP        567899**************************************99
+#SEQ       NISANEIRCPCVKCKNKMFHHKDIVMIHPFKKGFFKKYLYWYTYGE
+scaffold_151:14628-28828:Normal|133-765|1_1_ORF1            4     49      1     59 PF02536.13  mTERF             Family    34    79   313     26.8   2.2e-06   1 No_clan  
+#HMM       apklkaLeslgasssdlgeilskyPkiLgkkleeslstsvdflkei
+#MATCH      pkl++++s+g+ss d  +i+s yP+iL  +le+++   +d l++ 
+#PP        59******************************99988777766655
+#SEQ       LPKLEFFQSKGFSSPDHVKIISSYPWILKRSLEDQIVPAFDSLENL
+scaffold_87:41651-89141:Normal|35582-35725|1_4_ORF1         1     42      1     45 PF13960.5   DUF4218           Domain    24    65   114     71.4   4.2e-20   1 No_clan  
+#HMM       klEkiFppaffdvmvHLivHlaeeaklaGpvkyrsmypveRy
+#MATCH     klE+iFpp ffd m+HL vHl+ e+k++Gpv+yr+myp+eR 
+#PP        79**************************************95
+#SEQ       KLEMIFPPLFFDSMEHLPVHLPFEVKVGGPVQYRWMYPFERL
+scaffold_87:41651-89141:Normal|37335-37889|1_4_ORF2         5     58      2     59 PF13963.5   Transpos_assoc    Domain    13    64    74     46.9   2.6e-12   1 No_clan  
+#HMM       eyeegveeFlefafs.r.sskeekilCpckkCknkkrltkeevelhLiknGfme
+#MATCH     +y +gv+ F++f++  + +  ++ i+Cpc kCkn k+l++++v++hL+++ fme
+#PP        79**********999866999*******************************97
+#SEQ       NYCNGVQGFINFTTFiPrNFTDGGIRCPCMKCKNLKFLHQDVVTMHLLTKEFME
