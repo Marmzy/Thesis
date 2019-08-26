@@ -19,7 +19,7 @@ done
 
 for num in {3472991..3473014}
 do
-	#java -jar /software/shared/apps/x86_64/trimmomatic/0.36/trimmomatic-0.36.jar SE -phred33 SRR$num.fastq.gz SRR$num.trimmed.fastq.gz ILLUMINACLIP:TruSeq3-SE.fa:2:30:10 MINLEN:35
+	java -jar /software/shared/apps/x86_64/trimmomatic/0.36/trimmomatic-0.36.jar SE -phred33 SRR$num.fastq.gz SRR$num.trimmed.fastq.gz ILLUMINACLIP:TruSeq3-SE.fa:2:30:10 MINLEN:35
 	fastqc -o TrimmedQC --extract -f fastq SRR$num.trimmed.fastq.gz
 
 	base=$(grep -E 'Per base sequence quality' /group/biocomp/users/cadav/Thesis/Transcriptome/RNA-Seq/GSE81077/TrimmedQC/SRR$num.trimmed_fastqc/fastqc_data.txt)
