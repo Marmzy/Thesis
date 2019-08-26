@@ -1,0 +1,969 @@
+Potri.001G115500        ptr     GO:0019538      IEA     primary interproscan            protein metabolic process       0
+Potri.001G115500        ptr     GO:0008152      IEA     primary interproscan            metabolic process       1
+Potri.001G115500        ptr     GO:0043170      IEA     primary interproscan            macromolecule metabolic process 1
+Potri.001G115500        ptr     GO:0008150      IEA     primary interproscan            biological_process      1
+Potri.001G115500        ptr     GO:0044238      IEA     primary interproscan            primary metabolic process       1
+Potri.001G115500        ptr     GO:1901564      IEA     primary interproscan            organonitrogen compound metabolic process       1
+Potri.001G115500        ptr     GO:0071704      IEA     primary interproscan            organic substance metabolic process     1
+Potri.001G115500        ptr     GO:0006807      IEA     primary interproscan            nitrogen compound metabolic process     1
+Potri.001G115500        ptr     GO:0009570      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        chloroplast stroma      0
+Potri.001G115500        ptr     GO:0044434      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        chloroplast part        1
+Potri.001G115500        ptr     GO:0005737      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        cytoplasm       1
+Potri.001G115500        ptr     GO:0005623      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        cell    1
+Potri.001G115500        ptr     GO:0044422      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        organelle part  1
+Potri.001G115500        ptr     GO:0005622      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        intracellular   1
+Potri.001G115500        ptr     GO:0043227      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        membrane-bounded organelle      1
+Potri.001G115500        ptr     GO:0009507      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        chloroplast     1
+Potri.001G115500        ptr     GO:0005575      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        cellular_component      1
+Potri.001G115500        ptr     GO:0043231      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        intracellular membrane-bounded organelle        1
+Potri.001G115500        ptr     GO:0044424      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        intracellular part      1
+Potri.001G115500        ptr     GO:0044464      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        cell part       1
+Potri.001G115500        ptr     GO:0009536      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        plastid 1
+Potri.001G115500        ptr     GO:0043229      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        intracellular organelle 1
+Potri.001G115500        ptr     GO:0044446      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        intracellular organelle part    1
+Potri.001G115500        ptr     GO:0044435      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        plastid part    1
+Potri.001G115500        ptr     GO:0009532      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        plastid stroma  1
+Potri.001G115500        ptr     GO:0043226      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        organelle       1
+Potri.001G115500        ptr     GO:0044444      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        cytoplasmic part        1
+Potri.001G115500        ptr     GO:0009507      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        chloroplast     0
+Potri.001G115500        ptr     GO:0005737      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        cytoplasm       1
+Potri.001G115500        ptr     GO:0005622      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        intracellular   1
+Potri.001G115500        ptr     GO:0044424      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        intracellular part      1
+Potri.001G115500        ptr     GO:0043226      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        organelle       1
+Potri.001G115500        ptr     GO:0044444      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        cytoplasmic part        1
+Potri.001G115500        ptr     GO:0005623      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        cell    1
+Potri.001G115500        ptr     GO:0043227      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        membrane-bounded organelle      1
+Potri.001G115500        ptr     GO:0005575      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        cellular_component      1
+Potri.001G115500        ptr     GO:0043231      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        intracellular membrane-bounded organelle        1
+Potri.001G115500        ptr     GO:0044464      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        cell part       1
+Potri.001G115500        ptr     GO:0009536      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        plastid 1
+Potri.001G115500        ptr     GO:0043229      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        intracellular organelle 1
+Potri.001G115500        ptr     GO:0005515      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        protein binding 0
+Potri.001G115500        ptr     GO:0005488      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        binding 1
+Potri.001G115500        ptr     GO:0003674      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        molecular_function      1
+Potri.001G115500        ptr     GO:0009941      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        chloroplast envelope    0
+Potri.001G115500        ptr     GO:0005737      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        cytoplasm       1
+Potri.001G115500        ptr     GO:0005622      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        intracellular   1
+Potri.001G115500        ptr     GO:0044424      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        intracellular part      1
+Potri.001G115500        ptr     GO:0044446      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        intracellular organelle part    1
+Potri.001G115500        ptr     GO:0043226      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        organelle       1
+Potri.001G115500        ptr     GO:0044444      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        cytoplasmic part        1
+Potri.001G115500        ptr     GO:0044434      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        chloroplast part        1
+Potri.001G115500        ptr     GO:0005623      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        cell    1
+Potri.001G115500        ptr     GO:0044422      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        organelle part  1
+Potri.001G115500        ptr     GO:0043227      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        membrane-bounded organelle      1
+Potri.001G115500        ptr     GO:0009526      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        plastid envelope        1
+Potri.001G115500        ptr     GO:0031967      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        organelle envelope      1
+Potri.001G115500        ptr     GO:0009507      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        chloroplast     1
+Potri.001G115500        ptr     GO:0005575      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        cellular_component      1
+Potri.001G115500        ptr     GO:0043231      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        intracellular membrane-bounded organelle        1
+Potri.001G115500        ptr     GO:0031975      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        envelope        1
+Potri.001G115500        ptr     GO:0044464      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        cell part       1
+Potri.001G115500        ptr     GO:0009536      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        plastid 1
+Potri.001G115500        ptr     GO:0043229      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        intracellular organelle 1
+Potri.001G115500        ptr     GO:0044435      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        plastid part    1
+Potri.001G115500        ptr     GO:0009532      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        plastid stroma  0
+Potri.001G115500        ptr     GO:0005737      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        cytoplasm       1
+Potri.001G115500        ptr     GO:0005622      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        intracellular   1
+Potri.001G115500        ptr     GO:0044424      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        intracellular part      1
+Potri.001G115500        ptr     GO:0044446      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        intracellular organelle part    1
+Potri.001G115500        ptr     GO:0043226      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        organelle       1
+Potri.001G115500        ptr     GO:0044444      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        cytoplasmic part        1
+Potri.001G115500        ptr     GO:0005623      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        cell    1
+Potri.001G115500        ptr     GO:0044422      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        organelle part  1
+Potri.001G115500        ptr     GO:0043227      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        membrane-bounded organelle      1
+Potri.001G115500        ptr     GO:0005575      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        cellular_component      1
+Potri.001G115500        ptr     GO:0043231      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        intracellular membrane-bounded organelle        1
+Potri.001G115500        ptr     GO:0044464      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        cell part       1
+Potri.001G115500        ptr     GO:0009536      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        plastid 1
+Potri.001G115500        ptr     GO:0043229      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        intracellular organelle 1
+Potri.001G115500        ptr     GO:0044435      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        plastid part    1
+Potri.001G115500        ptr     GO:0043424      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        protein histidine kinase binding        0
+Potri.001G115500        ptr     GO:0005488      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        binding 1
+Potri.001G115500        ptr     GO:0019901      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        protein kinase binding  1
+Potri.001G115500        ptr     GO:0003674      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        molecular_function      1
+Potri.001G115500        ptr     GO:0005515      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        protein binding 1
+Potri.001G115500        ptr     GO:0019900      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        kinase binding  1
+Potri.001G115500        ptr     GO:0019899      IEA     from_iortho     PLAZA   iOrtho=AT4G12060        enzyme binding  1
+Potri.001G115500        ptr     GO:0009579      IEA     from_iortho     PLAZA   iOrtho=AT4G25370        thylakoid       0
+Potri.001G115500        ptr     GO:0005622      IEA     from_iortho     PLAZA   iOrtho=AT4G25370        intracellular   1
+Potri.001G115500        ptr     GO:0044424      IEA     from_iortho     PLAZA   iOrtho=AT4G25370        intracellular part      1
+Potri.001G115500        ptr     GO:0005623      IEA     from_iortho     PLAZA   iOrtho=AT4G25370        cell    1
+Potri.001G115500        ptr     GO:0005575      IEA     from_iortho     PLAZA   iOrtho=AT4G25370        cellular_component      1
+Potri.001G115500        ptr     GO:0044464      IEA     from_iortho     PLAZA   iOrtho=AT4G25370        cell part       1
+Potri.001G115500        ptr     IPR004176       Clp, N-terminal 86      232     1.2e-33 source=Gene3D,domainId=G3DSA:1.10.1780.10
+Potri.001G115500        ptr     IPR004176       Clp, N-terminal 102     154     0.00000083      source=Pfam,domainId=PF02861
+Potri.001G115500        ptr     IPR004176       Clp, N-terminal 90      223     0.0000000000419 source=SUPERFAMILY,domainId=SSF81923
+12:14620912-14637130:Normal|7693-9903
+
+
+03:12494925-12497541:Normal|610-786
+Potri.001G135000        ptr     GO:0005886      IEA     from_iortho     PLAZA   iOrtho=AT1G31940        plasma membrane 0
+Potri.001G135000        ptr     GO:0016020      IEA     from_iortho     PLAZA   iOrtho=AT1G31940        membrane        1
+Potri.001G135000        ptr     GO:0005623      IEA     from_iortho     PLAZA   iOrtho=AT1G31940        cell    1
+Potri.001G135000        ptr     GO:0005575      IEA     from_iortho     PLAZA   iOrtho=AT1G31940        cellular_component      1
+Potri.001G135000        ptr     GO:0071944      IEA     from_iortho     PLAZA   iOrtho=AT1G31940        cell periphery  1
+Potri.001G135000        ptr     GO:0044464      IEA     from_iortho     PLAZA   iOrtho=AT1G31940        cell part       1
+
+18:5771073-5789726:Normal|16078-16215
+Potri.006G231000        ptr     GO:0005515      IEA     primary interproscan            protein binding 0
+Potri.006G231000        ptr     GO:0005488      IEA     primary interproscan            binding 1
+Potri.006G231000        ptr     GO:0003674      IEA     primary interproscan            molecular_function      1
+Potri.006G231000        ptr     GO:0000159      IEA     primary interproscan            protein phosphatase type 2A complex     0
+Potri.006G231000        ptr     GO:0008287      IEA     primary interproscan            protein serine/threonine phosphatase complex    1
+Potri.006G231000        ptr     GO:0005622      IEA     primary interproscan            intracellular   1
+Potri.006G231000        ptr     GO:0044424      IEA     primary interproscan            intracellular part      1
+Potri.006G231000        ptr     GO:1903293      IEA     primary interproscan            phosphatase complex     1
+Potri.006G231000        ptr     GO:0032991      IEA     primary interproscan            macromolecular complex  1
+Potri.006G231000        ptr     GO:0005623      IEA     primary interproscan            cell    1
+Potri.006G231000        ptr     GO:0005575      IEA     primary interproscan            cellular_component      1
+Potri.006G231000        ptr     GO:1902494      IEA     primary interproscan            catalytic complex       1
+Potri.006G231000        ptr     GO:0044464      IEA     primary interproscan            cell part       1
+Potri.006G231000        ptr     GO:0019888      IEA     primary interproscan            protein phosphatase regulator activity  0
+Potri.006G231000        ptr     GO:0098772      IEA     primary interproscan            molecular function regulator    1
+Potri.006G231000        ptr     GO:0019208      IEA     primary interproscan            phosphatase regulator activity  1
+Potri.006G231000        ptr     GO:0003674      IEA     primary interproscan            molecular_function      1
+Potri.006G231000        ptr     GO:0030234      IEA     primary interproscan            enzyme regulator activity       1
+Potri.006G231000        ptr     GO:0005829      IEA     from_iortho     PLAZA   iOrtho=AT1G17720        cytosol 0
+Potri.006G231000        ptr     GO:0005737      IEA     from_iortho     PLAZA   iOrtho=AT1G17720        cytoplasm       1
+Potri.006G231000        ptr     GO:0005622      IEA     from_iortho     PLAZA   iOrtho=AT1G17720        intracellular   1
+Potri.006G231000        ptr     GO:0044424      IEA     from_iortho     PLAZA   iOrtho=AT1G17720        intracellular part      1
+Potri.006G231000        ptr     GO:0044444      IEA     from_iortho     PLAZA   iOrtho=AT1G17720        cytoplasmic part        1
+Potri.006G231000        ptr     GO:0005623      IEA     from_iortho     PLAZA   iOrtho=AT1G17720        cell    1
+Potri.006G231000        ptr     GO:0005575      IEA     from_iortho     PLAZA   iOrtho=AT1G17720        cellular_component      1
+Potri.006G231000        ptr     GO:0044464      IEA     from_iortho     PLAZA   iOrtho=AT1G17720        cell part       1
+Potri.006G231000        ptr     IPR000009       Protein phosphatase 2A regulatory subunit PR55  7       521     0       source=PANTHER,domainId=PTHR11871
+Potri.006G231000        ptr     IPR000009       Protein phosphatase 2A regulatory subunit PR55  21      521     3.4e-197        source=PIRSF,domainId=PIRSF037309
+Potri.006G231000        ptr     IPR000009       Protein phosphatase 2A regulatory subunit PR55  326     353     1.1e-159        source=PRINTS,domainId=PR00600
+Potri.006G231000        ptr     IPR000009       Protein phosphatase 2A regulatory subunit PR55  490     519     1.1e-159        source=PRINTS,domainId=PR00600
+Potri.006G231000        ptr     IPR000009       Protein phosphatase 2A regulatory subunit PR55  53      73      1.1e-159        source=PRINTS,domainId=PR00600
+Potri.006G231000        ptr     IPR000009       Protein phosphatase 2A regulatory subunit PR55  269     296     1.1e-159        source=PRINTS,domainId=PR00600
+Potri.006G231000        ptr     IPR000009       Protein phosphatase 2A regulatory subunit PR55  297     325     1.1e-159        source=PRINTS,domainId=PR00600
+Potri.006G231000        ptr     IPR000009       Protein phosphatase 2A regulatory subunit PR55  354     381     1.1e-159        source=PRINTS,domainId=PR00600
+Potri.006G231000        ptr     IPR000009       Protein phosphatase 2A regulatory subunit PR55  382     407     1.1e-159        source=PRINTS,domainId=PR00600
+Potri.006G231000        ptr     IPR000009       Protein phosphatase 2A regulatory subunit PR55  100     128     1.1e-159        source=PRINTS,domainId=PR00600
+Potri.006G231000        ptr     IPR000009       Protein phosphatase 2A regulatory subunit PR55  241     268     1.1e-159        source=PRINTS,domainId=PR00600
+Potri.006G231000        ptr     IPR000009       Protein phosphatase 2A regulatory subunit PR55  408     434     1.1e-159        source=PRINTS,domainId=PR00600
+Potri.006G231000        ptr     IPR000009       Protein phosphatase 2A regulatory subunit PR55  129     157     1.1e-159        source=PRINTS,domainId=PR00600
+Potri.006G231000        ptr     IPR019775       WD40 repeat, conserved site     256     270     0       source=ProSitePatterns,domainId=PS00678
+Potri.006G231000        ptr     IPR017986       WD40-repeat-containing domain   479     515     9.47e-36        source=SUPERFAMILY,domainId=SSF50978
+Potri.006G231000        ptr     IPR017986       WD40-repeat-containing domain   112     158     9.47e-36        source=SUPERFAMILY,domainId=SSF50978
+Potri.006G231000        ptr     IPR017986       WD40-repeat-containing domain   231     447     9.47e-36        source=SUPERFAMILY,domainId=SSF50978
+Potri.006G231000        ptr     IPR017986       WD40-repeat-containing domain   47      77      9.47e-36        source=SUPERFAMILY,domainId=SSF50978
+Potri.006G231000        ptr     IPR015943       WD40/YVTN repeat-like-containing domain 34      521     1.2e-38 source=Gene3D,domainId=G3DSA:2.130.10.10
+Potri.006G231000        ptr     IPR001680       WD40 repeat     233     269     0.13    source=Pfam,domainId=PF00400
+Potri.006G231000        ptr     IPR001680       WD40 repeat     113     153     0.036   source=SMART,domainId=SM00320
+Potri.006G231000        ptr     IPR001680       WD40 repeat     230     269     0.0037  source=SMART,domainId=SM00320
+Potri.006G231000        ptr     IPR001680       WD40 repeat     342     377     1       source=SMART,domainId=SM00320
+Potri.006G231000        ptr     IPR001680       WD40 repeat     280     320     0.073   source=SMART,domainId=SM00320
+Potri.006G231000        ptr     IPR001680       WD40 repeat     39      74      0.019   source=SMART,domainId=SM00320
+Potri.006G231000        ptr     IPR018067       Protein phosphatase 2A regulatory subunit PR55, conserved site  239     253     0       source=ProSitePatterns,domainId=PS01025
+Potri.006G231000        ptr     IPR018067       Protein phosphatase 2A regulatory subunit PR55, conserved site  113     127     0       source=ProSitePatterns,domainId=PS01024
+13:764507-767544:Normal|2688-2801
+
+
+04:10850864-10860039:Normal|85-613
+Potri.004G117200        ptr     GO:0010215      IEA     primary interproscan            cellulose microfibril organization      0
+Potri.004G117200        ptr     GO:0044085      IEA     primary interproscan            cellular component biogenesis   1
+Potri.004G117200        ptr     GO:0008150      IEA     primary interproscan            biological_process      1
+Potri.004G117200        ptr     GO:0044763      IEA     primary interproscan            single-organism cellular process        1
+Potri.004G117200        ptr     GO:0009664      IEA     primary interproscan            plant-type cell wall organization       1
+Potri.004G117200        ptr     GO:0071668      IEA     primary interproscan            plant-type cell wall assembly   1
+Potri.004G117200        ptr     GO:0042546      IEA     primary interproscan            cell wall biogenesis    1
+Potri.004G117200        ptr     GO:0009832      IEA     primary interproscan            plant-type cell wall biogenesis 1
+Potri.004G117200        ptr     GO:0043062      IEA     primary interproscan            extracellular structure organization    1
+Potri.004G117200        ptr     GO:0071555      IEA     primary interproscan            cell wall organization  1
+Potri.004G117200        ptr     GO:0045229      IEA     primary interproscan            external encapsulating structure organization   1
+Potri.004G117200        ptr     GO:0044699      IEA     primary interproscan            single-organism process 1
+Potri.004G117200        ptr     GO:0071554      IEA     primary interproscan            cell wall organization or biogenesis    1
+Potri.004G117200        ptr     GO:0022607      IEA     primary interproscan            cellular component assembly     1
+Potri.004G117200        ptr     GO:0030198      IEA     primary interproscan            extracellular matrix organization       1
+Potri.004G117200        ptr     GO:0016043      IEA     primary interproscan            cellular component organization 1
+Potri.004G117200        ptr     GO:0070726      IEA     primary interproscan            cell wall assembly      1
+Potri.004G117200        ptr     GO:0071669      IEA     primary interproscan            plant-type cell wall organization or biogenesis 1
+Potri.004G117200        ptr     GO:0009987      IEA     primary interproscan            cellular process        1
+Potri.004G117200        ptr     GO:0071840      IEA     primary interproscan            cellular component organization or biogenesis   1
+Potri.004G117200        ptr     GO:0016049      IEA     primary interproscan            cell growth     0
+Potri.004G117200        ptr     GO:0008150      IEA     primary interproscan            biological_process      1
+Potri.004G117200        ptr     GO:0044763      IEA     primary interproscan            single-organism cellular process        1
+Potri.004G117200        ptr     GO:0040007      IEA     primary interproscan            growth  1
+Potri.004G117200        ptr     GO:0044699      IEA     primary interproscan            single-organism process 1
+Potri.004G117200        ptr     GO:0009987      IEA     primary interproscan            cellular process        1
+Potri.004G117200        ptr     GO:0031225      IEA     primary interproscan            anchored component of membrane  0
+Potri.004G117200        ptr     GO:0031224      IEA     primary interproscan            intrinsic component of membrane 1
+Potri.004G117200        ptr     GO:0016020      IEA     primary interproscan            membrane        1
+Potri.004G117200        ptr     GO:0005575      IEA     primary interproscan            cellular_component      1
+Potri.004G117200        ptr     GO:0044425      IEA     primary interproscan            membrane part   1
+Potri.004G117200        ptr     GO:0050832      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60950        defense response to fungus      0
+Potri.004G117200        ptr     GO:0098542      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60950        defense response to other organism      1
+Potri.004G117200        ptr     GO:0009607      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60950        response to biotic stimulus     1
+Potri.004G117200        ptr     GO:0009605      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60950        response to external stimulus   1
+Potri.004G117200        ptr     GO:0008150      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60950        biological_process      1
+Potri.004G117200        ptr     GO:0009620      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60950        response to fungus      1
+Potri.004G117200        ptr     GO:0051704      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60950        multi-organism process  1
+Potri.004G117200        ptr     GO:0006950      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60950        response to stress      1
+Potri.004G117200        ptr     GO:0006952      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60950        defense response        1
+Potri.004G117200        ptr     GO:0043207      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60950        response to external biotic stimulus    1
+Potri.004G117200        ptr     GO:0050896      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60950        response to stimulus    1
+Potri.004G117200        ptr     GO:0051707      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60950        response to other organism      1
+Potri.004G117200        ptr     GO:0010214      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        seed coat development   0
+Potri.004G117200        ptr     GO:0022414      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        reproductive process    1
+Potri.004G117200        ptr     GO:0044702      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        single organism reproductive process    1
+Potri.004G117200        ptr     GO:0008150      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        biological_process      1
+Potri.004G117200        ptr     GO:0010154      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        fruit development       1
+Potri.004G117200        ptr     GO:0003006      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        developmental process involved in reproduction  1
+Potri.004G117200        ptr     GO:0032501      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        multicellular organismal process        1
+Potri.004G117200        ptr     GO:0000003      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        reproduction    1
+Potri.004G117200        ptr     GO:0044707      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        single-multicellular organism process   1
+Potri.004G117200        ptr     GO:0048316      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        seed development        1
+Potri.004G117200        ptr     GO:0009791      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        post-embryonic development      1
+Potri.004G117200        ptr     GO:0007275      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        multicellular organism development      1
+Potri.004G117200        ptr     GO:0061458      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        reproductive system development 1
+Potri.004G117200        ptr     GO:0048731      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        system development      1
+Potri.004G117200        ptr     GO:0044699      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        single-organism process 1
+Potri.004G117200        ptr     GO:0032502      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        developmental process   1
+Potri.004G117200        ptr     GO:0048608      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        reproductive structure development      1
+Potri.004G117200        ptr     GO:0048856      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        anatomical structure development        1
+Potri.004G117200        ptr     GO:0044767      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        single-organism developmental process   1
+Potri.004G117200        ptr     GO:0005739      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60920        mitochondrion   0
+Potri.004G117200        ptr     GO:0005737      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60920        cytoplasm       1
+Potri.004G117200        ptr     GO:0005622      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60920        intracellular   1
+Potri.004G117200        ptr     GO:0044424      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60920        intracellular part      1
+Potri.004G117200        ptr     GO:0043226      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60920        organelle       1
+Potri.004G117200        ptr     GO:0044444      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60920        cytoplasmic part        1
+Potri.004G117200        ptr     GO:0005623      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60920        cell    1
+Potri.004G117200        ptr     GO:0043227      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60920        membrane-bounded organelle      1
+Potri.004G117200        ptr     GO:0005575      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60920        cellular_component      1
+Potri.004G117200        ptr     GO:0043231      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60920        intracellular membrane-bounded organelle        1
+Potri.004G117200        ptr     GO:0044464      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60920        cell part       1
+Potri.004G117200        ptr     GO:0043229      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60920        intracellular organelle 1
+Potri.004G117200        ptr     GO:0048354      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        mucilage biosynthetic process involved in seed coat development	0
+Potri.004G117200        ptr     GO:0022414      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        reproductive process    1
+Potri.004G117200        ptr     GO:0044237      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        cellular metabolic process      1
+Potri.004G117200        ptr     GO:0008152      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        metabolic process       1
+Potri.004G117200        ptr     GO:0044702      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        single organism reproductive process    1
+Potri.004G117200        ptr     GO:0008150      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        biological_process      1
+Potri.004G117200        ptr     GO:0010154      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        fruit development       1
+Potri.004G117200        ptr     GO:0003006      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        developmental process involved in reproduction  1
+Potri.004G117200        ptr     GO:0048359      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        mucilage metabolic process involved in seed coat development	1
+Potri.004G117200        ptr     GO:0010214      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        seed coat development   1
+Potri.004G117200        ptr     GO:0032501      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        multicellular organismal process        1
+Potri.004G117200        ptr     GO:0000003      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        reproduction    1
+Potri.004G117200        ptr     GO:0044707      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        single-multicellular organism process   1
+Potri.004G117200        ptr     GO:0048316      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        seed development        1
+Potri.004G117200        ptr     GO:0010191      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        mucilage metabolic process      1
+Potri.004G117200        ptr     GO:0009791      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        post-embryonic development      1
+Potri.004G117200        ptr     GO:0007275      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        multicellular organism development      1
+Potri.004G117200        ptr     GO:0061458      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        reproductive system development 1
+Potri.004G117200        ptr     GO:0048731      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        system development      1
+Potri.004G117200        ptr     GO:0010192      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        mucilage biosynthetic process   1
+Potri.004G117200        ptr     GO:0044699      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        single-organism process 1
+Potri.004G117200        ptr     GO:0009058      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        biosynthetic process    1
+Potri.004G117200        ptr     GO:0032502      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        developmental process   1
+Potri.004G117200        ptr     GO:0048608      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        reproductive structure development      1
+Potri.004G117200        ptr     GO:0048856      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        anatomical structure development        1
+Potri.004G117200        ptr     GO:0009987      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        cellular process        1
+Potri.004G117200        ptr     GO:0044249      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        cellular biosynthetic process   1
+Potri.004G117200        ptr     GO:0044767      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        single-organism developmental process   1
+Potri.004G117200        ptr     GO:0009825      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60920        multidimensional cell growth    0
+Potri.004G117200        ptr     GO:0008150      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60920        biological_process      1
+Potri.004G117200        ptr     GO:0016049      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60920        cell growth     1
+Potri.004G117200        ptr     GO:0044763      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60920        single-organism cellular process        1
+Potri.004G117200        ptr     GO:0040007      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60920        growth  1
+Potri.004G117200        ptr     GO:0044699      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60920        single-organism process 1
+Potri.004G117200        ptr     GO:0009987      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60920        cellular process        1
+Potri.004G117200        ptr     GO:0052324      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        plant-type cell wall cellulose biosynthetic process   	0
+Potri.004G117200        ptr     GO:0044085      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        cellular component biogenesis   1
+Potri.004G117200        ptr     GO:0044036      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        cell wall macromolecule metabolic process       1
+Potri.004G117200        ptr     GO:0044237      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        cellular metabolic process      1
+Potri.004G117200        ptr     GO:0044264      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        cellular polysaccharide metabolic process       1
+Potri.004G117200        ptr     GO:0008152      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        metabolic process       1
+Potri.004G117200        ptr     GO:0044262      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        cellular carbohydrate metabolic process 1
+Potri.004G117200        ptr     GO:0070592      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        cell wall polysaccharide biosynthetic process   1
+Potri.004G117200        ptr     GO:0010383      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        cell wall polysaccharide metabolic process      1
+Potri.004G117200        ptr     GO:0043170      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        macromolecule metabolic process 1
+Potri.004G117200        ptr     GO:0030244      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        cellulose biosynthetic process  1
+Potri.004G117200        ptr     GO:0034637      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        cellular carbohydrate biosynthetic process      1
+Potri.004G117200        ptr     GO:0008150      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        biological_process      1
+Potri.004G117200        ptr     GO:0030243      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        cellulose metabolic process     1
+Potri.004G117200        ptr     GO:0044763      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        single-organism cellular process        1
+Potri.004G117200        ptr     GO:0009664      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        plant-type cell wall organization       1
+Potri.004G117200        ptr     GO:0005975      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        carbohydrate metabolic process  1
+Potri.004G117200        ptr     GO:0042546      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        cell wall biogenesis    1
+Potri.004G117200        ptr     GO:0044710      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        single-organism metabolic process       1
+Potri.004G117200        ptr     GO:0044260      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        cellular macromolecule metabolic process        1
+Potri.004G117200        ptr     GO:0044042      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        glucan metabolic process        1
+Potri.004G117200        ptr     GO:0052541      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        plant-type cell wall cellulose metabolic process	1
+Potri.004G117200        ptr     GO:0009832      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        plant-type cell wall biogenesis 1
+Potri.004G117200        ptr     GO:0044711      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        single-organism biosynthetic process    1
+Potri.004G117200        ptr     GO:0044238      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        primary metabolic process       1
+Potri.004G117200        ptr     GO:0071555      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        cell wall organization  1
+Potri.004G117200        ptr     GO:1901576      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        organic substance biosynthetic process  1
+Potri.004G117200        ptr     GO:0051274      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        beta-glucan biosynthetic process        1
+Potri.004G117200        ptr     GO:0045229      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        external encapsulating structure organization   1
+Potri.004G117200        ptr     GO:0044699      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        single-organism process 1
+Potri.004G117200        ptr     GO:0009058      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        biosynthetic process    1
+Potri.004G117200        ptr     GO:0071554      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        cell wall organization or biogenesis    1
+Potri.004G117200        ptr     GO:0006073      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        cellular glucan metabolic process       1
+Potri.004G117200        ptr     GO:0033692      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        cellular polysaccharide biosynthetic process    1
+Potri.004G117200        ptr     GO:0044723      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        single-organism carbohydrate metabolic process  1
+Potri.004G117200        ptr     GO:0016043      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        cellular component organization 1
+Potri.004G117200        ptr     GO:0016051      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        carbohydrate biosynthetic process       1
+Potri.004G117200        ptr     GO:0000271      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        polysaccharide biosynthetic process     1
+Potri.004G117200        ptr     GO:0070589      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        cellular component macromolecule biosynthetic process	1
+Potri.004G117200        ptr     GO:0071704      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        organic substance metabolic process     1
+Potri.004G117200        ptr     GO:0051273      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        beta-glucan metabolic process   1
+Potri.004G117200        ptr     GO:0071669      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        plant-type cell wall organization or biogenesis 1
+Potri.004G117200        ptr     GO:0005976      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        polysaccharide metabolic process        1
+Potri.004G117200        ptr     GO:0009059      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        macromolecule biosynthetic process      1
+Potri.004G117200        ptr     GO:0009987      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        cellular process        1
+Potri.004G117200        ptr     GO:0044038      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        cell wall macromolecule biosynthetic process    1
+Potri.004G117200        ptr     GO:0044249      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        cellular biosynthetic process   1
+Potri.004G117200        ptr     GO:0009250      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        glucan biosynthetic process     1
+Potri.004G117200        ptr     GO:0034645      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        cellular macromolecule biosynthetic process     1
+Potri.004G117200        ptr     GO:0071840      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        cellular component organization or biogenesis   1
+Potri.004G117200        ptr     GO:0009832      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        plant-type cell wall biogenesis 0
+Potri.004G117200        ptr     GO:0044085      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        cellular component biogenesis   1
+Potri.004G117200        ptr     GO:0008150      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        biological_process      1
+Potri.004G117200        ptr     GO:0042546      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        cell wall biogenesis    1
+Potri.004G117200        ptr     GO:0071554      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        cell wall organization or biogenesis    1
+Potri.004G117200        ptr     GO:0071669      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        plant-type cell wall organization or biogenesis 1
+Potri.004G117200        ptr     GO:0009987      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        cellular process        1
+Potri.004G117200        ptr     GO:0071840      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        cellular component organization or biogenesis   1
+Potri.004G117200        ptr     GO:0046658      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        anchored component of plasma membrane   0
+Potri.004G117200        ptr     GO:0005886      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        plasma membrane 1
+Potri.004G117200        ptr     GO:0031224      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        intrinsic component of membrane 1
+Potri.004G117200        ptr     GO:0016020      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        membrane        1
+Potri.004G117200        ptr     GO:0005623      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        cell    1
+Potri.004G117200        ptr     GO:0031226      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        intrinsic component of plasma membrane  1
+Potri.004G117200        ptr     GO:0005575      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        cellular_component      1
+Potri.004G117200        ptr     GO:0071944      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        cell periphery  1
+Potri.004G117200        ptr     GO:0044464      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        cell part       1
+Potri.004G117200        ptr     GO:0044425      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        membrane part   1
+Potri.004G117200        ptr     GO:0031225      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        anchored component of membrane  1
+Potri.004G117200        ptr     GO:0044459      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        plasma membrane part    1
+Potri.004G117200        ptr     GO:0005886      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60920        plasma membrane 0
+Potri.004G117200        ptr     GO:0016020      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60920        membrane        1
+Potri.004G117200        ptr     GO:0005623      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60920        cell    1
+Potri.004G117200        ptr     GO:0005575      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60920        cellular_component      1
+Potri.004G117200        ptr     GO:0071944      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60920        cell periphery  1
+Potri.004G117200        ptr     GO:0044464      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60920        cell part       1
+Potri.004G117200        ptr     GO:0009834      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G15630        plant-type secondary cell wall biogenesis       0
+Potri.004G117200        ptr     GO:0044085      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G15630        cellular component biogenesis   1
+Potri.004G117200        ptr     GO:0008150      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G15630        biological_process      1
+Potri.004G117200        ptr     GO:0042546      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G15630        cell wall biogenesis    1
+Potri.004G117200        ptr     GO:0009832      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G15630        plant-type cell wall biogenesis 1
+Potri.004G117200        ptr     GO:0071554      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G15630        cell wall organization or biogenesis    1
+Potri.004G117200        ptr     GO:0071669      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G15630        plant-type cell wall organization or biogenesis 1
+Potri.004G117200        ptr     GO:0009987      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G15630        cellular process        1
+Potri.004G117200        ptr     GO:0071840      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G15630        cellular component organization or biogenesis   1
+Potri.004G117200        ptr     GO:0005774      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G15630        vacuolar membrane       0
+Potri.004G117200        ptr     GO:0005737      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G15630        cytoplasm       1
+Potri.004G117200        ptr     GO:0005622      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G15630        intracellular   1
+Potri.004G117200        ptr     GO:0044437      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G15630        vacuolar part   1
+Potri.004G117200        ptr     GO:0044424      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G15630        intracellular part      1
+Potri.004G117200        ptr     GO:0098588      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G15630        bounding membrane of organelle  1
+Potri.004G117200        ptr     GO:0044446      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G15630        intracellular organelle part    1
+Potri.004G117200        ptr     GO:0043226      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G15630        organelle       1
+Potri.004G117200        ptr     GO:0044444      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G15630        cytoplasmic part        1
+Potri.004G117200        ptr     GO:0016020      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G15630        membrane        1
+Potri.004G117200        ptr     GO:0031090      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G15630        organelle membrane      1
+Potri.004G117200        ptr     GO:0005623      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G15630        cell    1
+Potri.004G117200        ptr     GO:0044422      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G15630        organelle part  1
+Potri.004G117200        ptr     GO:0043227      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G15630        membrane-bounded organelle      1
+Potri.004G117200        ptr     GO:0043231      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G15630        intracellular membrane-bounded organelle        1
+Potri.004G117200        ptr     GO:0005575      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G15630        cellular_component      1
+Potri.004G117200        ptr     GO:0005773      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G15630        vacuole 1
+Potri.004G117200        ptr     GO:0044464      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G15630        cell part       1
+Potri.004G117200        ptr     GO:0098805      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G15630        whole membrane  1
+Potri.004G117200        ptr     GO:0043229      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G15630        intracellular organelle 1
+Potri.004G117200        ptr     GO:0009505      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60920        plant-type cell wall    0
+Potri.004G117200        ptr     GO:0030312      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60920        external encapsulating structure        1
+Potri.004G117200        ptr     GO:0005623      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60920        cell    1
+Potri.004G117200        ptr     GO:0005575      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60920        cellular_component      1
+Potri.004G117200        ptr     GO:0005618      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60920        cell wall       1
+Potri.004G117200        ptr     GO:0071944      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60920        cell periphery  1
+Potri.004G117200        ptr     GO:0044464      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60920        cell part       1
+Potri.004G117200        ptr     GO:0009664      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        plant-type cell wall organization       0
+Potri.004G117200        ptr     GO:0008150      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        biological_process      1
+Potri.004G117200        ptr     GO:0071555      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        cell wall organization  1
+Potri.004G117200        ptr     GO:0045229      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        external encapsulating structure organization   1
+Potri.004G117200        ptr     GO:0071554      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        cell wall organization or biogenesis    1
+Potri.004G117200        ptr     GO:0016043      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        cellular component organization 1
+Potri.004G117200        ptr     GO:0071669      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        plant-type cell wall organization or biogenesis 1
+Potri.004G117200        ptr     GO:0009987      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        cellular process        1
+Potri.004G117200        ptr     GO:0071840      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        cellular component organization or biogenesis   1
+Potri.004G117200        ptr     GO:0005794      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        Golgi apparatus 0
+Potri.004G117200        ptr     GO:0005737      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        cytoplasm       1
+Potri.004G117200        ptr     GO:0005622      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        intracellular   1
+Potri.004G117200        ptr     GO:0044424      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        intracellular part      1
+Potri.004G117200        ptr     GO:0043226      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        organelle       1
+Potri.004G117200        ptr     GO:0044444      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        cytoplasmic part        1
+Potri.004G117200        ptr     GO:0005623      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        cell    1
+Potri.004G117200        ptr     GO:0043227      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        membrane-bounded organelle      1
+Potri.004G117200        ptr     GO:0043231      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        intracellular membrane-bounded organelle        1
+Potri.004G117200        ptr     GO:0005575      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        cellular_component      1
+Potri.004G117200        ptr     GO:0044464      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        cell part       1
+Potri.004G117200        ptr     GO:0043229      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        intracellular organelle 1
+Potri.004G117200        ptr     GO:0012505      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        endomembrane system     1
+Potri.004G117200        ptr     GO:0048316      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        seed development        0
+Potri.004G117200        ptr     GO:0022414      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        reproductive process    1
+Potri.004G117200        ptr     GO:0044702      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        single organism reproductive process    1
+Potri.004G117200        ptr     GO:0008150      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        biological_process      1
+Potri.004G117200        ptr     GO:0010154      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        fruit development       1
+Potri.004G117200        ptr     GO:0003006      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        developmental process involved in reproduction  1
+Potri.004G117200        ptr     GO:0032501      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        multicellular organismal process        1
+Potri.004G117200        ptr     GO:0000003      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        reproduction    1
+Potri.004G117200        ptr     GO:0044707      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        single-multicellular organism process   1
+Potri.004G117200        ptr     GO:0009791      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        post-embryonic development      1
+Potri.004G117200        ptr     GO:0007275      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        multicellular organism development      1
+Potri.004G117200        ptr     GO:0061458      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        reproductive system development 1
+Potri.004G117200        ptr     GO:0048731      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        system development      1
+Potri.004G117200        ptr     GO:0044699      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        single-organism process 1
+Potri.004G117200        ptr     GO:0032502      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        developmental process   1
+Potri.004G117200        ptr     GO:0048608      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        reproductive structure development      1
+Potri.004G117200        ptr     GO:0048856      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        anatomical structure development        1
+Potri.004G117200        ptr     GO:0044767      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT3G29810        single-organism developmental process   1
+Potri.004G117200        ptr     GO:0009930      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60920        longitudinal side of cell surface       0
+Potri.004G117200        ptr     GO:0005623      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60920        cell    1
+Potri.004G117200        ptr     GO:0005575      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60920        cellular_component      1
+Potri.004G117200        ptr     GO:0044464      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60920        cell part       1
+Potri.004G117200        ptr     GO:0009986      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60920        cell surface    1
+Potri.004G117200        ptr     GO:0009651      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60920        response to salt stress 0
+Potri.004G117200        ptr     GO:0008150      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60920        biological_process      1
+Potri.004G117200        ptr     GO:0009628      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60920        response to abiotic stimulus    1
+Potri.004G117200        ptr     GO:0006950      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60920        response to stress      1
+Potri.004G117200        ptr     GO:0006970      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60920        response to osmotic stress      1
+Potri.004G117200        ptr     GO:0050896      IEA     from_tree       PLAZA   tree_id=TREMSAHOM04D000532;node_id=n741552;source_gene=AT5G60920        response to stimulus    1
+Potri.004G117200        ptr     IPR006918       COBRA, plant    2       431     4.9e-257        source=PANTHER,domainId=PTHR31673
+Potri.004G117200        ptr     IPR006918       COBRA, plant    45      208     1.6e-64 source=Pfam,domainId=PF04833
+Potri.004G117200        ptr     IPR006918       COBRA, plant    1       433     1.7e-225        source=PIRSF,domainId=PIRSF038122
+Potri.004G117200        ptr     IPR006918       COBRA, plant    17      207     4e-83   source=ProDom,domainId=PD140986
+09:12895729-12902881:Normal|7011-7151
+
+Potri.004G209200        ptr     IPR004146       DC1     11      59      0.0000000018    source=Pfam,domainId=PF03107
+Potri.004G209200        ptr     IPR004146       DC1     79      115     0.0000036       source=Pfam,domainId=PF03107
+08:2812920-2822390:Normal|1366-1560
+
+
+18:5771073-5789726:Normal|17720-17998
+Potri.006G231000        ptr     GO:0005515      IEA     primary interproscan            protein binding 0
+Potri.006G231000        ptr     GO:0005488      IEA     primary interproscan            binding 1
+Potri.006G231000        ptr     GO:0003674      IEA     primary interproscan            molecular_function      1
+Potri.006G231000        ptr     GO:0000159      IEA     primary interproscan            protein phosphatase type 2A complex     0
+Potri.006G231000        ptr     GO:0008287      IEA     primary interproscan            protein serine/threonine phosphatase complex    1
+Potri.006G231000        ptr     GO:0005622      IEA     primary interproscan            intracellular   1
+Potri.006G231000        ptr     GO:0044424      IEA     primary interproscan            intracellular part      1
+Potri.006G231000        ptr     GO:1903293      IEA     primary interproscan            phosphatase complex     1
+Potri.006G231000        ptr     GO:0032991      IEA     primary interproscan            macromolecular complex  1
+Potri.006G231000        ptr     GO:0005623      IEA     primary interproscan            cell    1
+Potri.006G231000        ptr     GO:0005575      IEA     primary interproscan            cellular_component      1
+Potri.006G231000        ptr     GO:1902494      IEA     primary interproscan            catalytic complex       1
+Potri.006G231000        ptr     GO:0044464      IEA     primary interproscan            cell part       1
+Potri.006G231000        ptr     GO:0019888      IEA     primary interproscan            protein phosphatase regulator activity  0
+Potri.006G231000        ptr     GO:0098772      IEA     primary interproscan            molecular function regulator    1
+Potri.006G231000        ptr     GO:0019208      IEA     primary interproscan            phosphatase regulator activity  1
+Potri.006G231000        ptr     GO:0003674      IEA     primary interproscan            molecular_function      1
+Potri.006G231000        ptr     GO:0030234      IEA     primary interproscan            enzyme regulator activity       1
+Potri.006G231000        ptr     GO:0005829      IEA     from_iortho     PLAZA   iOrtho=AT1G17720        cytosol 0
+Potri.006G231000        ptr     GO:0005737      IEA     from_iortho     PLAZA   iOrtho=AT1G17720        cytoplasm       1
+Potri.006G231000        ptr     GO:0005622      IEA     from_iortho     PLAZA   iOrtho=AT1G17720        intracellular   1
+Potri.006G231000        ptr     GO:0044424      IEA     from_iortho     PLAZA   iOrtho=AT1G17720        intracellular part      1
+Potri.006G231000        ptr     GO:0044444      IEA     from_iortho     PLAZA   iOrtho=AT1G17720        cytoplasmic part        1
+Potri.006G231000        ptr     GO:0005623      IEA     from_iortho     PLAZA   iOrtho=AT1G17720        cell    1
+Potri.006G231000        ptr     GO:0005575      IEA     from_iortho     PLAZA   iOrtho=AT1G17720        cellular_component      1
+Potri.006G231000        ptr     GO:0044464      IEA     from_iortho     PLAZA   iOrtho=AT1G17720        cell part       1
+Potri.006G231000        ptr     IPR000009       Protein phosphatase 2A regulatory subunit PR55  7       521     0       source=PANTHER,domainId=PTHR11871
+Potri.006G231000        ptr     IPR000009       Protein phosphatase 2A regulatory subunit PR55  21      521     3.4e-197        source=PIRSF,domainId=PIRSF037309
+Potri.006G231000        ptr     IPR000009       Protein phosphatase 2A regulatory subunit PR55  326     353     1.1e-159        source=PRINTS,domainId=PR00600
+Potri.006G231000        ptr     IPR000009       Protein phosphatase 2A regulatory subunit PR55  490     519     1.1e-159        source=PRINTS,domainId=PR00600
+Potri.006G231000        ptr     IPR000009       Protein phosphatase 2A regulatory subunit PR55  53      73      1.1e-159        source=PRINTS,domainId=PR00600
+Potri.006G231000        ptr     IPR000009       Protein phosphatase 2A regulatory subunit PR55  269     296     1.1e-159        source=PRINTS,domainId=PR00600
+Potri.006G231000        ptr     IPR000009       Protein phosphatase 2A regulatory subunit PR55  297     325     1.1e-159        source=PRINTS,domainId=PR00600
+Potri.006G231000        ptr     IPR000009       Protein phosphatase 2A regulatory subunit PR55  354     381     1.1e-159        source=PRINTS,domainId=PR00600
+Potri.006G231000        ptr     IPR000009       Protein phosphatase 2A regulatory subunit PR55  382     407     1.1e-159        source=PRINTS,domainId=PR00600
+Potri.006G231000        ptr     IPR000009       Protein phosphatase 2A regulatory subunit PR55  100     128     1.1e-159        source=PRINTS,domainId=PR00600
+Potri.006G231000        ptr     IPR000009       Protein phosphatase 2A regulatory subunit PR55  241     268     1.1e-159        source=PRINTS,domainId=PR00600
+Potri.006G231000        ptr     IPR000009       Protein phosphatase 2A regulatory subunit PR55  408     434     1.1e-159        source=PRINTS,domainId=PR00600
+Potri.006G231000        ptr     IPR000009       Protein phosphatase 2A regulatory subunit PR55  129     157     1.1e-159        source=PRINTS,domainId=PR00600
+Potri.006G231000        ptr     IPR019775       WD40 repeat, conserved site     256     270     0       source=ProSitePatterns,domainId=PS00678
+Potri.006G231000        ptr     IPR017986       WD40-repeat-containing domain   479     515     9.47e-36        source=SUPERFAMILY,domainId=SSF50978
+Potri.006G231000        ptr     IPR017986       WD40-repeat-containing domain   112     158     9.47e-36        source=SUPERFAMILY,domainId=SSF50978
+Potri.006G231000        ptr     IPR017986       WD40-repeat-containing domain   231     447     9.47e-36        source=SUPERFAMILY,domainId=SSF50978
+Potri.006G231000        ptr     IPR017986       WD40-repeat-containing domain   47      77      9.47e-36        source=SUPERFAMILY,domainId=SSF50978
+Potri.006G231000        ptr     IPR015943       WD40/YVTN repeat-like-containing domain 34      521     1.2e-38 source=Gene3D,domainId=G3DSA:2.130.10.10
+Potri.006G231000        ptr     IPR001680       WD40 repeat     233     269     0.13    source=Pfam,domainId=PF00400
+Potri.006G231000        ptr     IPR001680       WD40 repeat     113     153     0.036   source=SMART,domainId=SM00320
+Potri.006G231000        ptr     IPR001680       WD40 repeat     230     269     0.0037  source=SMART,domainId=SM00320
+Potri.006G231000        ptr     IPR001680       WD40 repeat     342     377     1       source=SMART,domainId=SM00320
+Potri.006G231000        ptr     IPR001680       WD40 repeat     280     320     0.073   source=SMART,domainId=SM00320
+Potri.006G231000        ptr     IPR001680       WD40 repeat     39      74      0.019   source=SMART,domainId=SM00320
+Potri.006G231000        ptr     IPR018067       Protein phosphatase 2A regulatory subunit PR55, conserved site  239     253     0       source=ProSitePatterns,domainId=PS01025
+Potri.006G231000        ptr     IPR018067       Protein phosphatase 2A regulatory subunit PR55, conserved site  113     127     0       source=ProSitePatterns,domainId=PS01024
+08:19344327-19378711:Overlap|9878-10564
+Potri.008G221900        ptr     GO:0005488      IEA     primary interproscan            binding 0
+Potri.008G221900        ptr     GO:0003674      IEA     primary interproscan            molecular_function      1
+Potri.008G221900        ptr     IPR016024       Armadillo-type fold     46      269     0.0000000000000089      source=SUPERFAMILY,domainId=SSF48371
+Potri.008G221900        ptr     IPR024395       CLASP N-terminal domain 95      253     0.000000021     source=Pfam,domainId=PF12348
+Potri.008G221900        ptr     IPR011989       Armadillo-like helical  31      271     0.00000000000081        source=Gene3D,domainId=G3DSA:1.25.10.10
+01:26100777-26107368:AnchorPoint|6129-6281
+
+Potri.009G046000        ptr     IPR007052       CS domain       21      69      0.00000074      source=Pfam,domainId=PF04969
+Potri.009G046000        ptr     IPR008978       HSP20-like chaperone    16      74      0.00000000017   source=Gene3D,domainId=G3DSA:2.60.40.790
+Potri.009G046000        ptr     IPR008978       HSP20-like chaperone    13      62      0.0000000009    source=SUPERFAMILY,domainId=SSF49764
+08:7658822-7662750:Normal|1298-2151
+
+
+08:7027506-7044177:Normal|3-95
+Potri.010G134200        ptr     GO:0005515      IEA     primary interproscan            protein binding 0
+Potri.010G134200        ptr     GO:0005488      IEA     primary interproscan            binding 1
+Potri.010G134200        ptr     GO:0003674      IEA     primary interproscan            molecular_function      1
+Potri.010G134200        ptr     IPR006566       FBD domain      348     387     0.0000000038    source=Pfam,domainId=PF08387
+Potri.010G134200        ptr     IPR006566       FBD domain      348     419     0.0000000000004 source=SMART,domainId=SM00579
+Potri.010G134200        ptr     IPR032675       Leucine-rich repeat domain, L domain-like       2       405     5.4e-25 source=Gene3D,domainId=G3DSA:3.80.10.10
+Potri.010G134200        ptr     IPR013101       Leucine-rich repeat 2   159     183     0.0014  source=Pfam,domainId=PF07723
+Potri.010G134200        ptr     IPR001810       F-box domain    9       42      0.000035        source=Pfam,domainId=PF00646
+Potri.010G134200        ptr     IPR001810       F-box domain    7       41      9.391   source=ProSiteProfiles,domainId=PS50181
+Potri.010G134200        ptr     IPR001810       F-box domain    6       99      0.000000000157  source=SUPERFAMILY,domainId=SSF81383
+09:4699012-4702838:AnchorPoint|2203-3114
+Potri.009G039000        ptr     GO:0008152      IEA     primary interproscan            metabolic process       0
+Potri.009G039000        ptr     GO:0008150      IEA     primary interproscan            biological_process      1
+Potri.009G039000        ptr     GO:0016758      IEA     primary interproscan            transferase activity, transferring hexosyl groups       0
+Potri.009G039000        ptr     GO:0003824      IEA     primary interproscan            catalytic activity      1
+Potri.009G039000        ptr     GO:0016740      IEA     primary interproscan            transferase activity    1
+Potri.009G039000        ptr     GO:0003674      IEA     primary interproscan            molecular_function      1
+Potri.009G039000        ptr     GO:0016757      IEA     primary interproscan            transferase activity, transferring glycosyl groups      1
+Potri.009G039000        ptr     GO:0080044      IEA     from_iortho     PLAZA   iOrtho=AT3G46670        quercetin 7-O-glucosyltransferase activity      0
+Potri.009G039000        ptr     GO:0008194      IEA     from_iortho     PLAZA   iOrtho=AT3G46670        UDP-glycosyltransferase activity        1
+Potri.009G039000        ptr     GO:0003824      IEA     from_iortho     PLAZA   iOrtho=AT3G46670        catalytic activity      1
+Potri.009G039000        ptr     GO:0016758      IEA     from_iortho     PLAZA   iOrtho=AT3G46670        transferase activity, transferring hexosyl groups       1
+Potri.009G039000        ptr     GO:0016740      IEA     from_iortho     PLAZA   iOrtho=AT3G46670        transferase activity    1
+Potri.009G039000        ptr     GO:0003674      IEA     from_iortho     PLAZA   iOrtho=AT3G46670        molecular_function      1
+Potri.009G039000        ptr     GO:0046527      IEA     from_iortho     PLAZA   iOrtho=AT3G46670        glucosyltransferase activity    1
+Potri.009G039000        ptr     GO:0016757      IEA     from_iortho     PLAZA   iOrtho=AT3G46670        transferase activity, transferring glycosyl groups      1
+Potri.009G039000        ptr     GO:0035251      IEA     from_iortho     PLAZA   iOrtho=AT3G46670        UDP-glucosyltransferase activity        1
+Potri.009G039000        ptr     GO:0080043      IEA     from_iortho     PLAZA   iOrtho=AT3G46670        quercetin 3-O-glucosyltransferase activity      0
+Potri.009G039000        ptr     GO:0008194      IEA     from_iortho     PLAZA   iOrtho=AT3G46670        UDP-glycosyltransferase activity        1
+Potri.009G039000        ptr     GO:0003824      IEA     from_iortho     PLAZA   iOrtho=AT3G46670        catalytic activity      1
+Potri.009G039000        ptr     GO:0016758      IEA     from_iortho     PLAZA   iOrtho=AT3G46670        transferase activity, transferring hexosyl groups       1
+Potri.009G039000        ptr     GO:0016740      IEA     from_iortho     PLAZA   iOrtho=AT3G46670        transferase activity    1
+Potri.009G039000        ptr     GO:0003674      IEA     from_iortho     PLAZA   iOrtho=AT3G46670        molecular_function      1
+Potri.009G039000        ptr     GO:0046527      IEA     from_iortho     PLAZA   iOrtho=AT3G46670        glucosyltransferase activity    1
+Potri.009G039000        ptr     GO:0016757      IEA     from_iortho     PLAZA   iOrtho=AT3G46670        transferase activity, transferring glycosyl groups      1
+Potri.009G039000        ptr     GO:0035251      IEA     from_iortho     PLAZA   iOrtho=AT3G46670        UDP-glucosyltransferase activity        1
+Potri.009G039000        ptr     GO:0009506      IEA     from_iortho     PLAZA   iOrtho=AT3G46650        plasmodesma     0
+Potri.009G039000        ptr     GO:0035251      IEA     from_iortho     PLAZA   iOrtho=AT3G46670        UDP-glucosyltransferase activity        1
+Potri.009G039000        ptr     GO:0009506      IEA     from_iortho     PLAZA   iOrtho=AT3G46650        plasmodesma     0
+Potri.009G039000        ptr     GO:0030054      IEA     from_iortho     PLAZA   iOrtho=AT3G46650        cell junction   1
+Potri.009G039000        ptr     GO:0005911      IEA     from_iortho     PLAZA   iOrtho=AT3G46650        cell-cell junction      1
+Potri.009G039000        ptr     GO:0055044      IEA     from_iortho     PLAZA   iOrtho=AT3G46650        symplast        1
+Potri.009G039000        ptr     GO:0005575      IEA     from_iortho     PLAZA   iOrtho=AT3G46650        cellular_component      1
+Potri.009G039000        ptr     IPR002213       UDP-glucuronosyl/UDP-glucosyltransferase        7       449     5.5e-185        source=PANTHER,domainId=PTHR11926
+Potri.009G039000        ptr     IPR002213       UDP-glucuronosyl/UDP-glucosyltransferase        262     413     2.7e-27 source=Pfam,domainId=PF00201
+08:1960604-1964165:Normal|3302-3496
+
+
+15:260369-262782:Normal|238-480
+
+
+15:3380771-3399353:Overlap|7569-7706
+Potri.012G046400        ptr     GO:0000723      IEA     primary interproscan            telomere maintenance    0
+Potri.012G046400        ptr     GO:0065008      IEA     primary interproscan            regulation of biological quality        1
+Potri.012G046400        ptr     GO:0044237      IEA     primary interproscan            cellular metabolic process      1
+Potri.012G046400        ptr     GO:0008152      IEA     primary interproscan            metabolic process       1
+Potri.012G046400        ptr     GO:0043170      IEA     primary interproscan            macromolecule metabolic process 1
+Potri.012G046400        ptr     GO:0008150      IEA     primary interproscan            biological_process      1
+Potri.012G046400        ptr     GO:0044260      IEA     primary interproscan            cellular macromolecule metabolic process        1
+Potri.012G046400        ptr     GO:0032200      IEA     primary interproscan            telomere organization   1
+Potri.012G046400        ptr     GO:0006259      IEA     primary interproscan            DNA metabolic process   1
+Potri.012G046400        ptr     GO:0060249      IEA     primary interproscan            anatomical structure homeostasis        1
+Potri.012G046400        ptr     GO:0046483      IEA     primary interproscan            heterocycle metabolic process   1
+Potri.012G046400        ptr     GO:0006139      IEA     primary interproscan            nucleobase-containing compound metabolic process        1
+Potri.012G046400        ptr     GO:0044238      IEA     primary interproscan            primary metabolic process       1
+Potri.012G046400        ptr     GO:0051276      IEA     primary interproscan            chromosome organization 1
+Potri.012G046400        ptr     GO:0006996      IEA     primary interproscan            organelle organization  1
+Potri.012G046400        ptr     GO:1901360      IEA     primary interproscan            organic cyclic compound metabolic process       1
+Potri.012G046400        ptr     GO:0090304      IEA     primary interproscan            nucleic acid metabolic process  1
+Potri.012G046400        ptr     GO:0016043      IEA     primary interproscan            cellular component organization 1
+Potri.012G046400        ptr     GO:0006725      IEA     primary interproscan            cellular aromatic compound metabolic process    1
+Potri.012G046400        ptr     GO:0071704      IEA     primary interproscan            organic substance metabolic process     1
+Potri.012G046400        ptr     GO:0042592      IEA     primary interproscan            homeostatic process     1
+Potri.012G046400        ptr     GO:0034641      IEA     primary interproscan            cellular nitrogen compound metabolic process    1
+Potri.012G046400        ptr     GO:0009987      IEA     primary interproscan            cellular process        1
+Potri.012G046400        ptr     GO:0006807      IEA     primary interproscan            nitrogen compound metabolic process     1
+Potri.012G046400        ptr     GO:0065007      IEA     primary interproscan            biological regulation   1
+Potri.012G046400        ptr     GO:0071840      IEA     primary interproscan            cellular component organization or biogenesis   1
+Potri.012G046400        ptr     GO:0043047      IEA     primary interproscan            single-stranded telomeric DNA binding   0
+Potri.012G046400        ptr     GO:0005488      IEA     primary interproscan            binding 1
+Potri.012G046400        ptr     GO:0003677      IEA     primary interproscan            DNA binding     1
+Potri.012G046400        ptr     GO:1901363      IEA     primary interproscan            heterocyclic compound binding   1
+Potri.012G046400        ptr     GO:0042162      IEA     primary interproscan            telomeric DNA binding   1
+Potri.012G046400        ptr     GO:0097159      IEA     primary interproscan            organic cyclic compound binding 1
+Potri.012G046400        ptr     GO:0003674      IEA     primary interproscan            molecular_function      1
+Potri.012G046400        ptr     GO:0043565      IEA     primary interproscan            sequence-specific DNA binding   1
+Potri.012G046400        ptr     GO:0003676      IEA     primary interproscan            nucleic acid binding    1
+Potri.012G046400        ptr     GO:0003697      IEA     primary interproscan            single-stranded DNA binding     1
+Potri.012G046400        ptr     GO:0098847      IEA     primary interproscan            sequence-specific single stranded DNA binding   1
+Potri.012G046400        ptr     GO:0000784      IEA     primary interproscan            nuclear chromosome, telomeric region    0
+Potri.012G046400        ptr     GO:0043228      IEA     primary interproscan            non-membrane-bounded organelle  1
+Potri.012G046400        ptr     GO:0044454      IEA     primary interproscan            nuclear chromosome part 1
+Potri.012G046400        ptr     GO:0005622      IEA     primary interproscan            intracellular   1
+Potri.012G046400        ptr     GO:0043233      IEA     primary interproscan            organelle lumen 1
+Potri.012G046400        ptr     GO:0031981      IEA     primary interproscan            nuclear lumen   1
+Potri.012G046400        ptr     GO:0044424      IEA     primary interproscan            intracellular part      1
+Potri.012G046400        ptr     GO:0031974      IEA     primary interproscan            membrane-enclosed lumen 1
+Potri.012G046400        ptr     GO:0070013      IEA     primary interproscan            intracellular organelle lumen   1
+Potri.012G046400        ptr     GO:0043232      IEA     primary interproscan            intracellular non-membrane-bounded organelle    1
+Potri.012G046400        ptr     GO:0044446      IEA     primary interproscan            intracellular organelle part    1
+Potri.012G046400        ptr     GO:0043226      IEA     primary interproscan            organelle       1
+Potri.012G046400        ptr     GO:0098687      IEA     primary interproscan            chromosomal region      1
+Potri.012G046400        ptr     GO:0044428      IEA     primary interproscan            nuclear part    1
+Potri.012G046400        ptr     GO:0000781      IEA     primary interproscan            chromosome, telomeric region    1
+Potri.012G046400        ptr     GO:0005623      IEA     primary interproscan            cell    1
+Potri.012G046400        ptr     GO:0044422      IEA     primary interproscan            organelle part  1
+Potri.012G046400        ptr     GO:0043227      IEA     primary interproscan            membrane-bounded organelle      1
+Potri.012G046400        ptr     GO:0043231      IEA     primary interproscan            intracellular membrane-bounded organelle        1
+Potri.012G046400        ptr     GO:0005575      IEA     primary interproscan            cellular_component      1
+Potri.012G046400        ptr     GO:0044427      IEA     primary interproscan            chromosomal part        1
+Potri.012G046400        ptr     GO:0044464      IEA     primary interproscan            cell part       1
+Potri.012G046400        ptr     GO:0005694      IEA     primary interproscan            chromosome      1
+Potri.012G046400        ptr     GO:0043229      IEA     primary interproscan            intracellular organelle 1
+Potri.012G046400        ptr     GO:0005634      IEA     primary interproscan            nucleus 1
+Potri.012G046400        ptr     GO:0000228      IEA     primary interproscan            nuclear chromosome      1
+Potri.012G046400        ptr     GO:0003677      IEA     primary interproscan            DNA binding     0
+Potri.012G046400        ptr     GO:0005488      IEA     primary interproscan            binding 1
+Potri.012G046400        ptr     GO:1901363      IEA     primary interproscan            heterocyclic compound binding   1
+Potri.012G046400        ptr     GO:0097159      IEA     primary interproscan            organic cyclic compound binding 1
+Potri.012G046400        ptr     GO:0003674      IEA     primary interproscan            molecular_function      1
+Potri.012G046400        ptr     GO:0003676      IEA     primary interproscan            nucleic acid binding    1
+Potri.012G046400        ptr     GO:0032206      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        positive regulation of telomere maintenance     0
+Potri.012G046400        ptr     GO:0065008      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        regulation of biological quality        1
+Potri.012G046400        ptr     GO:0032204      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        regulation of telomere maintenance      1
+Potri.012G046400        ptr     GO:0044237      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        cellular metabolic process      1
+Potri.012G046400        ptr     GO:0008152      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        metabolic process       1
+Potri.012G046400        ptr     GO:0043170      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        macromolecule metabolic process 1
+Potri.012G046400        ptr     GO:0008150      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        biological_process      1
+Potri.012G046400        ptr     GO:0080090      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        regulation of primary metabolic process 1
+Potri.012G046400        ptr     GO:0051054      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        positive regulation of DNA metabolic process    1
+Potri.012G046400        ptr     GO:0031323      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        regulation of cellular metabolic process        1
+Potri.012G046400        ptr     GO:0044260      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        cellular macromolecule metabolic process        1
+Potri.012G046400        ptr     GO:2001252      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        positive regulation of chromosome organization  1
+Potri.012G046400        ptr     GO:0010604      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        positive regulation of macromolecule metabolic process  1
+Potri.012G046400        ptr     GO:0032200      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        telomere organization   1
+Potri.012G046400        ptr     GO:0050794      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        regulation of cellular process  1
+Potri.012G046400        ptr     GO:0006259      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        DNA metabolic process   1
+Potri.012G046400        ptr     GO:0032844      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        regulation of homeostatic process       1
+Potri.012G046400        ptr     GO:0060249      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        anatomical structure homeostasis        1
+Potri.012G046400        ptr     GO:0046483      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        heterocycle metabolic process   1
+Potri.012G046400        ptr     GO:0006139      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        nucleobase-containing compound metabolic process        1
+Potri.012G046400        ptr     GO:0051171      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        regulation of nitrogen compound metabolic process       1
+Potri.012G046400        ptr     GO:0044238      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        primary metabolic process       1
+Potri.012G046400        ptr     GO:0033044      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        regulation of chromosome organization   1
+Potri.012G046400        ptr     GO:0051276      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        chromosome organization 1
+Potri.012G046400        ptr     GO:0006996      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        organelle organization  1
+Potri.012G046400        ptr     GO:0031325      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        positive regulation of cellular metabolic process       1
+Potri.012G046400        ptr     GO:0000723      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        telomere maintenance    1
+Potri.012G046400        ptr     GO:0051130      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        positive regulation of cellular component organization  1
+Potri.012G046400        ptr     GO:0009893      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        positive regulation of metabolic process        1
+Potri.012G046400        ptr     GO:0051173      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        positive regulation of nitrogen compound metabolic process      1
+Potri.012G046400        ptr     GO:0032846      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        positive regulation of homeostatic process      1
+Potri.012G046400        ptr     GO:1901360      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        organic cyclic compound metabolic process       1
+Potri.012G046400        ptr     GO:0048522      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        positive regulation of cellular process 1
+Potri.012G046400        ptr     GO:0050789      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        regulation of biological process        1
+Potri.012G046400        ptr     GO:0090304      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        nucleic acid metabolic process  1
+Potri.012G046400        ptr     GO:0051052      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        regulation of DNA metabolic process     1
+Potri.012G046400        ptr     GO:0010638      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        positive regulation of organelle organization   1
+Potri.012G046400        ptr     GO:0019222      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        regulation of metabolic process 1
+Potri.012G046400        ptr     GO:0016043      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        cellular component organization 1
+Potri.012G046400        ptr     GO:0006725      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        cellular aromatic compound metabolic process    1
+Potri.012G046400        ptr     GO:0060255      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        regulation of macromolecule metabolic process   1
+Potri.012G046400        ptr     GO:0019219      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        regulation of nucleobase-containing compound metabolic process  1
+Potri.012G046400        ptr     GO:0071704      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        organic substance metabolic process     1
+Potri.012G046400        ptr     GO:0042592      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        homeostatic process     1
+Potri.012G046400        ptr     GO:0034641      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        cellular nitrogen compound metabolic process    1
+Potri.012G046400        ptr     GO:0009987      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        cellular process        1
+Potri.012G046400        ptr     GO:0006807      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        nitrogen compound metabolic process     1
+Potri.012G046400        ptr     GO:0033043      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        regulation of organelle organization    1
+Potri.012G046400        ptr     GO:0048518      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        positive regulation of biological process       1
+Potri.012G046400        ptr     GO:0045935      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        positive regulation of nucleobase-containing compound metabolic process 1
+Potri.012G046400        ptr     GO:0051128      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        regulation of cellular component organization   1
+Potri.012G046400        ptr     GO:0065007      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        biological regulation   1
+Potri.012G046400        ptr     GO:0071840      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        cellular component organization or biogenesis   1
+Potri.012G046400        ptr     GO:0032212      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        positive regulation of telomere maintenance via telomerase      0
+Potri.012G046400        ptr     GO:0065008      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        regulation of biological quality        1
+Potri.012G046400        ptr     GO:0009891      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        positive regulation of biosynthetic process     1
+Potri.012G046400        ptr     GO:0032204      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        regulation of telomere maintenance      1
+Potri.012G046400        ptr     GO:0044237      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        cellular metabolic process      1
+Potri.012G046400        ptr     GO:0008152      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        metabolic process       1
+Potri.012G046400        ptr     GO:0043170      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        macromolecule metabolic process 1
+Potri.012G046400        ptr     GO:0008150      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        biological_process      1
+Potri.012G046400        ptr     GO:0018130      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        heterocycle biosynthetic process        1
+Potri.012G046400        ptr     GO:0051054      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        positive regulation of DNA metabolic process    1
+Potri.012G046400        ptr     GO:0080090      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        regulation of primary metabolic process 1
+Potri.012G046400        ptr     GO:0031323      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        regulation of cellular metabolic process        1
+Potri.012G046400        ptr     GO:2001252      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        positive regulation of chromosome organization  1
+Potri.012G046400        ptr     GO:0010557      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        positive regulation of macromolecule biosynthetic process       1
+Potri.012G046400        ptr     GO:0044260      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        cellular macromolecule metabolic process        1
+Potri.012G046400        ptr     GO:0010604      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        positive regulation of macromolecule metabolic process  1
+Potri.012G046400        ptr     GO:0032200      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        telomere organization   1
+Potri.012G046400        ptr     GO:1901362      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        organic cyclic compound biosynthetic process    1
+Potri.012G046400        ptr     GO:2000112      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        regulation of cellular macromolecule biosynthetic process       1
+Potri.012G046400        ptr     GO:0050794      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        regulation of cellular process  1
+Potri.012G046400        ptr     GO:0006259      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        DNA metabolic process   1
+Potri.012G046400        ptr     GO:0032844      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        regulation of homeostatic process       1
+Potri.012G046400        ptr     GO:0060249      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        anatomical structure homeostasis        1
+Potri.012G046400        ptr     GO:1904356      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        regulation of telomere maintenance via telomere lengthening     1
+Potri.012G046400        ptr     GO:0046483      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        heterocycle metabolic process   1
+Potri.012G046400        ptr     GO:0019438      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        aromatic compound biosynthetic process  1
+Potri.012G046400        ptr     GO:0006139      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        nucleobase-containing compound metabolic process        1
+Potri.012G046400        ptr     GO:0009889      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        regulation of biosynthetic process      1
+Potri.012G046400        ptr     GO:0051171      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        regulation of nitrogen compound metabolic process       1
+Potri.012G046400        ptr     GO:0034654      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        nucleobase-containing compound biosynthetic process     1
+Potri.012G046400        ptr     GO:0044238      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        primary metabolic process       1
+Potri.012G046400        ptr     GO:2000278      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        regulation of DNA biosynthetic process  1
+Potri.012G046400        ptr     GO:1901576      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        organic substance biosynthetic process  1
+Potri.012G046400        ptr     GO:0033044      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        regulation of chromosome organization   1
+Potri.012G046400        ptr     GO:0051276      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        chromosome organization 1
+Potri.012G046400        ptr     GO:0006996      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        organelle organization  1
+Potri.012G046400        ptr     GO:0032206      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        positive regulation of telomere maintenance     1
+Potri.012G046400        ptr     GO:0031325      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        positive regulation of cellular metabolic process       1
+Potri.012G046400        ptr     GO:0031328      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        positive regulation of cellular biosynthetic process    1
+Potri.012G046400        ptr     GO:0000723      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        telomere maintenance    1
+Potri.012G046400        ptr     GO:0009058      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        biosynthetic process    1
+Potri.012G046400        ptr     GO:0010833      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        telomere maintenance via telomere lengthening   1
+Potri.012G046400        ptr     GO:0051130      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        positive regulation of cellular component organization  1
+Potri.012G046400        ptr     GO:0009893      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        positive regulation of metabolic process        1
+Potri.012G046400        ptr     GO:0051173      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        positive regulation of nitrogen compound metabolic process      1
+Potri.012G046400        ptr     GO:0032846      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        positive regulation of homeostatic process      1
+Potri.012G046400        ptr     GO:0031326      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        regulation of cellular biosynthetic process     1
+Potri.012G046400        ptr     GO:0048522      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        positive regulation of cellular process 1
+Potri.012G046400        ptr     GO:1901360      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        organic cyclic compound metabolic process       1
+Potri.012G046400        ptr     GO:0050789      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        regulation of biological process        1
+Potri.012G046400        ptr     GO:0051052      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        regulation of DNA metabolic process     1
+Potri.012G046400        ptr     GO:0090304      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        nucleic acid metabolic process  1
+Potri.012G046400        ptr     GO:0010638      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        positive regulation of organelle organization   1
+Potri.012G046400        ptr     GO:0019222      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        regulation of metabolic process 1
+Potri.012G046400        ptr     GO:0016043      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        cellular component organization 1
+Potri.012G046400        ptr     GO:0032210      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        regulation of telomere maintenance via telomerase       1
+Potri.012G046400        ptr     GO:0006725      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        cellular aromatic compound metabolic process    1
+Potri.012G046400        ptr     GO:0060255      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        regulation of macromolecule metabolic process   1
+Potri.012G046400        ptr     GO:0019219      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        regulation of nucleobase-containing compound metabolic process  1
+Potri.012G046400        ptr     GO:0071704      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        organic substance metabolic process     1
+Potri.012G046400        ptr     GO:0042592      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        homeostatic process     1
+Potri.012G046400        ptr     GO:0071897      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        DNA biosynthetic process        1
+Potri.012G046400        ptr     GO:0034641      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        cellular nitrogen compound metabolic process    1
+Potri.012G046400        ptr     GO:0009059      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        macromolecule biosynthetic process      1
+Potri.012G046400        ptr     GO:0009987      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        cellular process        1
+Potri.012G046400        ptr     GO:1904358      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        positive regulation of telomere maintenance via telomere lengthening    1
+Potri.012G046400        ptr     GO:0033043      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        regulation of organelle organization    1
+Potri.012G046400        ptr     GO:0006807      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        nitrogen compound metabolic process     1
+Potri.012G046400        ptr     GO:0010556      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        regulation of macromolecule biosynthetic process        1
+Potri.012G046400        ptr     GO:0007004      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        telomere maintenance via telomerase     1
+Potri.012G046400        ptr     GO:0048518      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        positive regulation of biological process       1
+Potri.012G046400        ptr     GO:0044249      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        cellular biosynthetic process   1
+Potri.012G046400        ptr     GO:0034645      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        cellular macromolecule biosynthetic process     1
+Potri.012G046400        ptr     GO:0044271      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        cellular nitrogen compound biosynthetic process 1
+Potri.012G046400        ptr     GO:0045935      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        positive regulation of nucleobase-containing compound metabolic process 1
+Potri.012G046400        ptr     GO:0051128      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        regulation of cellular component organization   1
+Potri.012G046400        ptr     GO:2000573      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        positive regulation of DNA biosynthetic process 1
+Potri.012G046400        ptr     GO:0006278      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        RNA-dependent DNA biosynthetic process  1
+Potri.012G046400        ptr     GO:0065007      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        biological regulation   1
+Potri.012G046400        ptr     GO:0071840      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        cellular component organization or biogenesis   1
+Potri.012G046400        ptr     GO:0016233      IEA     from_iortho     PLAZA   iOrtho=AT5G06310        telomere capping        0
+Potri.012G046400        ptr     GO:0065008      IEA     from_iortho     PLAZA   iOrtho=AT5G06310        regulation of biological quality        1
+Potri.012G046400        ptr     GO:0044237      IEA     from_iortho     PLAZA   iOrtho=AT5G06310        cellular metabolic process      1
+Potri.012G046400        ptr     GO:0008152      IEA     from_iortho     PLAZA   iOrtho=AT5G06310        metabolic process       1
+Potri.012G046400        ptr     GO:0043170      IEA     from_iortho     PLAZA   iOrtho=AT5G06310        macromolecule metabolic process 1
+Potri.012G046400        ptr     GO:0008150      IEA     from_iortho     PLAZA   iOrtho=AT5G06310        biological_process      1
+Potri.012G046400        ptr     GO:0044260      IEA     from_iortho     PLAZA   iOrtho=AT5G06310        cellular macromolecule metabolic process        1
+Potri.012G046400        ptr     GO:0032200      IEA     from_iortho     PLAZA   iOrtho=AT5G06310        telomere organization   1
+Potri.012G046400        ptr     GO:0006259      IEA     from_iortho     PLAZA   iOrtho=AT5G06310        DNA metabolic process   1
+Potri.012G046400        ptr     GO:0060249      IEA     from_iortho     PLAZA   iOrtho=AT5G06310        anatomical structure homeostasis        1
+Potri.012G046400        ptr     GO:0046483      IEA     from_iortho     PLAZA   iOrtho=AT5G06310        heterocycle metabolic process   1
+Potri.012G046400        ptr     GO:0006139      IEA     from_iortho     PLAZA   iOrtho=AT5G06310        nucleobase-containing compound metabolic process        1
+Potri.012G046400        ptr     GO:0044238      IEA     from_iortho     PLAZA   iOrtho=AT5G06310        primary metabolic process       1
+Potri.012G046400        ptr     GO:0051276      IEA     from_iortho     PLAZA   iOrtho=AT5G06310        chromosome organization 1
+Potri.012G046400        ptr     GO:0006996      IEA     from_iortho     PLAZA   iOrtho=AT5G06310        organelle organization  1
+Potri.012G046400        ptr     GO:0000723      IEA     from_iortho     PLAZA   iOrtho=AT5G06310        telomere maintenance    1
+Potri.012G046400        ptr     GO:1901360      IEA     from_iortho     PLAZA   iOrtho=AT5G06310        organic cyclic compound metabolic process       1
+Potri.012G046400        ptr     GO:0090304      IEA     from_iortho     PLAZA   iOrtho=AT5G06310        nucleic acid metabolic process  1
+Potri.012G046400        ptr     GO:0016043      IEA     from_iortho     PLAZA   iOrtho=AT5G06310        cellular component organization 1
+Potri.012G046400        ptr     GO:0006725      IEA     from_iortho     PLAZA   iOrtho=AT5G06310        cellular aromatic compound metabolic process    1
+Potri.012G046400        ptr     GO:0071704      IEA     from_iortho     PLAZA   iOrtho=AT5G06310        organic substance metabolic process     1
+Potri.012G046400        ptr     GO:0042592      IEA     from_iortho     PLAZA   iOrtho=AT5G06310        homeostatic process     1
+Potri.012G046400        ptr     GO:0034641      IEA     from_iortho     PLAZA   iOrtho=AT5G06310        cellular nitrogen compound metabolic process    1
+Potri.012G046400        ptr     GO:0009987      IEA     from_iortho     PLAZA   iOrtho=AT5G06310        cellular process        1
+Potri.012G046400        ptr     GO:0006807      IEA     from_iortho     PLAZA   iOrtho=AT5G06310        nitrogen compound metabolic process     1
+Potri.012G046400        ptr     GO:0065007      IEA     from_iortho     PLAZA   iOrtho=AT5G06310        biological regulation   1
+Potri.012G046400        ptr     GO:0071840      IEA     from_iortho     PLAZA   iOrtho=AT5G06310        cellular component organization or biogenesis   1
+Potri.012G046400        ptr     GO:0042162      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        telomeric DNA binding   0
+Potri.012G046400        ptr     GO:0005488      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        binding 1
+Potri.012G046400        ptr     GO:0003677      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        DNA binding     1
+Potri.012G046400        ptr     GO:1901363      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        heterocyclic compound binding   1
+Potri.012G046400        ptr     GO:0097159      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        organic cyclic compound binding 1
+Potri.012G046400        ptr     GO:0003674      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        molecular_function      1
+Potri.012G046400        ptr     GO:0043565      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        sequence-specific DNA binding   1
+Potri.012G046400        ptr     GO:0003676      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        nucleic acid binding    1
+Potri.012G046400        ptr     GO:0003723      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        RNA binding     0
+Potri.012G046400        ptr     GO:0005488      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        binding 1
+Potri.012G046400        ptr     GO:1901363      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        heterocyclic compound binding   1
+Potri.012G046400        ptr     GO:0097159      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        organic cyclic compound binding 1
+Potri.012G046400        ptr     GO:0003674      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        molecular_function      1
+Potri.012G046400        ptr     GO:0003676      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        nucleic acid binding    1
+Potri.012G046400        ptr     GO:0005515      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        protein binding 0
+Potri.012G046400        ptr     GO:0005488      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        binding 1
+Potri.012G046400        ptr     GO:0003674      IEA     from_iortho     PLAZA   iOrtho=AT2G05210        molecular_function      1
+Potri.012G046400        ptr     IPR028389       Protection of telomeres protein 1       4       397     4.3e-75 source=PANTHER,domainId=PTHR14513
+Potri.012G046400        ptr     IPR012340       Nucleic acid-binding, OB-fold   3       83      5.48e-16        source=SUPERFAMILY,domainId=SSF50249
+Potri.012G046400        ptr     IPR012340       Nucleic acid-binding, OB-fold   93      200     0.00000000000048        source=SUPERFAMILY,domainId=SSF50249
+Potri.012G046400        ptr     IPR011564       Telomeric single stranded DNA binding POT1/Cdc13        3       78      0.000000000056  source=Pfam,domainId=PF02765
+12:15142143-15154882:Normal|2176-2367
+Potri.012G135000        ptr     GO:0008152      IEA     primary interproscan            metabolic process       1
+Potri.012G135000        ptr     GO:0008150      IEA     primary interproscan            biological_process      1
+Potri.012G135000        ptr     GO:0044710      IEA     primary interproscan            single-organism metabolic process       1
+Potri.012G135000        ptr     GO:0044699      IEA     primary interproscan            single-organism process 1
+Potri.012G135000        ptr     GO:0008270      IEA     primary interproscan            zinc ion binding        0
+Potri.012G135000        ptr     GO:0005488      IEA     primary interproscan            binding 1
+Potri.012G135000        ptr     GO:0046914      IEA     primary interproscan            transition metal ion binding    1
+Potri.012G135000        ptr     GO:0003674      IEA     primary interproscan            molecular_function      1
+Potri.012G135000        ptr     GO:0043169      IEA     primary interproscan            cation binding  1
+Potri.012G135000        ptr     GO:0043167      IEA     primary interproscan            ion binding     1
+Potri.012G135000        ptr     GO:0046872      IEA     primary interproscan            metal ion binding       1
+Potri.012G135000        ptr     GO:0016491      IEA     primary interproscan            oxidoreductase activity 0
+Potri.012G135000        ptr     GO:0003824      IEA     primary interproscan            catalytic activity      1
+Potri.012G135000        ptr     GO:0003674      IEA     primary interproscan            molecular_function      1
+Potri.012G135000        ptr     GO:0009506      IEA     from_iortho     PLAZA   iOrtho=AT5G51970        plasmodesma     0
+Potri.012G135000        ptr     GO:0030054      IEA     from_iortho     PLAZA   iOrtho=AT5G51970        cell junction   1
+Potri.012G135000        ptr     GO:0005911      IEA     from_iortho     PLAZA   iOrtho=AT5G51970        cell-cell junction      1
+Potri.012G135000        ptr     GO:0055044      IEA     from_iortho     PLAZA   iOrtho=AT5G51970        symplast        1
+Potri.012G135000        ptr     GO:0005575      IEA     from_iortho     PLAZA   iOrtho=AT5G51970        cellular_component      1
+Potri.012G135000        ptr     GO:0005829      IEA     from_iortho     PLAZA   iOrtho=AT5G51970        cytosol 0
+Potri.012G135000        ptr     GO:0005737      IEA     from_iortho     PLAZA   iOrtho=AT5G51970        cytoplasm       1
+Potri.012G135000        ptr     GO:0005622      IEA     from_iortho     PLAZA   iOrtho=AT5G51970        intracellular   1
+Potri.012G135000        ptr     GO:0044424      IEA     from_iortho     PLAZA   iOrtho=AT5G51970        intracellular part      1
+Potri.012G135000        ptr     GO:0044444      IEA     from_iortho     PLAZA   iOrtho=AT5G51970        cytoplasmic part        1
+Potri.012G135000        ptr     GO:0005623      IEA     from_iortho     PLAZA   iOrtho=AT5G51970        cell    1Potri.012G135000        ptr     GO:0055114      IEA     primary interproscan            oxidation-reduction process     0
+Potri.012G135000        ptr     GO:0008152      IEA     primary interproscan            metabolic process       1
+Potri.012G135000        ptr     GO:0008150      IEA     primary interproscan            biological_process      1
+Potri.012G135000        ptr     GO:0044710      IEA     primary interproscan            single-organism metabolic process       1
+Potri.012G135000        ptr     GO:0044699      IEA     primary interproscan            single-organism process 1
+Potri.012G135000        ptr     GO:0008270      IEA     primary interproscan            zinc ion binding        0
+Potri.012G135000        ptr     GO:0005488      IEA     primary interproscan            binding 1
+Potri.012G135000        ptr     GO:0046914      IEA     primary interproscan            transition metal ion binding    1
+Potri.012G135000        ptr     GO:0003674      IEA     primary interproscan            molecular_function      1
+Potri.012G135000        ptr     GO:0043169      IEA     primary interproscan            cation binding  1
+Potri.012G135000        ptr     GO:0043167      IEA     primary interproscan            ion binding     1
+Potri.012G135000        ptr     GO:0046872      IEA     primary interproscan            metal ion binding       1
+Potri.012G135000        ptr     GO:0016491      IEA     primary interproscan            oxidoreductase activity 0
+Potri.012G135000        ptr     GO:0003824      IEA     primary interproscan            catalytic activity      1
+Potri.012G135000        ptr     GO:0003674      IEA     primary interproscan            molecular_function      1
+Potri.012G135000        ptr     GO:0009506      IEA     from_iortho     PLAZA   iOrtho=AT5G51970        plasmodesma     0
+Potri.012G135000        ptr     GO:0030054      IEA     from_iortho     PLAZA   iOrtho=AT5G51970        cell junction   1
+Potri.012G135000        ptr     GO:0005911      IEA     from_iortho     PLAZA   iOrtho=AT5G51970        cell-cell junction      1
+Potri.012G135000        ptr     GO:0055044      IEA     from_iortho     PLAZA   iOrtho=AT5G51970        symplast        1
+Potri.012G135000        ptr     GO:0005575      IEA     from_iortho     PLAZA   iOrtho=AT5G51970        cellular_component      1
+Potri.012G135000        ptr     GO:0005829      IEA     from_iortho     PLAZA   iOrtho=AT5G51970        cytosol 0
+Potri.012G135000        ptr     GO:0005737      IEA     from_iortho     PLAZA   iOrtho=AT5G51970        cytoplasm       1
+Potri.012G135000        ptr     GO:0005622      IEA     from_iortho     PLAZA   iOrtho=AT5G51970        intracellular   1
+Potri.012G135000        ptr     GO:0044424      IEA     from_iortho     PLAZA   iOrtho=AT5G51970        intracellular part      1
+Potri.012G135000        ptr     GO:0044444      IEA     from_iortho     PLAZA   iOrtho=AT5G51970        cytoplasmic part        1
+Potri.012G135000        ptr     GO:0005623      IEA     from_iortho     PLAZA   iOrtho=AT5G51970        cell    1
+Potri.012G135000        ptr     GO:0005575      IEA     from_iortho     PLAZA   iOrtho=AT5G51970        cellular_component      1
+Potri.012G135000        ptr     GO:0044464      IEA     from_iortho     PLAZA   iOrtho=AT5G51970        cell part       1
+Potri.012G135000        ptr     IPR016040       NAD(P)-binding domain   161     334     2.2e-37 source=SUPERFAMILY,domainId=SSF51735
+Potri.012G135000        ptr     IPR002328       Alcohol dehydrogenase, zinc-type, conserved site        84      98      0       source=ProSitePatterns,domainId=PS00059
+Potri.012G135000        ptr     IPR013154       Alcohol dehydrogenase, N-terminal       49      158     1.7e-32 source=Pfam,domainId=PF08240
+Potri.012G135000        ptr     IPR013149       Alcohol dehydrogenase, C-terminal       198     328     7.2e-23 source=Pfam,domainId=PF00107
+Potri.012G135000        ptr     IPR011032       GroES-like      24      197     2.43e-53        source=SUPERFAMILY,domainId=SSF50129
+12:15142143-15154882:Normal|1203-1457
+Potri.012G135000        ptr     GO:0055114      IEA     primary interproscan            oxidation-reduction process     0
+Potri.012G135000        ptr     GO:0008152      IEA     primary interproscan            metabolic process       1
+Potri.012G135000        ptr     GO:0008150      IEA     primary interproscan            biological_process      1
+Potri.012G135000        ptr     GO:0044710      IEA     primary interproscan            single-organism metabolic process       1
+Potri.012G135000        ptr     GO:0044699      IEA     primary interproscan            single-organism process 1
+Potri.012G135000        ptr     GO:0008270      IEA     primary interproscan            zinc ion binding        0
+Potri.012G135000        ptr     GO:0005488      IEA     primary interproscan            binding 1
+Potri.012G135000        ptr     GO:0046914      IEA     primary interproscan            transition metal ion binding    1
+Potri.012G135000        ptr     GO:0003674      IEA     primary interproscan            molecular_function      1
+Potri.012G135000        ptr     GO:0043169      IEA     primary interproscan            cation binding  1
+Potri.012G135000        ptr     GO:0043167      IEA     primary interproscan            ion binding     1
+Potri.012G135000        ptr     GO:0046872      IEA     primary interproscan            metal ion binding       1
+Potri.012G135000        ptr     GO:0016491      IEA     primary interproscan            oxidoreductase activity 0
+Potri.012G135000        ptr     GO:0003824      IEA     primary interproscan            catalytic activity      1
+Potri.012G135000        ptr     GO:0003674      IEA     primary interproscan            molecular_function      1
+Potri.012G135000        ptr     GO:0009506      IEA     from_iortho     PLAZA   iOrtho=AT5G51970        plasmodesma     0
+Potri.012G135000        ptr     GO:0030054      IEA     from_iortho     PLAZA   iOrtho=AT5G51970        cell junction   1
+Potri.012G135000        ptr     GO:0005911      IEA     from_iortho     PLAZA   iOrtho=AT5G51970        cell-cell junction      1
+Potri.012G135000        ptr     GO:0055044      IEA     from_iortho     PLAZA   iOrtho=AT5G51970        symplast        1
+Potri.012G135000        ptr     GO:0005575      IEA     from_iortho     PLAZA   iOrtho=AT5G51970        cellular_component      1
+Potri.012G135000        ptr     GO:0005829      IEA     from_iortho     PLAZA   iOrtho=AT5G51970        cytosol 0
+Potri.012G135000        ptr     GO:0005737      IEA     from_iortho     PLAZA   iOrtho=AT5G51970        cytoplasm       1
+Potri.012G135000        ptr     GO:0005622      IEA     from_iortho     PLAZA   iOrtho=AT5G51970        intracellular   1
+Potri.012G135000        ptr     GO:0044424      IEA     from_iortho     PLAZA   iOrtho=AT5G51970        intracellular part      1
+Potri.012G135000        ptr     GO:0044444      IEA     from_iortho     PLAZA   iOrtho=AT5G51970        cytoplasmic part        1
+Potri.012G135000        ptr     GO:0005623      IEA     from_iortho     PLAZA   iOrtho=AT5G51970        cell    1
+Potri.012G135000        ptr     GO:0005575      IEA     from_iortho     PLAZA   iOrtho=AT5G51970        cellular_component      1
+Potri.012G135000        ptr     GO:0044464      IEA     from_iortho     PLAZA   iOrtho=AT5G51970        cell part       1
+Potri.012G135000        ptr     IPR016040       NAD(P)-binding domain   161     334     2.2e-37 source=SUPERFAMILY,domainId=SSF51735
+Potri.012G135000        ptr     IPR002328       Alcohol dehydrogenase, zinc-type, conserved site        84      98      0       source=ProSitePatterns,domainId=PS00059
+Potri.012G135000        ptr     IPR013154       Alcohol dehydrogenase, N-terminal       49      158     1.7e-32 source=Pfam,domainId=PF08240
+Potri.012G135000        ptr     IPR013149       Alcohol dehydrogenase, C-terminal       198     328     7.2e-23 source=Pfam,domainId=PF00107
+Potri.012G135000        ptr     IPR011032       GroES-like      24      197     2.43e-53        source=SUPERFAMILY,domainId=SSF50129
+12:13320392-13322172:Overlap|391-612
+Potri.016G030700        ptr     GO:0006355      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      regulation of transcription, DNA-templated      0
+Potri.016G030700        ptr     GO:0097659      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      nucleic acid-templated transcription    1
+Potri.016G030700        ptr     GO:0044237      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      cellular metabolic process      1
+Potri.016G030700        ptr     GO:0008152      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      metabolic process       1
+Potri.016G030700        ptr     GO:0043170      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      macromolecule metabolic process 1
+Potri.016G030700        ptr     GO:0008150      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      biological_process      1
+Potri.016G030700        ptr     GO:0018130      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      heterocycle biosynthetic process        1
+Potri.016G030700        ptr     GO:0080090      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      regulation of primary metabolic process 1
+Potri.016G030700        ptr     GO:0032774      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      RNA biosynthetic process        1
+Potri.016G030700        ptr     GO:0031323      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      regulation of cellular metabolic process        1
+Potri.016G030700        ptr     GO:1903506      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      regulation of nucleic acid-templated transcription      1
+Potri.016G030700        ptr     GO:0044260      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      cellular macromolecule metabolic process        1
+Potri.016G030700        ptr     GO:1901362      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      organic cyclic compound biosynthetic process    1
+Potri.016G030700        ptr     GO:2000112      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      regulation of cellular macromolecule biosynthetic process       1
+Potri.016G030700        ptr     GO:0050794      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      regulation of cellular process  1
+Potri.016G030700        ptr     GO:0046483      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      heterocycle metabolic process   1
+Potri.016G030700        ptr     GO:0006139      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      nucleobase-containing compound metabolic process        1
+Potri.016G030700        ptr     GO:0019438      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      aromatic compound biosynthetic process  1
+Potri.016G030700        ptr     GO:0009889      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      regulation of biosynthetic process      1
+Potri.016G030700        ptr     GO:0051171      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      regulation of nitrogen compound metabolic process       1
+Potri.016G030700        ptr     GO:0034654      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      nucleobase-containing compound biosynthetic process     1
+Potri.016G030700        ptr     GO:0044238      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      primary metabolic process       1
+Potri.016G030700        ptr     GO:1901576      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      organic substance biosynthetic process  1
+Potri.016G030700        ptr     GO:0009058      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      biosynthetic process    1
+Potri.016G030700        ptr     GO:2001141      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      regulation of RNA biosynthetic process  1
+Potri.016G030700        ptr     GO:0010468      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      regulation of gene expression   1Potri.016G030700        ptr     GO:0031326      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      regulation of cellular biosynthetic process     1
+Potri.016G030700        ptr     GO:1901360      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      organic cyclic compound metabolic process       1
+Potri.016G030700        ptr     GO:0016070      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      RNA metabolic process   1
+Potri.016G030700        ptr     GO:0050789      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      regulation of biological process        1
+Potri.016G030700        ptr     GO:0090304      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      nucleic acid metabolic process  1
+Potri.016G030700        ptr     GO:0006351      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      transcription, DNA-templated    1
+Potri.016G030700        ptr     GO:0019222      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      regulation of metabolic process 1
+Potri.016G030700        ptr     GO:0006725      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      cellular aromatic compound metabolic process    1
+Potri.016G030700        ptr     GO:0060255      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      regulation of macromolecule metabolic process   1
+Potri.016G030700        ptr     GO:0019219      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      regulation of nucleobase-containing compound metabolic process  1
+Potri.016G030700        ptr     GO:0071704      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      organic substance metabolic process     1
+Potri.016G030700        ptr     GO:0034641      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      cellular nitrogen compound metabolic process    1
+Potri.016G030700        ptr     GO:0009059      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      macromolecule biosynthetic process      1
+Potri.016G030700        ptr     GO:0009987      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      cellular process        1
+Potri.016G030700        ptr     GO:0006807      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      nitrogen compound metabolic process     1
+Potri.016G030700        ptr     GO:0010556      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      regulation of macromolecule biosynthetic process        1
+Potri.016G030700        ptr     GO:0051252      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      regulation of RNA metabolic process     1
+Potri.016G030700        ptr     GO:0044249      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      cellular biosynthetic process   1
+Potri.016G030700        ptr     GO:0034645      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      cellular macromolecule biosynthetic process     1
+Potri.016G030700        ptr     GO:0044271      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      cellular nitrogen compound biosynthetic process 1
+Potri.016G030700        ptr     GO:0010467      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      gene expression 1
+Potri.016G030700        ptr     GO:0065007      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      biological regulation   1
+Potri.016G030700        ptr     GO:0003677      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      DNA binding     0
+Potri.016G030700        ptr     GO:0005488      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      binding 1
+Potri.016G030700        ptr     GO:1901363      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      heterocyclic compound binding   1
+Potri.016G030700        ptr     GO:0097159      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      organic cyclic compound binding 1
+Potri.016G030700        ptr     GO:0003674      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      molecular_function      1
+Potri.016G030700        ptr     GO:0003676      IEA     from_family_enrichment  PLAZA   source_family:HOM04D008676      nucleic acid binding    1
+
+14:1990415-1998212:Normal|3034-3384
+
+
