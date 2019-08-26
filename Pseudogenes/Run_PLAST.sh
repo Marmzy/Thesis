@@ -2,6 +2,7 @@
 #$ -pe serial 2
 #$ -l h_vmem=4G
 
+module load plast
 module load python
 
 #This script was created as the PLAST output is not compatible with Shiu's pipeline's filtering scripts. This script
@@ -10,6 +11,7 @@ module load python
 #pseudo_wrap.py performs all the steps needed to detect pseudogenes.
 #Here I made a script that basically does the same thing, but it explicetely calls the different scripts for all steps.
 
+plast -a 2 -F T -force-query-order 1000 -p tplastn -d ~/Thesis/Genomes/Masked_seqs.fa -i ~/Thesis/Proteome/Ptrichocarpa_adjusted.fa -o Shiu_e3_outfmt1_adjusted.tab -outfmt 1 -verbose
 
 # -E 5    = e-value < 1e-5
 # -I 40   = identity > 40%
